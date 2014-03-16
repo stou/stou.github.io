@@ -18,36 +18,5 @@
 </description>
     </item>
     
-    <item>
-      <title>FRV app til Android</title>
-      <link>http://stou.dk/2011/02/frv-app-til-android/</link>
-      <pubDate>Tue, 22 Feb 2011 21:08:50 &#43;0000</pubDate>
-      <author>Rasmus Stougaard</author>
-      <guid>http://stou.dk/2011/02/frv-app-til-android/</guid>
-      <description>&lt;figure class=&#34;right third&#34;&gt;
-    
-        &lt;img src=&#34;/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Jeg har brugt en del mørke vinteraftener på at snitte en lille app til android som giver adgang til vindprognosen fra FRV.
-I kan finde den her:
-&lt;a href=&#34;https://market.android.com/details?id=dk.stou.frv&#34;&gt;Sejladsudsigt&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;eller søg efter &amp;ldquo;frv&amp;rdquo; på android market.&lt;/p&gt;
-
-&lt;p&gt;Funktionaliteten er begrænset til vindprognoser, men jeg har planer om at udvide med bølge prognoser også.
-Der er dog tale om mit eget lille fritidsprojekt, så forvent ikke opdateringer hver anden dag, da jeg også har et par børn der skal passes.&lt;/p&gt;
-
-&lt;p&gt;Man kan zoome ved at holde fingeren inde i ca 1 sekund og derefter bevæge den op / ned for at zoome ind / ud.&lt;/p&gt;
-
-&lt;p&gt;Håber der er nogen der har lyst til at bruge det.
-Forbedringsforslag er selvfølgelig meget velkomne, bare skriv her i tråden, eller på android market.&lt;/p&gt;
-
-&lt;p&gt;Vi ses på vandet.&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
