@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Games on stou.dk </title>
-    <link>http://stou.dk/tags/games/index.xml</link>
+    <link>http://localhost:1313/tags/games/index.xml</link>
     <language>en-us</language>
     <author>Rasmus Stougaard</author>
     <rights>Copyright (c) 2001 - 2014, Rasmus Stougaard; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Snail Race</title>
-      <link>http://stou.dk/project/snail-race</link>
+      <link>http://localhost:1313/project/snail-race</link>
       <pubDate>Sat, 15 Mar 2014 21:40:42 &#43;0000</pubDate>
       <author>Rasmus Stougaard</author>
-      <guid>http://stou.dk/project/snail-race</guid>
+      <guid>http://localhost:1313/project/snail-race</guid>
       <description>I am working on a multiplayer racing game that will allow you to race all your friends.
 </description>
     </item>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Works on stou.dk </title>
-    <link>http://stou.dk/work/index.xml</link>
+    <link>http://localhost:1313/work/index.xml</link>
     <language>en-us</language>
     <author>Rasmus Stougaard</author>
     <rights>Copyright (c) 2001 - 2014, Rasmus Stougaard; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Gram &amp; Juhl User Group Meeting USA</title>
-      <link>http://stou.dk/work/gramjuhl-tcm-ocular</link>
+      <link>http://localhost:1313/work/gramjuhl-tcm-ocular</link>
       <pubDate>Tue, 15 Oct 2013 21:40:42 &#43;0000</pubDate>
       <author>Rasmus Stougaard</author>
-      <guid>http://stou.dk/work/gramjuhl-tcm-ocular</guid>
+      <guid>http://localhost:1313/work/gramjuhl-tcm-ocular</guid>
       <description>&lt;p&gt;I presented the Gram &amp;amp; Juhl TCM Ocular application at the user group meeting in Miami.&lt;/p&gt;
 </description>
     </item>
