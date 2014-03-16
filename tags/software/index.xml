@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>App on stou.dk </title>
-    <link>http://stou.dk/topics/app/index.xml</link>
+      <title>Software on stou.dk </title>
+    <link>http://stou.dk/tags/software/index.xml</link>
     <language>en-us</language>
     <author>Rasmus Stougaard</author>
     <rights>Copyright (c) 2001 - 2014, Rasmus Stougaard; all rights reserved.</rights>
