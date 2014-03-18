@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Projects on stou.dk </title>
-    <link>http://localhost:1313/project/index.xml</link>
+    <link>http://stou.dk/project/index.xml</link>
     <language>en-us</language>
     <author>Rasmus Stougaard</author>
     <rights>Copyright (c) 2001 - 2014, Rasmus Stougaard; all rights reserved.</rights>
@@ -10,20 +10,20 @@
     
     <item>
       <title>Snail Race</title>
-      <link>http://localhost:1313/project/snail-race</link>
+      <link>http://stou.dk/project/snail-race</link>
       <pubDate>Sat, 15 Mar 2014 21:40:42 &#43;0000</pubDate>
       <author>Rasmus Stougaard</author>
-      <guid>http://localhost:1313/project/snail-race</guid>
+      <guid>http://stou.dk/project/snail-race</guid>
       <description>I am working on a multiplayer racing game that will allow you to race all your friends.
 </description>
     </item>
     
     <item>
       <title>FRV app til Android</title>
-      <link>http://localhost:1313/project/forecast-app</link>
+      <link>http://stou.dk/project/forecast-app</link>
       <pubDate>Thu, 14 Apr 2011 21:40:42 &#43;0000</pubDate>
       <author>Rasmus Stougaard</author>
-      <guid>http://localhost:1313/project/forecast-app</guid>
+      <guid>http://stou.dk/project/forecast-app</guid>
       <description>
 
 &lt;figure class=&#34;right third&#34;&gt;

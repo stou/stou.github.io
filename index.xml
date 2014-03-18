@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Recent Content on stou.dk </title>
-    <link>http://localhost:1313/index.xml</link>
+    <link>http://stou.dk/index.xml</link>
     <language>en-us</language>
     <author>Rasmus Stougaard</author>
     <rights>Copyright (c) 2001 - 2014, Rasmus Stougaard; all rights reserved.</rights>
@@ -10,40 +10,40 @@
     
     <item>
       <title>Snail Race</title>
-      <link>http://localhost:1313/project/snail-race</link>
+      <link>http://stou.dk/project/snail-race</link>
       <pubDate>Sat, 15 Mar 2014 21:40:42 &#43;0000</pubDate>
       <author>Rasmus Stougaard</author>
-      <guid>http://localhost:1313/project/snail-race</guid>
+      <guid>http://stou.dk/project/snail-race</guid>
       <description>I am working on a multiplayer racing game that will allow you to race all your friends.
 </description>
     </item>
     
     <item>
       <title>Gram &amp; Juhl User Group Meeting USA</title>
-      <link>http://localhost:1313/work/gramjuhl-tcm-ocular</link>
+      <link>http://stou.dk/work/gramjuhl-tcm-ocular</link>
       <pubDate>Tue, 15 Oct 2013 21:40:42 &#43;0000</pubDate>
       <author>Rasmus Stougaard</author>
-      <guid>http://localhost:1313/work/gramjuhl-tcm-ocular</guid>
+      <guid>http://stou.dk/work/gramjuhl-tcm-ocular</guid>
       <description>&lt;p&gt;I presented the Gram &amp;amp; Juhl TCM Ocular application at the user group meeting in Miami.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>FRV app New name</title>
-      <link>http://localhost:1313/2013/05/frv-app-new-name/</link>
+      <link>http://stou.dk/2013/05/frv-app-new-name/</link>
       <pubDate>Wed, 29 May 2013 10:34:42 &#43;0000</pubDate>
       <author>Rasmus Stougaard</author>
-      <guid>http://localhost:1313/2013/05/frv-app-new-name/</guid>
+      <guid>http://stou.dk/2013/05/frv-app-new-name/</guid>
       <description>Jeg har lavet en ny version, der gerne skulle afhjælpe problemer ifm. Opdatering af servere hos fcoo.
 </description>
     </item>
     
     <item>
       <title>FRV app til Android</title>
-      <link>http://localhost:1313/project/forecast-app</link>
+      <link>http://stou.dk/project/forecast-app</link>
       <pubDate>Thu, 14 Apr 2011 21:40:42 &#43;0000</pubDate>
       <author>Rasmus Stougaard</author>
-      <guid>http://localhost:1313/project/forecast-app</guid>
+      <guid>http://stou.dk/project/forecast-app</guid>
       <description>
 
 &lt;figure class=&#34;right third&#34;&gt;
@@ -72,10 +72,10 @@ Tænkte det var en god ide med en hjemmeside hvor jeg kan samle lidt info om min
     
     <item>
       <title>FRV app til Android</title>
-      <link>http://localhost:1313/2011/02/frv-app-til-android/</link>
+      <link>http://stou.dk/2011/02/frv-app-til-android/</link>
       <pubDate>Tue, 22 Feb 2011 21:08:50 &#43;0000</pubDate>
       <author>Rasmus Stougaard</author>
-      <guid>http://localhost:1313/2011/02/frv-app-til-android/</guid>
+      <guid>http://stou.dk/2011/02/frv-app-til-android/</guid>
       <description>&lt;figure class=&#34;right third&#34;&gt;
     
         &lt;img src=&#34;/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
@@ -103,10 +103,10 @@ Forbedringsforslag er selvfølgelig meget velkomne, bare skriv her i tråden, el
     
     <item>
       <title>Page Not Found</title>
-      <link>http://localhost:1313/404</link>
+      <link>http://stou.dk/404</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 UTC</pubDate>
       <author>Rasmus Stougaard</author>
-      <guid>http://localhost:1313/404</guid>
+      <guid>http://stou.dk/404</guid>
       <description>&lt;p&gt;&lt;strong&gt;Whoops!&lt;/strong&gt; It looks like the page you are looking
 for can&amp;rsquo;t be found, sorry about that!&lt;/p&gt;
 
