@@ -53,15 +53,5 @@ Det er jo så populært, så selfølgelig har jeg også lavet lille facebook sid
 </description>
     </item>
     
-    <item>
-      <title>Snail Race</title>
-      <link>http://stou.dk/project/snail-race</link>
-      <pubDate>Sat, 15 Mar 2014 21:40:42 &#43;0000</pubDate>
-      <author>Rasmus Stougaard</author>
-      <guid>http://stou.dk/project/snail-race</guid>
-      <description>I am working on a multiplayer racing game that will allow you to race all your friends.
-</description>
-    </item>
-    
   </channel>
 </rss>
