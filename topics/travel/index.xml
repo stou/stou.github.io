@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Travel on stou.dk </title>
+      <title>Travel on Stou.dk </title>
       <generator uri="https://gohugo.io">Hugo</generator>
     <link>http://stou.dk/topics/travel/index.xml/</link>
     
@@ -2369,8 +2369,13 @@ Halong Bay er virkelig flot. Det regner ret ofte &amp;ndash; fortalte en viename
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;/media/2014/vietnam-101/IMG_5520.jpg&#34; alt=&#34;Værelse 101 i Dong Hoi&#34; /&gt;
+        &lt;img src=&#34;/media/2014/vietnam-101/IMG_5520.jpg&#34;  /&gt;
     
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Værelse 101 i Dong Hoi&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
     
 &lt;/figure&gt;
 
