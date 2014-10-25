@@ -9060,41 +9060,45 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 45, ../../scss/app.scss */
+/* line 44, ../../scss/app.scss */
+article.post {
+  margin-top: 1em;
+}
+/* line 47, ../../scss/app.scss */
 article.post .post-meta {
   font-style: italic;
   text-align: left;
 }
-/* line 51, ../../scss/app.scss */
+/* line 53, ../../scss/app.scss */
 article.post footer {
   text-align: right;
   line-height: 3em;
 }
 
-/* line 61, ../../scss/app.scss */
+/* line 63, ../../scss/app.scss */
 section h1.title {
   margin-top: .5em;
   text-align: center;
 }
-/* line 66, ../../scss/app.scss */
+/* line 68, ../../scss/app.scss */
 section .post-meta {
   font-style: italic;
   text-align: center;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 73, ../../scss/app.scss */
+  /* line 75, ../../scss/app.scss */
   .post-list-date {
     margin-top: .5em;
   }
 
-  /* line 77, ../../scss/app.scss */
+  /* line 79, ../../scss/app.scss */
   figure {
     margin-left: -0.9375rem;
     margin-right: -0.9375rem;
   }
 
-  /* line 83, ../../scss/app.scss */
+  /* line 85, ../../scss/app.scss */
   .list-cover-image {
     display: block;
     margin-left: -1.8750rem;
@@ -9102,22 +9106,22 @@ section .post-meta {
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 92, ../../scss/app.scss */
+  /* line 94, ../../scss/app.scss */
   .post-list-date {
     text-align: right;
   }
 
-  /* line 96, ../../scss/app.scss */
+  /* line 98, ../../scss/app.scss */
   .list-cover-image {
     margin-bottom: 1rem;
   }
 }
-/* line 104, ../../scss/app.scss */
+/* line 106, ../../scss/app.scss */
 .post-list-title, .post-list-dates {
   font-size: 1.4rem;
 }
 
-/* line 111, ../../scss/app.scss */
+/* line 113, ../../scss/app.scss */
 figure figcaption h4 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
@@ -9125,7 +9129,7 @@ figure figcaption h4 {
   text-align: center;
 }
 
-/* line 123, ../../scss/app.scss */
+/* line 125, ../../scss/app.scss */
 nav.top-bar .title-area h1 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: blue;
