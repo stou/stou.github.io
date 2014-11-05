@@ -4044,14 +4044,14 @@ Det har ihvertfald været en dag der bød på surf på både grønne, blå, rød
     
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;toc_1&#34;&gt;Besøg fra Danmark&lt;/h2&gt;
-
-&lt;figure class=&#34;right third&#34;&gt;
+&lt;figure &gt;
     
         &lt;img src=&#34;/media/2014/rokketand/IMG_4460.jpg&#34; alt=&#34;Oskar hopper&#34; /&gt;
     
     
 &lt;/figure&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Besøg fra Danmark&lt;/h2&gt;
 
 &lt;p&gt;Så oprandt dagen hvor Bruno, Tove, Tilde og Sine kom på besøg. Om på den anden side af jorden - &amp;ldquo;vi mødes på stranden&amp;rdquo; og det gjorde vi. Dejligt at det kunne lade sig gøre, og dejligt at se dem.
 I morgen flytter vi i Villa sammen allesammen i det samme område, som vi bor i nu (Canggu). Der skal vi bo en uges tid, inden vi tager til Gili Travangan.&lt;/p&gt;
@@ -4201,8 +4201,6 @@ Man kan næsten ikke undgå at elske stedet, men kunne samtidig ønske dig, at i
       <guid>http://stou.dk/2014/05/bali-belly/</guid>
       <description>
 
-&lt;p&gt;Så skete det, efter 13 dages rejse, blev vi ramt af den frygtede &amp;ldquo;Bali Belly&amp;rdquo;.&lt;/p&gt;
-
 &lt;figure &gt;
     
         &lt;img src=&#34;/media/2014/bali-belly/IMG_0880.jpg&#34;  /&gt;
@@ -4214,6 +4212,8 @@ Man kan næsten ikke undgå at elske stedet, men kunne samtidig ønske dig, at i
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
+
+&lt;p&gt;Så skete det, efter 13 dages rejse, blev vi ramt af den frygtede &amp;ldquo;Bali Belly&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;Lørdag havde ellers været en fantastisk dag på stranden.
 Om formiddagen lokkede børnene os til at en gyngetur på legepladsen på vej ned til stranden, og da vi kom derned var der de mest fantastiske bølger.
@@ -4239,14 +4239,19 @@ Nu mandag troede vi, at det var overstået. Det holdt desværre ikke helt stik, 
 
 &lt;h2 id=&#34;toc_0&#34;&gt;Ny bolig&lt;/h2&gt;
 
-&lt;figure class=&#34;right half&#34;&gt;
+&lt;p&gt;Den sidste uges tid har vi boet på Kusnadi Hotel  i bydelen Legian. Folk er enormt søde og det virker til at alle elsker børn, hvilket ikke er så tosset når man har 2 små poder med. Ved hotellets restaurant er der 2 små bassiner med fisk, som Alfred og Oskar elskede at kigge på. Den ene dag fik Alfred kigget så intenst på fiskene, at han endte i fiskedammen. Han blev ret forskrækket, men da vi fik fisket ham op, kunne han da også grine af det. &amp;ldquo;Jeg var blevet en fisk mor !&amp;rdquo;&lt;/p&gt;
+
+&lt;figure &gt;
     
         &lt;img src=&#34;/media/2014/bali-belly/IMG_4380.jpg&#34;  /&gt;
     
     
+    &lt;figcaption&gt;
+        &lt;h4&gt;Kusnadi Hotel&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
-
-&lt;p&gt;Den sidste uges tid har vi boet på Kusnadi Hotel  i bydelen Legian. Folk er enormt søde og det virker til at alle elsker børn, hvilket ikke er så tosset når man har 2 små poder med. Ved hotellets restaurant er der 2 små bassiner med fisk, som Alfred og Oskar elskede at kigge på. Den ene dag fik Alfred kigget så intenst på fiskene, at han endte i fiskedammen. Han blev ret forskrækket, men da vi fik fisket ham op, kunne han da også grine af det. &amp;ldquo;Jeg var blevet en fisk mor !&amp;rdquo;&lt;/p&gt;
 
 &lt;figure &gt;
     
@@ -4293,6 +4298,11 @@ Et spændende sted med krydderier, grønsager, frugt, skrammel, kød og fisk &am
         &lt;img src=&#34;/media/2014/bali-belly/IMG_4406.jpg&#34;  /&gt;
     
     
+    &lt;figcaption&gt;
+        &lt;h4&gt;På værelset i Batu Bolong 66&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 &lt;p&gt;Helt generelt har vi det godt (bortset fra maven altså). Indoneserne er meget søde og venlige mennesker. Dem vi bor hos, er også meget søde og  hjælpsomme (indonesisk dame og engelsk mand) &amp;ndash; så vi hygger os i varmen &amp;ndash; og glæder os selvfølgelig til, at Bruno og Tove med børn kommer og leger om en uges tid.&lt;/p&gt;
@@ -4315,7 +4325,7 @@ Da vi har ungerne med regner jeg dog med, at det bliver mest surf. Alfred ville 
     
     
     &lt;figcaption&gt;
-        &lt;h4&gt;Alfred smager fars bintang&lt;/h4&gt;
+        &lt;h4&gt;Alfred smager fars Bintang, Legian Beach&lt;/h4&gt;
         
     &lt;/figcaption&gt;
     
@@ -4323,11 +4333,11 @@ Da vi har ungerne med regner jeg dog med, at det bliver mest surf. Alfred ville 
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;/media/2014/bali-ankomst/IMG_1715.jpg&#34; alt=&#34;Oskar nyder solnedgangen på Kuta Beach&#34; /&gt;
+        &lt;img src=&#34;/media/2014/bali-ankomst/IMG_1715.jpg&#34; alt=&#34;Oskar nyder solnedgangen på Legian Beach&#34; /&gt;
     
     
     &lt;figcaption&gt;
-        &lt;h4&gt;Oskar nyder solnedgangen på Kuta Beach&lt;/h4&gt;
+        &lt;h4&gt;Oskar nyder solnedgangen på Legian Beach&lt;/h4&gt;
         
     &lt;/figcaption&gt;
     
@@ -4338,7 +4348,7 @@ Jeg håber det med tiden bliver lidt mere surf og lidt mindre svømning, men jeg
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;/media/2014/bali-ankomst/IMG_4332.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/bali-ankomst/IMG_4332.jpg&#34; alt=&#34;Surfing på Legian Beach foran Jayakarta Hotel&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -4346,10 +4356,15 @@ Jeg håber det med tiden bliver lidt mere surf og lidt mindre svømning, men jeg
 &lt;p&gt;Bintang er ikke det eneste der er billigt, man kan også købe alverdens bras fra de mange butikker / boder langs vejene i Kuta og omegn. Hvordan de så fik den ide, at jeg trængte til hatte, ure, solbriller, klipklappere, massage, penis-oplukkere og masser af plastic legetøj, da jeg kom slæbene med to kufferter, en rygsæk, 2 små børn og kone med resten af bagagen, må guderne vide. De mente i hvert fald alle, at jeg skulle købe lidt mere at slæbe på. Massage måske &amp;ndash; ja, men lidt dårlig timing.
 Frem til hotellet kom vi dog og her er dejligt. Sådan en slags botanisk have med en labyrint af små stier der fører rundt mellem palmer og små guldfiskedamme ind til de små huse med værelserne.&lt;/p&gt;
 
-&lt;figure class=&#34;left half&#34;&gt;
+&lt;figure &gt;
     
         &lt;img src=&#34;/media/2014/bali-ankomst/IMG_1721.jpg&#34;  /&gt;
     
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Frokost på Kusnadi Hotel&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
     
 &lt;/figure&gt;
 
@@ -4384,6 +4399,11 @@ Håber I nyder foråret i DK.&lt;/p&gt;
         &lt;img src=&#34;/media/2014/qatar/IMG_1684.jpg&#34;  /&gt;
     
     
+    &lt;figcaption&gt;
+        &lt;h4&gt;Udsigen over The Quatar Pearl fra lejligheden på 17.&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 &lt;p&gt;Så er turen igang, vi har kun været afsted i 2 dage, og vi har allerede fået en ordentlig en på opleveren.
@@ -4396,9 +4416,9 @@ Ud af lufthavnen, ud i saunaen, og så blev vi fordelt i 2 store 4-hjulstrækker
 
 &lt;p&gt;Formiddagen gik med en lille slendretur i The Pearl - så fik man lige en fornemmelse af, hvor varmt her er om dagen. Vi fik en dukkert i husets svømmepøl og en omgang hot noodles til frokost.&lt;/p&gt;
 
-&lt;figure class=&#34;left&#34;&gt;
+&lt;figure &gt;
     
-        &lt;img src=&#34;/media/2014/qatar/IMG_4216.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/qatar/IMG_4216.jpg&#34; alt=&#34;Træning til kamelræs&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -4408,17 +4428,22 @@ Ud af lufthavnen, ud i saunaen, og så blev vi fordelt i 2 store 4-hjulstrækker
 &lt;p&gt;Oskar lokkede Christian til at tage hans fjernstyrede bil med, og det var børnene der fik lov til at køre den.
 Der går længe inden Oskar glemmer det.&lt;/p&gt;
 
-&lt;figure class=&#34;left half&#34;&gt;
+&lt;figure &gt;
     
-        &lt;img src=&#34;/media/2014/qatar/IMG_4235.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/qatar/IMG_4235.jpg&#34; alt=&#34;Oskar kører RC i ørkenen&#34; /&gt;
     
     
 &lt;/figure&gt;
 
-&lt;figure class=&#34;left half&#34;&gt;
+&lt;figure &gt;
     
         &lt;img src=&#34;/media/2014/qatar/IMG_4238.jpg&#34;  /&gt;
     
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Oskar skal lige vide alt om hvordan sådan en bil fungerer&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
     
 &lt;/figure&gt;
 
@@ -4430,30 +4455,30 @@ Der går længe inden Oskar glemmer det.&lt;/p&gt;
 
 &lt;h1 id=&#34;toc_1&#34;&gt;Dune Bashing &amp;ndash; Qatar dag 2&lt;/h1&gt;
 
-&lt;figure class=&#34;right half&#34;&gt;
+&lt;figure &gt;
     
-        &lt;img src=&#34;/media/2014/qatar/IMG_4254.jpg&#34;  /&gt;
-    
-    
-&lt;/figure&gt;
-
-&lt;figure class=&#34;right half&#34;&gt;
-    
-        &lt;img src=&#34;/media/2014/qatar/IMG_4266.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/qatar/IMG_4254.jpg&#34; alt=&#34;Helene og drengene med vores Chauffør&#34; /&gt;
     
     
 &lt;/figure&gt;
 
-&lt;figure class=&#34;right half&#34;&gt;
+&lt;figure &gt;
     
-        &lt;img src=&#34;/media/2014/qatar/IMG_4287.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/qatar/IMG_4266.jpg&#34; alt=&#34;Toyota Land Cruiser&#34; /&gt;
     
     
 &lt;/figure&gt;
 
-&lt;figure class=&#34;right half&#34;&gt;
+&lt;figure &gt;
     
-        &lt;img src=&#34;/media/2014/qatar/IMG_4291.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/qatar/IMG_4287.jpg&#34; alt=&#34;Alfred drikker cola i skyggen&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;/media/2014/qatar/IMG_4291.jpg&#34; alt=&#34;Kamel på stranden&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -4479,6 +4504,11 @@ Vi vil gerne sige tusind tak for gæstfriheden til Anne Marie og Christian. Dejl
     
         &lt;img src=&#34;/media/2014/qatar/IMG_4301.jpg&#34;  /&gt;
     
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Vikingebrøl&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
     
 &lt;/figure&gt;
 </description>
