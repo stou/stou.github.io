@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Projects on Stou.dk </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://stou.dk/project/index.xml</link>
+    
+    <author>Rasmus Stougaard</author>
+    <copyright>Copyright (c) 2003 - 2014, Rasmus Stougaard; all rights reserved.</copyright>
+    <updated>Tue, 18 Mar 2014 21:40:42 &#43;0000</updated>
+    
+    <item>
+      <title>Sejladsudsigt app til Android</title>
+      <link>http://stou.dk/project/forecast-app/</link>
+      <pubDate>Tue, 18 Mar 2014 21:40:42 &#43;0000</pubDate>
+      <author>Rasmus Stougaard</author>
+      <guid>http://stou.dk/project/forecast-app/</guid>
+      <description>
+
+&lt;div class=&#34;small-12 medium-6 columns right&#34;&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;Så er der ny webside om &lt;a href=&#34;https://play.google.com/store/apps/details?id=dk.stou.frv&#34;&gt;Sejladsudsigt app&amp;rsquo;en&lt;/a&gt; til android.
+Jeg har forsøgt at samle relevant information her (også så jeg selv kan finde det igen).&lt;/p&gt;
+
+&lt;p&gt;Der er nu gået ca. 3 år siden den første version blev søsat, og dengang havde jeg nok ikke regnet med at den stadig ville være i brug idag. Er lidt overrasket over hvor mange der har hentet app&amp;rsquo;en og bruger den. Det kunne være sjovt at vide lidt mere om hvem de er. Godt nok er der mange kitesurfere i DK, men helt så mange som har hentet app&amp;rsquo;en, tror jeg ikke der er.
+Jeg mener at der var en dykker der skrev tilbage på google play, så det bliver åbenbart også brugt i de kredse.&lt;/p&gt;
+
+&lt;p&gt;Siden første version er Farvandsvæsenet blevet nedlagt, og overtaget af forsvarets center for operativ oceanografi. Heldigvis har de valgt at beholde sejladsudsigten på deres servere, så status er at app&amp;rsquo;en stadig fungerer i bedste velgående.&lt;/p&gt;
+
+&lt;p&gt;Endnu engang tak for de mange positive tilbagemeldinger.
+Dejligt at høre at det kan bruges.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Støt udviklingen&lt;/h2&gt;
+
+&lt;p&gt;Hvis du synes app&amp;rsquo;en er nyttig, så giv en lille donation og vær med til at støtte udviklingen så jeg kan holde den funktionel i fremtiden.&lt;/p&gt;
+
+&lt;div class=&#34;panel text-center&#34;&gt;
+
+&lt;form action=&#34;https://www.paypal.com/cgi-bin/webscr&#34; method=&#34;post&#34; target=&#34;_top&#34;&gt;
+&lt;input type=&#34;hidden&#34; name=&#34;cmd&#34; value=&#34;_s-xclick&#34;&gt;
+&lt;input type=&#34;hidden&#34; name=&#34;encrypted&#34; value=&#34;-----BEGIN PKCS7-----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-----END PKCS7-----
+&#34;&gt;
+&lt;input type=&#34;image&#34; src=&#34;https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif&#34; border=&#34;0&#34; name=&#34;submit&#34; alt=&#34;PayPal - The safer, easier way to pay online!&#34;&gt;
+&lt;img alt=&#34;&#34; border=&#34;0&#34; src=&#34;https://www.paypalobjects.com/da_DK/i/scr/pixel.gif&#34; width=&#34;1&#34; height=&#34;1&#34;&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Brugerne Siger&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Den &lt;a href=&#34;https://stou.wordpress.com&#34;&gt;første webside jeg lavede om Sejladsudsigt&lt;/a&gt; app&amp;rsquo;en, fra dengang den stadig hed FRV og Farvandsvæsnet ikke var blevet nedlagt. Der er nogle kommentarer gode kommentarer fra brugere, altid dejligt. Indhold kommer der nok ikke mere af, da jeg har tænkt mig vedligholde det her.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lidt tilbagemeldinger fra brugere på &lt;a href=&#34;http://kitesurferen.dk/forum/2-sporgsmal-og-svar/78314-vejr-app-android&#34;&gt;kitesurferen&lt;/a&gt;. Jeg kan desværre ikke finde min oprindelige post, hvor der var en masse kommentarer fra de første brugere, måske den er blevet slettet. Jeg fandt dog en tråd der omhandler nedetid ifm. overgang fra &lt;a href=&#34;http://kitesurferen.dk/forum/3-gearsnak-og-forhandlernyt/78440-app-og-vind-crash&#34;&gt;FRV til FCOO&lt;/a&gt;, og &lt;a href=&#34;http://kitesurferen.dk/forum/2-sporgsmal-og-svar/78423-android-frv-app&#34;&gt;nyt navn og ekstra features&lt;/a&gt; der er med i opdateringen der skulle til for at håndtere flytningen. Når så en bruger som jeg ikke kender personligt uopfordret vælger at omtale mit arbejde som &amp;raquo;&lt;a href=&#34;http://kitesurferen.dk/forum/2-sporgsmal-og-svar/53910-android-app-til-og-af-surfere-i-stobeskeen#53992&#34;&gt;totalt favorit app&lt;/a&gt;&amp;laquo; fortjener det også et link her.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Første præsentation af appen i mit &lt;a href=&#34;http://www.kitefyn.dk/forum/viewtopic.php?f=1&amp;amp;t=2508&#34;&gt;indlæg på det fynske kite forum&lt;/a&gt; med lidt feedback fra de første brugere.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/dk.stou.frv&#34;&gt;Sejladsudsigt på Facebook&lt;/a&gt; Det er jo så populært, så selfølgelig har jeg også lavet lille facebook side.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Download&lt;/h2&gt;
+
+&lt;p&gt;Her kan du hente &lt;a href=&#34;https://play.google.com/store/apps/details?id=dk.stou.frv&#34;&gt;Sejladsudsigt app&amp;rsquo;en&lt;/a&gt; i google play.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
