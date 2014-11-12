@@ -4,7 +4,7 @@
       <title>Software Development on Stou.dk </title>
       <generator uri="https://gohugo.io">Hugo</generator>
     <link>http://stou.dk/tags/software-development/index.xml</link>
-    
+    <language>en-us</language>
     <author>Rasmus Stougaard</author>
     <copyright>Copyright (c) 2003 - 2014, Rasmus Stougaard; all rights reserved.</copyright>
     <updated>Tue, 18 Mar 2014 21:40:42 &#43;0000</updated>
@@ -13,7 +13,7 @@
       <title>Sejladsudsigt app til Android</title>
       <link>http://stou.dk/project/forecast-app/</link>
       <pubDate>Tue, 18 Mar 2014 21:40:42 &#43;0000</pubDate>
-      <author>Rasmus Stougaard</author>
+      
       <guid>http://stou.dk/project/forecast-app/</guid>
       <description>
 
