@@ -7,7 +7,88 @@
     <language>en-us</language>
     <author>Rasmus Stougaard</author>
     <copyright>Copyright (c) 2003 - 2014, Rasmus Stougaard; all rights reserved.</copyright>
-    <updated>Sun, 16 Nov 2014 22:42:06 ICT</updated>
+    <updated>Sun, 23 Nov 2014 20:42:55 &#43;0800</updated>
+    
+    <item>
+      <title>Travel Blogging Setup</title>
+      <link>http://stou.dk/2014/11/travel-blogging-setup/</link>
+      <pubDate>Sun, 23 Nov 2014 20:42:55 &#43;0800</pubDate>
+      <author>Rasmus Stougaard</author>
+      <guid>http://stou.dk/2014/11/travel-blogging-setup/</guid>
+      <description>
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;/media/2014/travel-blogging-setup/blogging-theme-cover-01.png&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+&lt;p&gt;I am currently travelling with my family in South East asia.
+The trip is planned to last about one year, so before we left home (Denmark) I set up a blog to
+use as a diary for ourselves and to keep friends and family updated while we are away.&lt;/p&gt;
+
+&lt;p&gt;Since I like to do a little programming in my spare time, I decided to use &lt;a href=&#34;http://gohugo.com&#34;&gt;Hugo&lt;/a&gt; as my blogging platform.
+That has been a wise choice so far, and I can only recommend that you give it a try. Most places we have stayed, the internet connection has not exactly been very reliable nor fast.
+A few exeptions were some guest houses in Vietnam, which to my surprise had very decent connections.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Benefits of using Hugo for Me&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Completely self contained offline editing&lt;/li&gt;
+&lt;li&gt;Edit content using Markdown (even my wife can do this).&lt;/li&gt;
+&lt;li&gt;Easy deployment using github pages&lt;/li&gt;
+&lt;li&gt;No worries about servers, databases, backups etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Creating a Theme&lt;/h2&gt;
+
+&lt;p&gt;I wanted to experiment with creating my own theme for the site, to get at better feel of how hugo works.
+Of course this took a litle trial and error, but wasn&amp;rsquo;t too hard given the &lt;a href=&#34;http://gohugo.io/themes/creation/&#34;&gt;documentation of Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Hugo documentation offline&lt;/h2&gt;
+
+&lt;p&gt;If you need to work offline, do yourself a favour and clone the &lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;hugo git repo&lt;/a&gt;. Then you can serve up the hugo docs locally like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd path/to/hugo
+cd docs
+hugo server -w -p 1314
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note that i am serving the docs on a different port, since i lets me use the default port (1313) for the blog.&lt;/p&gt;
+
+&lt;p&gt;Having a copy of the hugo git repo also lets you compile the hugo binary from the sources, and maybe contribute to the project and help improve the platform.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Foundation Tweaks&lt;/h2&gt;
+
+&lt;p&gt;I chose to give &lt;a href=&#34;http://foundation.zurb.com&#34;&gt;Foundation&lt;/a&gt; a try, and I wanted to use the Sass version.
+However, the default project created by foundation, doesn&amp;rsquo;t play nice with the folder layout used by hugo so I had to tweak the configuration a bit.&lt;/p&gt;
+
+&lt;p&gt;Basically I created a default Foundation project, and modified the paths to generate the bower components, and the compiled css inside the &lt;code&gt;static&lt;/code&gt; folder used by hugo.
+The sass sources (scss folder) was not moved into the &lt;code&gt;static&lt;/code&gt; folder, since the generated site only uses the compiled css file.&lt;/p&gt;
+
+&lt;p&gt;When I editing the theme, I keep two terminals open. One running &lt;code&gt;bundle exec compass watch&lt;/code&gt; to update the css when the sass input changes, and another terminal running &lt;code&gt;hugo server -w&lt;/code&gt; to serve up the site locally.&lt;/p&gt;
+
+&lt;p&gt;What I gain from this is the ability to work with the theme styles using sass pre-processing, and still leverage the power of liveupdating the site provided by hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Get the Source&lt;/h2&gt;
+
+&lt;p&gt;If you want to take a closer look at the details, I have published &lt;a href=&#34;http://github.com/stou/stou-dk-theme&#34;&gt;my theme on github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;/media/2014/motack-n-malls/IMG_7206.jpg&#34;  /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Enjoying the freedom of open source&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>Not same same but different</title>
@@ -4926,226 +5007,6 @@ På Gili forsøgte Oskar 3 eller 4 gange at bestille en Fanta, og hver gang fik 
 &lt;figure &gt;
     
         &lt;img src=&#34;/media/2014/gili-air/IMG_4579.jpg&#34;  /&gt;
-    
-    
-&lt;/figure&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>Rokketand</title>
-      <link>http://stou.dk/2014/05/rokketand/</link>
-      <pubDate>Tue, 27 May 2014 20:14:42 &#43;0000</pubDate>
-      <author>Rasmus Stougaard</author>
-      <guid>http://stou.dk/2014/05/rokketand/</guid>
-      <description>
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_2004.jpg&#34; alt=&#34;Oskar på Batu Bolong Beach&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Så er der mere nyt fra &lt;em&gt;De Varme Lande™&lt;/em&gt;. I skrivende stund akkompagneret af en cikade der har valgt at holde til på værelset - og vi kan ikke finde den lille satan. Det skal vi nok blive pænt trætte af i løbet af natten.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_0&#34;&gt;Træt i armene&lt;/h2&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_1910.jpg&#34;  /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Sunset Lineup ved Batu Bolong&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Man kan dog håbe, at den naturlige træthed, efter at have surfet, overvinder irritationen over cikadens sang.
-Det har ihvertfald været en dag der bød på surf på både grønne, blå, røde og sorte pister. Det er en herre svær sport, men det er god motion og der er nok at øve sig på. Og så bliver det aldrig kedeligt at se enorme kaskader af vand vælte omkuld i flotte buer.&lt;/p&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_4456-cropped.jpg&#34;  /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Forfriskende med en dukkert&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_1883.jpg&#34;  /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;God udsigt mens man venter på grillet Red Snapper ved Echo Beach&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_1921.jpg&#34;  /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Ungerne hjælper med båden&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_4460.jpg&#34; alt=&#34;Oskar hopper&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;Besøg fra Danmark&lt;/h2&gt;
-
-&lt;p&gt;Så oprandt dagen hvor Bruno, Tove, Tilde og Sine kom på besøg. Om på den anden side af jorden - &amp;ldquo;vi mødes på stranden&amp;rdquo; og det gjorde vi. Dejligt at det kunne lade sig gøre, og dejligt at se dem.
-I morgen flytter vi i Villa sammen allesammen i det samme område, som vi bor i nu (Canggu). Der skal vi bo en uges tid, inden vi tager til Gili Travangan.&lt;/p&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_2014.jpg&#34;  /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Tak for gaver fra DK&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;Marcipanbrød&lt;/h2&gt;
-
-&lt;p&gt;Farmor og farfar (som arbejder på samme arbejdsplads som Bruno) havde sendt gaver med hjemmefra. Så Rasmus og jeg har spist Anton Berg marcipanbrød til dessert i aften. Drengene har fået nyt standlegetøj og vingummier - og så har vi allesammen fået et komplet byg-selv-risengrødssæt. Tilsæt kun varme og mælk. Tusind tak til farmor og farfar for de fine gaver.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_3&#34;&gt;Rokketand&lt;/h2&gt;
-
-&lt;p&gt;Risengrød er ikke en helt dum spise, når man lidt før tid, har fået sig en rokketand. For nogle dage siden, gled Oskar på køkkengulvet og knaldede hovedet ned i skraldespanden &amp;ndash; som nu har sig et rigtigt flot tandmærke. Hans fortand blev bøjet helt ind i munden. Rasmus samlede en grædende og blødende dreng op, og satte koldblodigt tanden tilbage på plads. Den heroiske mor, sørgede i mellemtiden for, at hverken hun eller Alfred skulle besvime af synet.&lt;/p&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_4502.jpg&#34;  /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Oskars bidemærke i skraldespanden&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Et opkald til forsikringen sendte os til tandlægen &amp;ndash; til undersøgelse af tanden.
-Tanden er knækket oppe under tandkødet. Med lidt held vokser tandkødet sig stærkt omkring tanden, og så bliver den siddende, til den bliver en &amp;ldquo;rigtig&amp;rdquo; rokketand &amp;ndash; måske falder den ud, og så får Oskar et flot sørøver smil. Det tyder dog på, at den bliver siddende.&lt;/p&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_1942.jpg&#34;  /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Aber ved Uluwatu&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;toc_4&#34;&gt;Uluwatu&lt;/h2&gt;
-
-&lt;p&gt;Tandlægeklinikken var på den anden side af øen, så vi benyttede lejligheden til at tage på tur.
-Helt nede på spidsen af Bali oppe på en klippe har balineserne bygget et tempel &amp;ndash; Uluwatu. Templet ligger superflot og der er masser af små frække aber. Det var en stor oplevelse at kigge ud over og ned fra klipperne, og fodre aber med hånden. Ikke mindst for Alfred, da den ene abe ikke ville nøjes med nøden i hånden, men tog hele Alfreds hånd. Godt at far holdt i den anden ende, så han ikke kom med op i trætoppen.&lt;/p&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_1947.jpg&#34; alt=&#34;Trappen på Uluwatu&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_1949.jpg&#34; alt=&#34;Oskar, Alfred og Rasmus Uluwatu&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_1975.jpg&#34; alt=&#34;Oskar og Alfred Uluwatu&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_1994-cropped.jpg&#34;  /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Alfred giver hånd til aben ved Uluwatu&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;toc_5&#34;&gt;Bali - affald og luksus&lt;/h2&gt;
-
-&lt;p&gt;Vores generelle indtryk af Bali er, at det er et fantastisk sted - fyldt med affald. Her er fantastisk natur og de sødeste mennesker. Og alt dette er pakket ind i en kultur, hvor alt det man ikke kan se - er væk. Balineserne smider deres affald over alt. Hver dag bliver der langt tusindvis af offergaver til guderne overalt, og det bliver liggende til det blæser eller regner væk. Oven i det bliver alt emballage bare efterladt hvor det er tømt og det betyder, at de fleste steder ligner en svinesti. Mellem det, er der så bygget de flotteste huse og der gemmer sig den fineste natur - og i luften hænger der en konstatere duft af røgelse.
-Man kan næsten ikke undgå at elske stedet, men kunne samtidig ønske dig, at indbyggerne kunne lære at passe på deres fine ø - og miljøet.&lt;/p&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_1845.jpg&#34; alt=&#34;Frappe&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_0914.jpg&#34; alt=&#34;Biker&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_1872.jpg&#34;  /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Drengene leger på Old Mans Cafe - Batu Bolong&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_1876.jpg&#34;  /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Oskar på Echo Beach&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;/media/2014/rokketand/IMG_0930.jpg&#34; alt=&#34;Bowle&#34; /&gt;
     
     
 &lt;/figure&gt;
