@@ -52,7 +52,7 @@ Of course this took a litle trial and error, but wasn&amp;rsquo;t too hard given
 
 &lt;pre&gt;&lt;code&gt;cd path/to/hugo
 cd docs
-hugo server -w -p 1314
+hugo server -p 1314
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Note that i am serving the docs on a different port, since i lets me use the default port (1313) for the blog.&lt;/p&gt;
