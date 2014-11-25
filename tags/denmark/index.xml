@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Preparation on Stou.dk </title>
+      <title>Stou.dk</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://stou.dk/tags/preparation/index.xml</link>
+    <link>http://stou.dk/tags/denmark/</link>
     <language>en-us</language>
     <author>Rasmus Stougaard</author>
     <copyright>Copyright (c) 2003 - 2014, Rasmus Stougaard; all rights reserved.</copyright>
@@ -15,7 +15,8 @@
       <pubDate>Wed, 30 Apr 2014 19:47:42 &#43;0000</pubDate>
       <author>Rasmus Stougaard</author>
       <guid>http://stou.dk/2014/04/udflytning-og-arbejdsstop/</guid>
-      <description>&lt;figure &gt;
+      <description>
+&lt;figure &gt;
     
         &lt;img src=&#34;/media/2014/moving-out/IMG_1538.jpg&#34;  /&gt;
     
@@ -27,7 +28,10 @@
     
 &lt;/figure&gt;
 
+
+
 &lt;p&gt;Vi havde sidste dag på arbejde torsdag og fredag i sidste uge, og siden har vi brugt tiden på at pakke huset ned i det mest fantastiske danske forårsvejr, 20 grader og skyfrit. Man overvejer næsten at blive. Eneste minus var at vi blev nødt til at træne til &lt;em&gt;De Varme Lande™&lt;/em&gt; ved at flytte kasser på loftet. Håber godt nok der er lidt mindre rockwool på Bali, for det hænger godt fast i sveden, når der er 30 grader oppe under taget.&lt;/p&gt;
+
 
 &lt;figure &gt;
     
@@ -41,7 +45,10 @@
     
 &lt;/figure&gt;
 
+
+
 &lt;p&gt;Det er så småt begyndt at gå op for børnene, at vi snart skal afsted. Mandag blev de puttet på gulvet omgivet af kasser med legetøj på deres værelse i &amp;ndash; sengene var jo flyttet på loftet &amp;ndash; og da de vågnede var værelset tømt. Tror jeg ville have undret mig lidt, men de tog det meget pænt.&lt;/p&gt;
+
 
 &lt;figure &gt;
     
@@ -55,9 +62,12 @@
     
 &lt;/figure&gt;
 
+
+
 &lt;p&gt;Vores Hornung &amp;amp; Møller fra 1883 var der desværre ingen der ville have, så tak til verdens bedste naboer for hjælpen med at slæbe det ud i traileren. Det fik nogle skrammer på vejen, og det gav et ordentligt drøn, da det røg ned i containeren på genbrugspladsen.&lt;/p&gt;
 
 &lt;p&gt;Nu er vi hos mine forældre et par dage, og Alfred hjalp mig med at aflevere nummerpladerne fra bilen. Der er heldigvis ikke vind til at kitesurfe, så jeg behøver ikke ærgre mig over at grejet er pakket væk. Lidt vemodigt var det dog alligevel.&lt;/p&gt;
+
 
 &lt;figure &gt;
     
@@ -71,6 +81,8 @@
     
 &lt;/figure&gt;
 
+
+
 &lt;figure &gt;
     
         &lt;img src=&#34;/media/2014/moving-out/IMG_1626.jpg&#34;  /&gt;
@@ -83,7 +95,10 @@
     
 &lt;/figure&gt;
 
+
+
 &lt;p&gt;Vi glæder os meget til at komme afsted og gøre vores drøm til virkelighed. Dem der købte Alfreds brugte tremmeseng sagde det meget rammende: &amp;ldquo;Det er sådan noget mange drømmer om at gøre, men ingen faktisk gør&amp;rdquo;. Håber virkelig det bliver en succes at være undtagelsen der bekræfter reglen.&lt;/p&gt;
+
 
 &lt;figure &gt;
     
@@ -96,8 +111,9 @@
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
+
+
 </description>
-      
     </item>
     
     <item>
@@ -108,6 +124,7 @@
       <guid>http://stou.dk/2014/03/snart-tid-til-afrejse/</guid>
       <description>
 
+
 &lt;figure &gt;
     
         &lt;img src=&#34;/media/2014/hafjell-beach-small.jpg&#34; alt=&#34;Hafjell uge 9&#34; /&gt;
@@ -115,11 +132,13 @@
     
 &lt;/figure&gt;
 
+
+
 &lt;p&gt;Vi har lavet denne blog til dem der har lyst til at følge med i vores oplevelser i sydøstasien mens vi er væk, og for at vi selv har lidt at kigge på når vi kommer hjem igen.&lt;/p&gt;
 
 &lt;p&gt;Der er ikke det helt store at berette endnu, så derfor et billede fra Hafjell &amp;ndash; fantastisk tur (dog en anelse varmt). Vi er så småt begyndt at pakke huset ned, og få styr på en masse andre ting der skal klares inden vi tager afsted 5. maj.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_0&#34;&gt;Foreløbig rejseplan&lt;/h2&gt;
+&lt;h2 id=&#34;foreløbig-rejseplan:c4613d9fb39c5614c0553a75112e619a&#34;&gt;Foreløbig rejseplan&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;5. maj 2014: Kastrup &amp;rarr; Doha, Quatar&lt;/li&gt;
@@ -137,7 +156,6 @@
 
 &lt;p&gt;Mvh familien Stougaard&lt;/p&gt;
 </description>
-      
     </item>
     
   </channel>
