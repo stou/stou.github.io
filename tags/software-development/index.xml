@@ -128,7 +128,12 @@ Jeg mener at der var en dykker der skrev tilbage på google play, så det bliver
 &lt;p&gt;Endnu engang tak for de mange positive tilbagemeldinger.
 Dejligt at høre at det kan bruges.&lt;/p&gt;
 
-&lt;h2 id=&#34;støt-udviklingen:12f4cac200711667f78a7e803a7d4498&#34;&gt;Støt udviklingen&lt;/h2&gt;
+&lt;!--
+Use the automatic header generation once a static id can be assigned in hugo
+## Støt udviklingen
+--&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Støt udviklingen&lt;/h2&gt;
 
 &lt;p&gt;Hvis du synes app&amp;rsquo;en er nyttig, så giv en lille donation og vær med til at støtte udviklingen så jeg kan holde den funktionel i fremtiden.&lt;/p&gt;
 
