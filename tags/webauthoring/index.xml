@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Stou.dk</title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://stou.dk/tags/webauthoring/</link>
+    <language>en-us</language>
+    <author>Rasmus Stougaard</author>
+    <copyright>Copyright (c) 2003 - 2014, Rasmus Stougaard; all rights reserved.</copyright>
+    <updated>Sun, 30 Nov 2014 20:49:43 ICT</updated>
+    
+    <item>
+      <title>Hugo Site Deployment</title>
+      <link>http://stou.dk/2014/11/hugo-site-deployment/</link>
+      <pubDate>Sun, 30 Nov 2014 20:49:43 ICT</pubDate>
+      <author>Rasmus Stougaard</author>
+      <guid>http://stou.dk/2014/11/hugo-site-deployment/</guid>
+      <description>
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+
+&lt;!-- inspired by: https://github.com/spf13/hugo/issues/379 --&gt;
+
+&lt;p&gt;When I started publishing the blog I was using the git subtree approach, as &lt;a href=&#34;http://gohugo.io/tutorials/github_pages_blog/&#34;&gt;suggested in the hugo documentation&lt;/a&gt;.
+However, I tend to mess up my setup when I amend or rebase when working with the local site.&lt;/p&gt;
+
+&lt;p&gt;Since I like to keep thinks simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages.&lt;/p&gt;
+
+&lt;p&gt;The benefit of this is that I get to review the changes manually before deploying to the live site.&lt;/p&gt;
+
+&lt;h2 id=&#34;workflow:aa094a52ddea3ef22242e5d2bb935a03&#34;&gt;Workflow&lt;/h2&gt;
+
+&lt;p&gt;Here is the basic outline of my workflow.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;create&lt;/strong&gt; and edit some &lt;strong&gt;content&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;review changes&lt;/strong&gt; by serving up the site &lt;strong&gt;locally&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;make&lt;/strong&gt; as many &lt;strong&gt;commits&lt;/strong&gt; as desired in the site hugo sources&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;build&lt;/strong&gt; the site for deployment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;review changes&lt;/strong&gt; to the deployment git repo.
+I deliberately want to keep this step manual, since I am using the latest sources for hugo, and sometimes bugs causes weird things to happen to the ouput.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;push&lt;/strong&gt; deployment repo &lt;strong&gt;to github&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;makefile:aa094a52ddea3ef22242e5d2bb935a03&#34;&gt;Makefile&lt;/h2&gt;
+
+&lt;p&gt;The workflow may seem a little complicated, so I am created a Makefile to avoid having to remember all the commands to type (or mistype, and screw up my site).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;DEPLOYMENT_REPO=stou.github.io
+
+all: server
+
+build: dist
+
+help:
+    @echo &amp;quot;\033[0;4mAvailable targets:\033[0m&amp;quot;
+    @echo &amp;quot; server - serves up site locally (default target)&amp;quot;
+    @echo &amp;quot; build - build the content for deployment in ${DEPLOYMENT_REPO}&amp;quot;
+
+view:
+    # open front page in browser
+    open http://localhost:1313
+
+server: clean
+    # Server the site up locally
+    hugo server -w  --buildDrafts=true
+
+clean:
+    # clean out the local server build artifacts
+    -rm -r public/*
+
+dist: dist-clean
+    # Build the project for publishing
+    hugo -s . -d ${DEPLOYMENT_REPO}
+
+dist-clean:
+    # clean publishing output dir
+    # NB: Avoid removing the .git folder
+    -rm -r ${DEPLOYMENT_REPO}/*
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This allows me to serve up the site locally simply by running &lt;code&gt;make&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To build the site for deployment I run &lt;code&gt;make build&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;For the git operations, use whatever tool you are most familiar with. I personally like a combination of the command line and &lt;a href=&#34;http://rowanj.github.io/gitx/&#34;&gt;gitx&lt;/a&gt;, since I am using the Mac.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Travel Blogging Setup</title>
+      <link>http://stou.dk/2014/11/travel-blogging-setup/</link>
+      <pubDate>Sun, 23 Nov 2014 20:42:55 &#43;0800</pubDate>
+      <author>Rasmus Stougaard</author>
+      <guid>http://stou.dk/2014/11/travel-blogging-setup/</guid>
+      <description>
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;/media/2014/travel-blogging-setup/blogging-theme-cover-01.png&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;I am currently travelling with my family in South East asia.
+The trip is planned to last about one year, so before we left home (Denmark) I set up a blog to
+use as a diary for ourselves and to keep friends and family updated while we are away.&lt;/p&gt;
+
+&lt;p&gt;Since I like to do a little programming in my spare time, I decided to use &lt;a href=&#34;http://gohugo.com&#34;&gt;Hugo&lt;/a&gt; as my blogging platform.
+That has been a wise choice so far, and I can only recommend that you give it a try.&lt;/p&gt;
+
+&lt;p&gt;Most places we have stayed, the internet connection has not exactly been very reliable nor fast.
+A few exeptions were some guest houses in Vietnam, which to my surprise had very decent connections.&lt;/p&gt;
+
+&lt;h2 id=&#34;benefits-of-using-hugo-for-me:4ee05812e701e9e8226f56e87ffea6bc&#34;&gt;Benefits of using Hugo for Me&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Completely self contained offline editing&lt;/li&gt;
+&lt;li&gt;Edit content using Markdown (even my wife can do this).&lt;/li&gt;
+&lt;li&gt;Easy deployment using github pages&lt;/li&gt;
+&lt;li&gt;No worries about servers, databases, backups etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;creating-a-theme:4ee05812e701e9e8226f56e87ffea6bc&#34;&gt;Creating a Theme&lt;/h2&gt;
+
+&lt;p&gt;I wanted to experiment with creating my own theme for the site, to get at better feel of how hugo works.
+Of course this took a litle trial and error, but wasn&amp;rsquo;t too hard given the &lt;a href=&#34;http://gohugo.io/themes/creation/&#34;&gt;documentation of Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;hugo-documentation-offline:4ee05812e701e9e8226f56e87ffea6bc&#34;&gt;Hugo documentation offline&lt;/h2&gt;
+
+&lt;p&gt;If you need to work offline, do yourself a favour and clone the &lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;hugo git repo&lt;/a&gt;. Then you can serve up the hugo docs locally like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd path/to/hugo
+cd docs
+hugo server -p 1314
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note that i am serving the docs on a different port, since i lets me use the default port (1313) for the blog.&lt;/p&gt;
+
+&lt;p&gt;Having a copy of the hugo git repo also lets you compile the hugo binary from the sources, and maybe contribute to the project and help improve the platform.&lt;/p&gt;
+
+&lt;h2 id=&#34;foundation-tweaks:4ee05812e701e9e8226f56e87ffea6bc&#34;&gt;Foundation Tweaks&lt;/h2&gt;
+
+&lt;p&gt;I chose to give &lt;a href=&#34;http://foundation.zurb.com&#34;&gt;Foundation&lt;/a&gt; a try, and I wanted to use the Sass version.
+However, the default project created by foundation, doesn&amp;rsquo;t play nice with the folder layout used by hugo so I had to tweak the configuration a bit.&lt;/p&gt;
+
+&lt;p&gt;Basically I created a default Foundation project, and modified the paths to generate the bower components, and the compiled css inside the &lt;code&gt;static&lt;/code&gt; folder used by hugo.
+The sass sources (scss folder) was not moved into the &lt;code&gt;static&lt;/code&gt; folder, since the generated site only uses the compiled css file.&lt;/p&gt;
+
+&lt;p&gt;When I editing the theme, I keep two terminals open. One running &lt;code&gt;bundle exec compass watch&lt;/code&gt; to update the css when the sass input changes, and another terminal running &lt;code&gt;hugo server -w&lt;/code&gt; to serve up the site locally.&lt;/p&gt;
+
+&lt;p&gt;What I gain from this is the ability to work with the theme styles using sass pre-processing, and still leverage the power of liveupdating the site provided by hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;get-the-source:4ee05812e701e9e8226f56e87ffea6bc&#34;&gt;Get the Source&lt;/h2&gt;
+
+&lt;p&gt;If you want to take a closer look at the details, I have published &lt;a href=&#34;http://github.com/stou/stou-dk-theme&#34;&gt;my theme on github&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;/media/2014/motack-n-malls/IMG_7206.jpg&#34;  /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Enjoying the freedom of open source&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

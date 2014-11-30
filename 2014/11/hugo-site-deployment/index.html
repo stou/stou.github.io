@@ -1,0 +1,402 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="http://stou.dk">
+  <title>Hugo Site Deployment - Stou.dk </title>
+  <link rel="stylesheet" href="/css/app.css" />
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <link rel="alternate" type="application/atom+xml" 
+  title="RSS Feed for stou.dk" 
+  href="http://stou.dk/rss.xml" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="Description of the setup I use for deployment and hosting my blog on github.">
+
+<meta name="keywords" content="">
+
+ 
+<meta property="og:type" content="article"/>
+
+<meta property="og:description" content="Description of the setup I use for deployment and hosting my blog on github."/>
+
+<meta property="og:title" content="Hugo Site Deployment : Stou.dk"/>
+<meta property="og:site_name" content="Stou.dk"/>
+
+<meta property="og:image" content="http://stou.dk/media/2014/hugo-site-deployment/publish-workflow-alt.png" />
+<meta property="og:image:type" content="image/jpeg" />
+
+<meta property="og:url" content="http://stou.dk/2014/11/hugo-site-deployment/" />
+<meta property="article:published_time" content="2014-11-30"/>
+<meta property="article:modified_time" content="2014-11-30"/>
+
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@rstou" />
+<meta name="twitter:title" content="Hugo Site Deployment : Stou.dk" />
+
+<meta name="twitter:description" content="Description of the setup I use for deployment and hosting my blog on github." />
+
+
+<meta name="twitter:creator" content="@rstou" />
+
+<meta name="twitter:image:src" content="http://stou.dk/media/2014/hugo-site-deployment/publish-workflow-alt.png">
+
+<meta name="twitter:domain" content="stou.dk">
+
+
+  
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+
+</head>
+<body>
+
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="/">Stou.dk</a></h1>
+      </li>
+      
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      
+      <ul class="right">
+        <li><a href="/tags/travel">Asia Travel</a></li>
+
+<li><a href="/tags/sejladsudsigt">Sejladsudsigt</a></li>
+<li><a href="/topics/programming">Programming</a></li>
+<li><a href="/post">All Blog Posts</a></li>
+
+      </ul>
+
+      
+      <ul class="left">
+        
+      </ul>
+    </section>
+  </nav>
+  
+
+  <div class="row">
+    <div class="large-10 large-offset-1 medium-12 columns">
+
+
+
+<section>
+	<h1 class="title">Hugo Site Deployment</h1>
+	<div class="post-meta">Sun, Nov 30, 2014 - 2 Minute read
+
+	
+		<span class="secondary radius label"> <a href="http://stou.dk/tags/programming">#programming</a> </span>
+	
+		<span class="secondary radius label"> <a href="http://stou.dk/tags/blog">#blog</a> </span>
+	
+		<span class="secondary radius label"> <a href="http://stou.dk/tags/webauthoring">#webauthoring</a> </span>
+	
+		<span class="secondary radius label"> <a href="http://stou.dk/tags/hugo">#hugo</a> </span>
+	
+		<span class="secondary radius label"> <a href="http://stou.dk/tags/git">#git</a> </span>
+	
+    </div>
+	<article>
+		
+
+
+<figure >
+    
+        <img src="/media/2014/hugo-site-deployment/publish-workflow-alt.png"  />
+    
+    
+</figure>
+
+
+
+<!-- inspired by: https://github.com/spf13/hugo/issues/379 -->
+
+<p>When I started publishing the blog I was using the git subtree approach, as <a href="http://gohugo.io/tutorials/github_pages_blog/">suggested in the hugo documentation</a>.
+However, I tend to mess up my setup when I amend or rebase when working with the local site.</p>
+
+<p>Since I like to keep thinks simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages.</p>
+
+<p>The benefit of this is that I get to review the changes manually before deploying to the live site.</p>
+
+<h2 id="workflow:aa094a52ddea3ef22242e5d2bb935a03">Workflow</h2>
+
+<p>Here is the basic outline of my workflow.</p>
+
+<ol>
+<li><strong>create</strong> and edit some <strong>content</strong></li>
+<li><strong>review changes</strong> by serving up the site <strong>locally</strong></li>
+<li><strong>make</strong> as many <strong>commits</strong> as desired in the site hugo sources</li>
+<li><strong>build</strong> the site for deployment</li>
+<li><strong>review changes</strong> to the deployment git repo.
+I deliberately want to keep this step manual, since I am using the latest sources for hugo, and sometimes bugs causes weird things to happen to the ouput.</li>
+<li><strong>push</strong> deployment repo <strong>to github</strong></li>
+</ol>
+
+<h2 id="makefile:aa094a52ddea3ef22242e5d2bb935a03">Makefile</h2>
+
+<p>The workflow may seem a little complicated, so I am created a Makefile to avoid having to remember all the commands to type (or mistype, and screw up my site).</p>
+
+<pre><code>DEPLOYMENT_REPO=stou.github.io
+
+all: server
+
+build: dist
+
+help:
+    @echo &quot;\033[0;4mAvailable targets:\033[0m&quot;
+    @echo &quot; server - serves up site locally (default target)&quot;
+    @echo &quot; build - build the content for deployment in ${DEPLOYMENT_REPO}&quot;
+
+view:
+    # open front page in browser
+    open http://localhost:1313
+
+server: clean
+    # Server the site up locally
+    hugo server -w  --buildDrafts=true
+
+clean:
+    # clean out the local server build artifacts
+    -rm -r public/*
+
+dist: dist-clean
+    # Build the project for publishing
+    hugo -s . -d ${DEPLOYMENT_REPO}
+
+dist-clean:
+    # clean publishing output dir
+    # NB: Avoid removing the .git folder
+    -rm -r ${DEPLOYMENT_REPO}/*
+</code></pre>
+
+<p>This allows me to serve up the site locally simply by running <code>make</code>.</p>
+
+<p>To build the site for deployment I run <code>make build</code>.</p>
+
+<p>For the git operations, use whatever tool you are most familiar with. I personally like a combination of the command line and <a href="http://rowanj.github.io/gitx/">gitx</a>, since I am using the Mac.</p>
+
+	</article>
+</section>
+
+
+
+<div class="panel clearfix">
+
+<div>
+
+
+
+
+  
+  <article class="post small-12 columns">
+  
+
+    
+      <a href='http://stou.dk/2014/11/koh-lanta-sup-review/'><img src="/media/2014/koh-lanta-sup-review/IMG_8265.jpg" /></a>
+    
+
+    <h3>
+    <a href='http://stou.dk/2014/11/koh-lanta-sup-review/'>Koh Lanta SUP Review</a>
+    </h3>
+
+    <h6 class="subheader">Rejseberetning fra Thailand. SUP på Klong Dao Beach, Koh Lanta</h6>
+
+    <p class="post-meta">Thu, Nov 27, 2014 - 5 Minute read</p>
+
+    
+  </article>
+
+
+</div>
+</div>
+
+
+<aside id=comments>
+    <div><h2>Comments</h2></div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+
+    (function() {
+        
+        
+        if (window.location.hostname == "localhost") {
+            return;
+        }
+
+        var disqus_shortname = 'stoudk';
+        var disqus_identifier = 'http:\/\/stou.dk\/2014\/11\/hugo-site-deployment\/';
+        var disqus_title = 'Hugo Site Deployment';
+        var disqus_url = 'http:\/\/stou.dk\/2014\/11\/hugo-site-deployment\/';
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</aside>
+
+
+<div class="clearfix"></div>
+<div>
+<h2>Latest posts</h2>
+  
+  <article class="post clearfix">
+	
+	<div class="medium-7 small-12 columns">
+		<a class="list-cover-image" href='http://stou.dk/2014/11/hugo-site-deployment/'><img src="/media/2014/hugo-site-deployment/publish-workflow-alt.png" /></a>
+	</div>
+	
+	<header>
+		<h2>
+		<a href='http://stou.dk/2014/11/hugo-site-deployment/'> Hugo Site Deployment</a>
+		</h2>
+		<h6 class="subheader">Description of the setup I use for deployment and hosting my blog on github.</h6>
+		<div class="post-meta">Sun, Nov 30, 2014 - 
+		
+		2 Minute read
+		
+		</div>
+			
+	
+		<span class="secondary radius label"> <a href="http://stou.dk/tags/programming">#programming</a> </span>
+	
+		<span class="secondary radius label"> <a href="http://stou.dk/tags/blog">#blog</a> </span>
+	
+		<span class="secondary radius label"> <a href="http://stou.dk/tags/webauthoring">#webauthoring</a> </span>
+	
+		<span class="secondary radius label"> <a href="http://stou.dk/tags/hugo">#hugo</a> </span>
+	
+		<span class="secondary radius label"> <a href="http://stou.dk/tags/git">#git</a> </span>
+	
+
+	</header>
+
+	<div class="show-for-medium-up">
+		
+		<p>When I started publishing the blog I was using the git subtree approach, as suggested in the hugo documentation. However, I tend to mess up my setup when I amend or rebase when working with the local site. Since I like to keep thinks simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages. The benefit of this is that I get to review the changes manually before deploying to the live site.</p>
+		
+	</div>
+	<footer>
+		<a href='http://stou.dk/2014/11/hugo-site-deployment/'><nobr>Read more →</nobr></a>
+	</footer>
+</article>
+
+  
+  <article class="post clearfix">
+	
+	<div class="medium-7 small-12 columns">
+		<a class="list-cover-image" href='http://stou.dk/2014/11/koh-lanta-sup-review/'><img src="/media/2014/koh-lanta-sup-review/IMG_8265.jpg" /></a>
+	</div>
+	
+	<header>
+		<h2>
+		<a href='http://stou.dk/2014/11/koh-lanta-sup-review/'> Koh Lanta SUP Review</a>
+		</h2>
+		<h6 class="subheader">Rejseberetning fra Thailand. SUP på Klong Dao Beach, Koh Lanta</h6>
+		<div class="post-meta">Thu, Nov 27, 2014 - 
+		
+		5 Minute read
+		
+		</div>
+			
+	
+		<span class="secondary radius label"> <a href="http://stou.dk/tags/travel">#travel</a> </span>
+	
+		<span class="secondary radius label"> <a href="http://stou.dk/tags/thailand">#thailand</a> </span>
+	
+		<span class="secondary radius label"> <a href="http://stou.dk/tags/surf">#surf</a> </span>
+	
+		<span class="secondary radius label"> <a href="http://stou.dk/tags/sup">#sup</a> </span>
+	
+
+	</header>
+
+	<div class="show-for-medium-up">
+		
+		<p>Jeg fandt en lille bølge på nordvestkysten af Koh Lanta i Thailand. Vi var afsted hele familien på scooter, så jeg havde ikke mit eget surfboard med. Heldigvis kunne man leje SUPs på stranden, så dagen var redet. </p>
+		
+	</div>
+	<footer>
+		<a href='http://stou.dk/2014/11/koh-lanta-sup-review/'><nobr>Read more →</nobr></a>
+	</footer>
+</article>
+
+  
+</div>
+
+</div>
+</div>
+
+
+<footer class="panel">
+  <div class="row">
+    <div class="large-8 medium-12 columns">
+      <section id="author">
+	<h4>About the Author:</h4>
+	<p>Rasmus Stougaard is traveling with his family in south east Asia until april 2015.
+		He is a spare time kite surfer, and author of <a
+		href="/project/forecast-app/">Sejladsudsigt</a>, 
+		and webmaster for <a href="http://kwk.dk">Kolding Windsurfing Klub</a>.
+		You can find him on 
+		<a href="https://www.facebook.com/stou42" title="Rasmus Stougaard on Facebook">Facebook</a>,
+		<a href="https://twitter.com/rstou" title="Rasmus Stougaard on Twitter">Twitter</a>,
+		<a href="https://www.linkedin.com/in/rasmusstougaard" title="Rasmus Stougaard on LinkedIn">LinkedIn</a>,
+		<a href="http://github.com/stou"  title="Rasmus Stougaard on Github">Github</a>, 
+		and <a title="Rasmus Stougaard on Google+" rel="author"
+		href="https://plus.google.com/+RasmusStougaard/posts?rel=author"
+		target="_blank">Google+</a>.
+	</p>
+</section>
+<p class="copyright">© 2003‐2014 stou.dk. All rights reserved.</p>
+
+    </div>
+  </div>
+</footer>
+
+
+<script src="/bower_components/foundation/js/foundation.min.js"></script>
+<script src="/js/app.js"></script>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	
+	var hasConsole = (typeof console !== 'undefined');
+	if(/localhost/.test(window.location.hostname)) {
+
+		var disableStr = 'ga-disable-' + 'UA-49034143-1';
+
+		if(hasConsole){
+			console.log("Running non-production google analytics replacement now"); 
+			ga = function(arg) { 
+				console.log("ga:", arguments);
+			};
+		} else {
+			window[disableStr] = true;
+		}
+	}
+	
+
+	ga('create', 'UA-49034143-1', 'stou.dk');
+	ga('send', 'pageview');
+</script>
+
+</body>
+</html>
