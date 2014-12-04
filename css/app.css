@@ -9074,44 +9074,52 @@ pre code {
 }
 
 /* line 20, ../../scss/_stou.scss */
+.draft {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding: 1rem;
+  background-color: #efefef;
+}
+
+/* line 35, ../../scss/_stou.scss */
 article.post {
   margin-top: 1em;
 }
-/* line 23, ../../scss/_stou.scss */
+/* line 38, ../../scss/_stou.scss */
 article.post .post-meta {
   font-style: italic;
   text-align: left;
 }
-/* line 29, ../../scss/_stou.scss */
+/* line 44, ../../scss/_stou.scss */
 article.post footer {
   text-align: right;
   line-height: 3em;
 }
 
-/* line 39, ../../scss/_stou.scss */
+/* line 53, ../../scss/_stou.scss */
 section h1.title {
   margin-top: .5em;
   text-align: center;
 }
-/* line 44, ../../scss/_stou.scss */
+/* line 58, ../../scss/_stou.scss */
 section .post-meta {
   font-style: italic;
   text-align: center;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 51, ../../scss/_stou.scss */
+  /* line 65, ../../scss/_stou.scss */
   .post-list-date {
     margin-top: 0.3125rem;
   }
 
-  /* line 55, ../../scss/_stou.scss */
+  /* line 69, ../../scss/_stou.scss */
   figure {
     margin-left: -0.9375rem;
     margin-right: -0.9375rem;
   }
 
-  /* line 61, ../../scss/_stou.scss */
+  /* line 75, ../../scss/_stou.scss */
   .list-cover-image {
     display: block;
     margin-left: -1.8750rem;
@@ -9119,27 +9127,27 @@ section .post-meta {
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 70, ../../scss/_stou.scss */
+  /* line 84, ../../scss/_stou.scss */
   .post-list-date {
     text-align: right;
     padding-top: 0.4375rem;
   }
 
-  /* line 75, ../../scss/_stou.scss */
+  /* line 89, ../../scss/_stou.scss */
   .list-cover-image {
     margin-bottom: 1rem;
   }
 }
-/* line 83, ../../scss/_stou.scss */
+/* line 97, ../../scss/_stou.scss */
 .post-list-title, .post-list-dates {
   font-size: 1.4rem;
 }
 
-/* line 87, ../../scss/_stou.scss */
+/* line 101, ../../scss/_stou.scss */
 figure {
   text-align: center;
 }
-/* line 90, ../../scss/_stou.scss */
+/* line 104, ../../scss/_stou.scss */
 figure figcaption h4 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
@@ -9147,7 +9155,7 @@ figure figcaption h4 {
   text-align: center;
 }
 
-/* line 104, ../../scss/_stou.scss */
+/* line 118, ../../scss/_stou.scss */
 nav.top-bar .title-area h1 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: blue;
