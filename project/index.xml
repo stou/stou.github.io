@@ -20,12 +20,14 @@
 &lt;div class=&#34;small-12 medium-6 columns right&#34;&gt;
 
 &lt;figure &gt;
-    
+
+    &lt;a href=&#34;/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &gt;
+
         &lt;img src=&#34;/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
-    
+    &lt;/a&gt;
     
 &lt;/figure&gt;
-
 
 &lt;/div&gt;
 

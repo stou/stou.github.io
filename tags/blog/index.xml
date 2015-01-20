@@ -19,12 +19,14 @@
 
 
 &lt;figure &gt;
-    
+
+    &lt;a href=&#34;/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &gt;
+
         &lt;img src=&#34;/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  /&gt;
-    
+    &lt;/a&gt;
     
 &lt;/figure&gt;
-
 
 
 &lt;!-- inspired by: https://github.com/spf13/hugo/issues/379 --&gt;
@@ -105,12 +107,14 @@ dist-clean:
 
 
 &lt;figure &gt;
-    
+
+    &lt;a href=&#34;/media/2014/travel-blogging-setup/blogging-theme-cover-01.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &gt;
+
         &lt;img src=&#34;/media/2014/travel-blogging-setup/blogging-theme-cover-01.png&#34;  /&gt;
-    
+    &lt;/a&gt;
     
 &lt;/figure&gt;
-
 
 
 &lt;p&gt;I am currently travelling with my family in South East asia.
@@ -168,9 +172,12 @@ The sass sources (scss folder) was not moved into the &lt;code&gt;static&lt;/cod
 
 
 &lt;figure &gt;
-    
+
+    &lt;a href=&#34;/media/2014/motack-n-malls/IMG_7206.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Enjoying the freedom of open source&#34;
+    &gt;
+
         &lt;img src=&#34;/media/2014/motack-n-malls/IMG_7206.jpg&#34;  /&gt;
-    
+    &lt;/a&gt;
     
     &lt;figcaption&gt;
         &lt;h4&gt;Enjoying the freedom of open source&lt;/h4&gt;
@@ -178,7 +185,6 @@ The sass sources (scss folder) was not moved into the &lt;code&gt;static&lt;/cod
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
-
 
 </description>
     </item>

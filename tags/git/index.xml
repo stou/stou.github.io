@@ -19,12 +19,14 @@
 
 
 &lt;figure &gt;
-    
+
+    &lt;a href=&#34;/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &gt;
+
         &lt;img src=&#34;/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  /&gt;
-    
+    &lt;/a&gt;
     
 &lt;/figure&gt;
-
 
 
 &lt;!-- inspired by: https://github.com/spf13/hugo/issues/379 --&gt;

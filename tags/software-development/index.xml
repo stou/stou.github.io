@@ -20,12 +20,14 @@
 &lt;div class=&#34;small-12 medium-6 columns right&#34;&gt;
 
 &lt;figure &gt;
-    
+
+    &lt;a href=&#34;/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &gt;
+
         &lt;img src=&#34;/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
-    
+    &lt;/a&gt;
     
 &lt;/figure&gt;
-
 
 &lt;/div&gt;
 
@@ -102,12 +104,14 @@ Use the automatic header generation once a static id can be assigned in hugo
       <guid>http://stou.dk/2011/02/frv-app-til-android/</guid>
       <description>
 &lt;figure class=&#34;right&#34;&gt;
-    
+
+    &lt;a href=&#34;/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &gt;
+
         &lt;img src=&#34;/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
-    
+    &lt;/a&gt;
     
 &lt;/figure&gt;
-
 
 
 &lt;p&gt;Jeg har brugt en del mørke vinteraftener på at snitte en lille app til android som giver adgang til vindprognosen fra FRV.
