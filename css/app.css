@@ -9106,20 +9106,28 @@ section .post-meta {
   font-style: italic;
   text-align: center;
 }
+/* line 66, ../../scss/_stou.scss */
+section .social-share-ui .twitter-share-button[style] {
+  vertical-align: text-bottom !important;
+}
+/* line 71, ../../scss/_stou.scss */
+section .social-share-ui .fb_like, section .social-share-ui .fb_iframe_widget {
+  vertical-align: text-bottom !important;
+}
 
 @media only screen and (max-width: 40em) {
-  /* line 65, ../../scss/_stou.scss */
+  /* line 78, ../../scss/_stou.scss */
   .post-list-date {
     margin-top: 0.3125rem;
   }
 
-  /* line 69, ../../scss/_stou.scss */
+  /* line 82, ../../scss/_stou.scss */
   figure {
     margin-left: -0.9375rem;
     margin-right: -0.9375rem;
   }
 
-  /* line 75, ../../scss/_stou.scss */
+  /* line 88, ../../scss/_stou.scss */
   .list-cover-image {
     display: block;
     margin-left: -1.8750rem;
@@ -9127,27 +9135,27 @@ section .post-meta {
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 84, ../../scss/_stou.scss */
+  /* line 97, ../../scss/_stou.scss */
   .post-list-date {
     text-align: right;
     padding-top: 0.4375rem;
   }
 
-  /* line 89, ../../scss/_stou.scss */
+  /* line 102, ../../scss/_stou.scss */
   .list-cover-image {
     margin-bottom: 1rem;
   }
 }
-/* line 97, ../../scss/_stou.scss */
+/* line 110, ../../scss/_stou.scss */
 .post-list-title, .post-list-dates {
   font-size: 1.4rem;
 }
 
-/* line 101, ../../scss/_stou.scss */
+/* line 114, ../../scss/_stou.scss */
 figure {
   text-align: center;
 }
-/* line 104, ../../scss/_stou.scss */
+/* line 117, ../../scss/_stou.scss */
 figure figcaption h4 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
@@ -9155,7 +9163,7 @@ figure figcaption h4 {
   text-align: center;
 }
 
-/* line 118, ../../scss/_stou.scss */
+/* line 131, ../../scss/_stou.scss */
 nav.top-bar .title-area h1 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: blue;
