@@ -5126,7 +5126,7 @@ Vi sad på gulvet og fik serveret skåle med flere retter vi kunne spise med ris
     &lt;a href=&#34;/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  data-lightbox=&#34;slideshow-set&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34; alt=&#34;Texteditor, terminal and browser&#34; /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -5137,7 +5137,7 @@ Vi sad på gulvet og fik serveret skåle med flere retter vi kunne spise med ris
 &lt;p&gt;When I started publishing the blog I was using the git subtree approach, as &lt;a href=&#34;http://gohugo.io/tutorials/github_pages_blog/&#34;&gt;suggested in the hugo documentation&lt;/a&gt;.
 However, I tend to mess up my setup when I amend or rebase when working with the local site.&lt;/p&gt;
 
-&lt;p&gt;Since I like to keep thinks simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages.&lt;/p&gt;
+&lt;p&gt;Since I like to keep things simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages.&lt;/p&gt;
 
 &lt;p&gt;The benefit of this is that I get to review the changes manually before deploying to the live site.&lt;/p&gt;
 
@@ -5157,7 +5157,7 @@ I deliberately want to keep this step manual, since I am using the latest source
 
 &lt;h2 id=&#34;makefile:aa094a52ddea3ef22242e5d2bb935a03&#34;&gt;Makefile&lt;/h2&gt;
 
-&lt;p&gt;The workflow may seem a little complicated, so I am created a Makefile to avoid having to remember all the commands to type (or mistype, and screw up my site).&lt;/p&gt;
+&lt;p&gt;The workflow may seem a little complicated, so I am using a Makefile I have created to avoid having to remember all the commands to type (or mistype, and screw up my site).&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;DEPLOYMENT_REPO=stou.github.io
 
@@ -5214,7 +5214,7 @@ dist-clean:
     &lt;a href=&#34;/media/2014/koh-lanta-sup-review/IMG_8250.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Bølgerne var vel omkring til midt på låret&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8250.jpg&#34; alt=&#34;Rasmus Stougard SUP Koh Lanta, Thailand&#34; /&gt;
+        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8250.jpg&#34; alt=&#34;Rasmus Stougard på SUP Koh Lanta, Thailand&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5250,7 +5250,7 @@ Vandet er dog dejligt varmt, ungerne kan bade imens, og der er masser af restaur
     &lt;a href=&#34;/media/2014/koh-lanta-sup-review/IMG_8274.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Der var tre flotte farver at vælge mellem&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8274.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8274.jpg&#34; alt=&#34;Rasmus med de tre SUP boards og den fleksible paddel&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5289,7 +5289,7 @@ og enkelte gange fik jeg også fart nok i brættet til at komme med ned af bølg
     &lt;a href=&#34;/media/2014/koh-lanta-sup-review/IMG_8252.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Her kan man se det lækre bløde flex i bladet&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8252.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8252.jpg&#34; alt=&#34;Rasmus på den gule SUP. Bladet på padlen bøjer helt bagover når man bruger den.&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5308,7 +5308,7 @@ og enkelte gange fik jeg også fart nok i brættet til at komme med ned af bølg
     &lt;a href=&#34;/media/2014/koh-lanta-sup-review/IMG_8267.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;SUP uden paddel&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8267.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8267.jpg&#34; alt=&#34;Rasmus på SUP uden paddel&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5329,7 +5329,7 @@ og enkelte gange fik jeg også fart nok i brættet til at komme med ned af bølg
     &lt;a href=&#34;/media/2014/koh-lanta-sup-review/IMG_8254.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Det lykkes heldigvis at få et par enkelte rides&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8254.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8254.jpg&#34; alt=&#34;Rasmus på SUP på en bølge og med paddel&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5350,7 +5350,7 @@ Endvidere klappede den også op når boardet fik en smule fart på ned af en bø
     &lt;a href=&#34;/media/2014/koh-lanta-sup-review/IMG_8265.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;En lækker detalje der gør at finnen klapper op hvis man surfer op på stranden, eller får lidt fart på&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8265.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8265.jpg&#34; alt=&#34;Rasmus demonstrerer klapfinnen&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5370,7 +5370,7 @@ Disse skaber en masse turbulens under brættet når man får lidt fart på, hvil
     &lt;a href=&#34;/media/2014/koh-lanta-sup-review/IMG_8280.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Bemærk hullerne i den dybe dobbelt konkav&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8280.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8280.jpg&#34; alt=&#34;Rasmus viser de dybe huller i bunden af brættet&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5391,7 +5391,7 @@ Disse skaber en masse turbulens under brættet når man får lidt fart på, hvil
     &lt;a href=&#34;/media/2014/koh-lanta-sup-review/IMG_8268.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Det store board er ret nemt at padle op, men til gengæld meget svært at få til at dreje&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8268.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8268.jpg&#34; alt=&#34;Rasmus surfer på SUP uden paddel&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5404,7 +5404,7 @@ Disse skaber en masse turbulens under brættet når man får lidt fart på, hvil
 
 &lt;p&gt;Måske for at spare vægt var der kun lagt padding på dækket midt på, så når man surfede bølgen stod man med fødderne direkte på den glatte og våde ABS plastoverflade.&lt;/p&gt;
 
-&lt;p&gt;Det resultede i en del vandture, og da der heller ikke var nogen leash galt det om at se sig godt for, så man ikke kom til at ramme de andre badegæster.&lt;/p&gt;
+&lt;p&gt;Det resultede i en del vandture, og da der heller ikke var nogen leash gjalt det om at se sig godt for, så man ikke kom til at ramme de andre badegæster med brættet.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -5412,7 +5412,7 @@ Disse skaber en masse turbulens under brættet når man får lidt fart på, hvil
     &lt;a href=&#34;/media/2014/koh-lanta-sup-review/IMG_8255.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Forsøger man at dreje mister man nemt fodfæstet pga. den glatte plast overflade uden padding&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8255.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8255.jpg&#34; alt=&#34;Rasmus mister fodfæstet i et sving og ryger i vandet&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5438,7 +5438,7 @@ Sejlegenskaberne minder om en sit-on-top kajak, bare langsommere.&lt;/p&gt;
     &lt;a href=&#34;/media/2014/koh-lanta-sup-review/IMG_8256.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Man kan bare lukke øjnene og forestille sig at det går vildt hurtigt&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8256.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/koh-lanta-sup-review/IMG_8256.jpg&#34; alt=&#34;Rasmus på SUP uden paddel&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5489,7 +5489,7 @@ Tenderen var åbenbart ikke med i prisen for færgebilletten, og vi var ikke rig
     &lt;a href=&#34;/media/2014/kaptajn-klos-hule/IMG_3670.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Det ligner da holderen til en oppustelig redningsflåde nederst til venstre&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/IMG_3670.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/IMG_3670.jpg&#34; alt=&#34;Færgen til Ko Mook og udsigt over kølvandet&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5514,7 +5514,7 @@ Det lykkedes også at få et lift med en rar lokal dame på scooter, som kørte 
     &lt;a href=&#34;/media/2014/kaptajn-klos-hule/IMG_3679.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Lidt for iddyllisk palme&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/IMG_3679.jpg&#34; alt=&#34;Oskar holder palmen oppe på Sivalai Beach, Ko Mook&#34; /&gt;
+        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/IMG_3679.jpg&#34; alt=&#34;Oskar holder en skrå kokospalme oppe&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5525,7 +5525,7 @@ Det lykkedes også at få et lift med en rar lokal dame på scooter, som kørte 
 &lt;/figure&gt;
 
 
-&lt;p&gt;Lige et rejsetip til dem med børn. Husk en flaske vand , inden I traver afsted i varmen mod det ukendte &amp;ndash; eller I det mindste lidt kontanter.&lt;/p&gt;
+&lt;p&gt;Lige et rejsetip til dem med børn. Husk en flaske vand , inden I traver afsted i varmen mod det ukendte &amp;ndash; eller i det mindste lidt kontanter.&lt;/p&gt;
 
 &lt;h2 id=&#34;emerald-cave:aaf15e734709cbba218aab7522168bae&#34;&gt;Emerald Cave&lt;/h2&gt;
 
@@ -5537,7 +5537,7 @@ Det lykkedes også at få et lift med en rar lokal dame på scooter, som kørte 
     &lt;a href=&#34;/media/2014/kaptajn-klos-hule/IMG_8015.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Se far! Er det Kaptajn Klo&amp;#39;s ansigt i klippen?&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/IMG_8015.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/IMG_8015.jpg&#34; alt=&#34;En af kalstensklipperne på Ko Mook ligner et ansigt set fra stranden&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5568,7 +5568,7 @@ Englænderen havde et vandtæt kamera, så Oskar fik taget et par &amp;ldquo;por
     &lt;a href=&#34;/media/2014/kaptajn-klos-hule/IMG_8003.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;På vej til Emerald Cave&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/IMG_8003.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/IMG_8003.jpg&#34; alt=&#34;Alfred, Helene, Will, Grace og Oskar i longtail på vej mod Emerald Cave&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5584,7 +5584,7 @@ Englænderen havde et vandtæt kamera, så Oskar fik taget et par &amp;ldquo;por
     &lt;a href=&#34;/media/2014/kaptajn-klos-hule/DSCF6004.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Højt humør på vej gennem hulen&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/DSCF6004.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/DSCF6004.jpg&#34; alt=&#34;Helene, Alfred, Rasmus, Oskar og vores guide svømmer i mørket i Emerald Cave&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5600,7 +5600,7 @@ Englænderen havde et vandtæt kamera, så Oskar fik taget et par &amp;ldquo;por
     &lt;a href=&#34;/media/2014/kaptajn-klos-hule/DSCF5990.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Oskar var primært under vandet i Emerald Cave&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/DSCF5990.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/DSCF5990.jpg&#34; alt=&#34;Undervandsportræt af Oskar der dykker&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5616,7 +5616,7 @@ Englænderen havde et vandtæt kamera, så Oskar fik taget et par &amp;ldquo;por
     &lt;a href=&#34;/media/2014/kaptajn-klos-hule/DSCF6015.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Lys for enden af tunnellen&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/DSCF6015.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/DSCF6015.jpg&#34; alt=&#34;Udgangen af Emerald Cave&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5632,7 +5632,7 @@ Englænderen havde et vandtæt kamera, så Oskar fik taget et par &amp;ldquo;por
     &lt;a href=&#34;/media/2014/kaptajn-klos-hule/DSCF6019.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Godt vi ikke er rigtigt skibbrudne&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/DSCF6019.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/DSCF6019.jpg&#34; alt=&#34;Alfred, Oskar, Helene og Rasmus på vej tilbage til vores longtail&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5647,9 +5647,10 @@ Englænderen havde et vandtæt kamera, så Oskar fik taget et par &amp;ldquo;por
 
 &lt;p&gt;Der var ikke meget at tage sig til på Ko Mook, når grotten var set. Dog er der en stor, flot, hvid sandstrand. Strand kan man jo aldrig få for meget af.&lt;/p&gt;
 
-&lt;p&gt;Drengenes nye yndlingsleg er at sejle med krydstogtskibe på kryds og tværs af stranden. I mangel af bedre, var det store stykker korraller der blev brugt. Oskar fandt sågar et stykke der lignede en controller til en playstation, men &amp;ldquo;det er jo heller ikke et skib far&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Drengenes nye yndlingsleg er at sejle med krydstogtskibe på kryds og tværs af stranden. I mangel af bedre var det store stykker korraller, der blev brugt. Oskar fandt sågar et stykke der lignede en controller til en playstation, men &amp;ldquo;det er jo heller ikke et skib far&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;Hvis vi havde beholdt alle de muslinger, sneglehuse og andet strandgods, som drengene har slæbt sammen på rejsen, tror jeg vi kunne bygge et mindre hus i DK af dem. På mystisk vis bliver de dog altid væk, så kuffeterne kan stadig transporteres relativt problemfrit.&lt;/p&gt;
+&lt;p&gt;Hvis vi havde beholdt alle de muslinger, sneglehuse og andet strandgods, som drengene har slæbt sammen på rejsen, tror jeg vi kunne bygge et mindre hus i Danmark af dem.
+På mystisk vis bliver de dog altid væk, så kuffeterne kan stadig transporteres relativt problemfrit.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -5657,7 +5658,7 @@ Englænderen havde et vandtæt kamera, så Oskar fik taget et par &amp;ldquo;por
     &lt;a href=&#34;/media/2014/kaptajn-klos-hule/IMG_8016.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;TUI-risterne kan vist bedre lide kolde Singha øl i swimming-poolen&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/IMG_8016.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/IMG_8016.jpg&#34; alt=&#34;Helene sidder i vandkanten på Ko Mook&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5673,7 +5674,7 @@ Englænderen havde et vandtæt kamera, så Oskar fik taget et par &amp;ldquo;por
     &lt;a href=&#34;/media/2014/kaptajn-klos-hule/IMG_8029.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Lokale fiskere ved Koh Mook&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/IMG_8029.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/IMG_8029.jpg&#34; alt=&#34;Et par fiskerbåde i solnedgangen&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -5697,7 +5698,7 @@ Maden på den restaurant, der hørte til den bungalow vi boede i, var dog helt h
     &lt;a href=&#34;/media/2014/kaptajn-klos-hule/IMG_8000.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Solnedgangen fejler ikke noget på Ko Mook&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/IMG_8000.jpg&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/kaptajn-klos-hule/IMG_8000.jpg&#34; alt=&#34;Helene, Alfred og Oskar på stranden i solnedgangen på Ko Mook&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;

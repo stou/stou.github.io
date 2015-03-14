@@ -167,7 +167,7 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
     <a href="/media/2014/hugo-site-deployment/publish-workflow-alt.png"  data-lightbox="slideshow-set"
     >
 
-        <img src="/media/2014/hugo-site-deployment/publish-workflow-alt.png"  />
+        <img src="/media/2014/hugo-site-deployment/publish-workflow-alt.png" alt="Texteditor, terminal and browser" />
     </a>
     
 </figure>
@@ -178,7 +178,7 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 <p>When I started publishing the blog I was using the git subtree approach, as <a href="http://gohugo.io/tutorials/github_pages_blog/">suggested in the hugo documentation</a>.
 However, I tend to mess up my setup when I amend or rebase when working with the local site.</p>
 
-<p>Since I like to keep thinks simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages.</p>
+<p>Since I like to keep things simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages.</p>
 
 <p>The benefit of this is that I get to review the changes manually before deploying to the live site.</p>
 
@@ -198,7 +198,7 @@ I deliberately want to keep this step manual, since I am using the latest source
 
 <h2 id="makefile:aa094a52ddea3ef22242e5d2bb935a03">Makefile</h2>
 
-<p>The workflow may seem a little complicated, so I am created a Makefile to avoid having to remember all the commands to type (or mistype, and screw up my site).</p>
+<p>The workflow may seem a little complicated, so I am using a Makefile I have created to avoid having to remember all the commands to type (or mistype, and screw up my site).</p>
 
 <pre><code>DEPLOYMENT_REPO=stou.github.io
 

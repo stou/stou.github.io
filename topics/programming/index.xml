@@ -23,7 +23,7 @@
     &lt;a href=&#34;/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  data-lightbox=&#34;slideshow-set&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  /&gt;
+        &lt;img src=&#34;/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34; alt=&#34;Texteditor, terminal and browser&#34; /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -34,7 +34,7 @@
 &lt;p&gt;When I started publishing the blog I was using the git subtree approach, as &lt;a href=&#34;http://gohugo.io/tutorials/github_pages_blog/&#34;&gt;suggested in the hugo documentation&lt;/a&gt;.
 However, I tend to mess up my setup when I amend or rebase when working with the local site.&lt;/p&gt;
 
-&lt;p&gt;Since I like to keep thinks simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages.&lt;/p&gt;
+&lt;p&gt;Since I like to keep things simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages.&lt;/p&gt;
 
 &lt;p&gt;The benefit of this is that I get to review the changes manually before deploying to the live site.&lt;/p&gt;
 
@@ -54,7 +54,7 @@ I deliberately want to keep this step manual, since I am using the latest source
 
 &lt;h2 id=&#34;makefile:aa094a52ddea3ef22242e5d2bb935a03&#34;&gt;Makefile&lt;/h2&gt;
 
-&lt;p&gt;The workflow may seem a little complicated, so I am created a Makefile to avoid having to remember all the commands to type (or mistype, and screw up my site).&lt;/p&gt;
+&lt;p&gt;The workflow may seem a little complicated, so I am using a Makefile I have created to avoid having to remember all the commands to type (or mistype, and screw up my site).&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;DEPLOYMENT_REPO=stou.github.io
 
