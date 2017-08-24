@@ -21,10 +21,10 @@
 
 &lt;figure &gt;
 
-    &lt;a href=&#34;/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &lt;a href=&#34;http://stou.dk/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
+        &lt;img src=&#34;http://stou.dk/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -68,7 +68,7 @@ Use the automatic header generation once a static id can be assigned in hugo
 &lt;/script&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;brugerne-siger:12f4cac200711667f78a7e803a7d4498&#34;&gt;Brugerne Siger&lt;/h2&gt;
+&lt;h2 id=&#34;brugerne-siger&#34;&gt;Brugerne Siger&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Den &lt;a href=&#34;https://stou.wordpress.com&#34;&gt;første webside jeg lavede om Sejladsudsigt&lt;/a&gt; app&amp;rsquo;en, fra dengang den stadig hed FRV og Farvandsvæsnet ikke var blevet nedlagt. Der er nogle kommentarer gode kommentarer fra brugere, altid dejligt. Indhold kommer der nok ikke mere af, da jeg har tænkt mig vedligholde det her.&lt;/p&gt;&lt;/li&gt;
@@ -80,7 +80,7 @@ Use the automatic header generation once a static id can be assigned in hugo
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/dk.stou.frv&#34;&gt;Sejladsudsigt på Facebook&lt;/a&gt; Det er jo så populært, så selfølgelig har jeg også lavet lille facebook side.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;download:12f4cac200711667f78a7e803a7d4498&#34;&gt;Download&lt;/h2&gt;
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
 
 &lt;p&gt;Her kan du hente &lt;a href=&#34;https://play.google.com/store/apps/details?id=dk.stou.frv&#34;&gt;Sejladsudsigt app&amp;rsquo;en&lt;/a&gt; i google play.&lt;/p&gt;
 </description>
@@ -105,10 +105,10 @@ Use the automatic header generation once a static id can be assigned in hugo
       <description>
 &lt;figure class=&#34;right&#34;&gt;
 
-    &lt;a href=&#34;/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &lt;a href=&#34;http://stou.dk/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
+        &lt;img src=&#34;http://stou.dk/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;

@@ -20,10 +20,10 @@
 
 &lt;figure &gt;
 
-    &lt;a href=&#34;/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &lt;a href=&#34;http://stou.dk/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  data-lightbox=&#34;slideshow-set&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34; alt=&#34;Texteditor, terminal and browser&#34; /&gt;
+        &lt;img src=&#34;http://stou.dk/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34; alt=&#34;Texteditor, terminal and browser&#34; /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -38,7 +38,7 @@ However, I tend to mess up my setup when I amend or rebase when working with the
 
 &lt;p&gt;The benefit of this is that I get to review the changes manually before deploying to the live site.&lt;/p&gt;
 
-&lt;h2 id=&#34;workflow:aa094a52ddea3ef22242e5d2bb935a03&#34;&gt;Workflow&lt;/h2&gt;
+&lt;h2 id=&#34;workflow&#34;&gt;Workflow&lt;/h2&gt;
 
 &lt;p&gt;Here is the basic outline of my workflow.&lt;/p&gt;
 
@@ -52,7 +52,7 @@ I deliberately want to keep this step manual, since I am using the latest source
 &lt;li&gt;&lt;strong&gt;push&lt;/strong&gt; deployment repo &lt;strong&gt;to github&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;makefile:aa094a52ddea3ef22242e5d2bb935a03&#34;&gt;Makefile&lt;/h2&gt;
+&lt;h2 id=&#34;makefile&#34;&gt;Makefile&lt;/h2&gt;
 
 &lt;p&gt;The workflow may seem a little complicated, so I am using a Makefile I have created to avoid having to remember all the commands to type (or mistype, and screw up my site).&lt;/p&gt;
 
@@ -108,10 +108,10 @@ dist-clean:
 
 &lt;figure &gt;
 
-    &lt;a href=&#34;/media/2014/travel-blogging-setup/blogging-theme-cover-01.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &lt;a href=&#34;http://stou.dk/media/2014/travel-blogging-setup/blogging-theme-cover-01.png&#34;  data-lightbox=&#34;slideshow-set&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/travel-blogging-setup/blogging-theme-cover-01.png&#34; alt=&#34;Rasmus Stougaard writing a blogpost on the beach, Kapas Island, Malaysia&#34; /&gt;
+        &lt;img src=&#34;http://stou.dk/media/2014/travel-blogging-setup/blogging-theme-cover-01.png&#34; alt=&#34;Rasmus Stougaard writing a blogpost on the beach, Kapas Island, Malaysia&#34; /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -127,7 +127,7 @@ That has been a wise choice so far, and I can only recommend that you give it a 
 &lt;p&gt;Most places we have stayed, the internet connection has not exactly been very reliable nor fast.
 A few exeptions were some guest houses in Vietnam, which to my surprise had very decent connections.&lt;/p&gt;
 
-&lt;h2 id=&#34;benefits-of-using-hugo-for-me:4ee05812e701e9e8226f56e87ffea6bc&#34;&gt;Benefits of using Hugo for Me&lt;/h2&gt;
+&lt;h2 id=&#34;benefits-of-using-hugo-for-me&#34;&gt;Benefits of using Hugo for Me&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Completely self contained offline editing&lt;/li&gt;
@@ -136,12 +136,12 @@ A few exeptions were some guest houses in Vietnam, which to my surprise had very
 &lt;li&gt;No worries about servers, databases, backups etc.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;creating-a-theme:4ee05812e701e9e8226f56e87ffea6bc&#34;&gt;Creating a Theme&lt;/h2&gt;
+&lt;h2 id=&#34;creating-a-theme&#34;&gt;Creating a Theme&lt;/h2&gt;
 
 &lt;p&gt;I wanted to experiment with creating my own theme for the site, to get at better feel of how hugo works.
 Of course this took a litle trial and error, but wasn&amp;rsquo;t too hard given the &lt;a href=&#34;http://gohugo.io/themes/creation/&#34;&gt;documentation of Hugo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;hugo-documentation-offline:4ee05812e701e9e8226f56e87ffea6bc&#34;&gt;Hugo documentation offline&lt;/h2&gt;
+&lt;h2 id=&#34;hugo-documentation-offline&#34;&gt;Hugo documentation offline&lt;/h2&gt;
 
 &lt;p&gt;If you need to work offline, do yourself a favour and clone the &lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;hugo git repo&lt;/a&gt;. Then you can serve up the hugo docs locally like this:&lt;/p&gt;
 
@@ -154,7 +154,7 @@ hugo server -p 1314
 
 &lt;p&gt;Having a copy of the hugo git repo also lets you compile the hugo binary from the sources, and maybe contribute to the project and help improve the platform.&lt;/p&gt;
 
-&lt;h2 id=&#34;foundation-tweaks:4ee05812e701e9e8226f56e87ffea6bc&#34;&gt;Foundation Tweaks&lt;/h2&gt;
+&lt;h2 id=&#34;foundation-tweaks&#34;&gt;Foundation Tweaks&lt;/h2&gt;
 
 &lt;p&gt;I chose to give &lt;a href=&#34;http://foundation.zurb.com&#34;&gt;Foundation&lt;/a&gt; a try, and I wanted to use the Sass version.
 However, the default project created by foundation, doesn&amp;rsquo;t play nice with the folder layout used by hugo so I had to tweak the configuration a bit.&lt;/p&gt;
@@ -166,17 +166,17 @@ The sass sources (scss folder) was not moved into the &lt;code&gt;static&lt;/cod
 
 &lt;p&gt;What I gain from this is the ability to work with the theme styles using sass pre-processing, and still leverage the power of liveupdating the site provided by hugo.&lt;/p&gt;
 
-&lt;h2 id=&#34;get-the-source:4ee05812e701e9e8226f56e87ffea6bc&#34;&gt;Get the Source&lt;/h2&gt;
+&lt;h2 id=&#34;get-the-source&#34;&gt;Get the Source&lt;/h2&gt;
 
 &lt;p&gt;If you want to take a closer look at the details, I have published &lt;a href=&#34;http://github.com/stou/stou-dk-theme&#34;&gt;my theme on github&lt;/a&gt;.&lt;/p&gt;
 
-
+&lt;p&gt;
 &lt;figure &gt;
 
-    &lt;a href=&#34;/media/2014/motack-n-malls/IMG_7206.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Enjoying the freedom of open source&#34;
+    &lt;a href=&#34;http://stou.dk/media/2014/motack-n-malls/IMG_7206.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Enjoying the freedom of open source&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2014/motack-n-malls/IMG_7206.jpg&#34; alt=&#34;Rasmus Stougaard enjoying life in a hammock at KBC, Kapas Island, Malaysia&#34; /&gt;
+        &lt;img src=&#34;http://stou.dk/media/2014/motack-n-malls/IMG_7206.jpg&#34; alt=&#34;Rasmus Stougaard enjoying life in a hammock at KBC, Kapas Island, Malaysia&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -185,7 +185,7 @@ The sass sources (scss folder) was not moved into the &lt;code&gt;static&lt;/cod
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
-
+&lt;/p&gt;
 </description>
     </item>
     
@@ -201,10 +201,10 @@ The sass sources (scss folder) was not moved into the &lt;code&gt;static&lt;/cod
 
 &lt;figure &gt;
 
-    &lt;a href=&#34;/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &lt;a href=&#34;http://stou.dk/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
+        &lt;img src=&#34;http://stou.dk/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -248,7 +248,7 @@ Use the automatic header generation once a static id can be assigned in hugo
 &lt;/script&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;brugerne-siger:12f4cac200711667f78a7e803a7d4498&#34;&gt;Brugerne Siger&lt;/h2&gt;
+&lt;h2 id=&#34;brugerne-siger&#34;&gt;Brugerne Siger&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Den &lt;a href=&#34;https://stou.wordpress.com&#34;&gt;første webside jeg lavede om Sejladsudsigt&lt;/a&gt; app&amp;rsquo;en, fra dengang den stadig hed FRV og Farvandsvæsnet ikke var blevet nedlagt. Der er nogle kommentarer gode kommentarer fra brugere, altid dejligt. Indhold kommer der nok ikke mere af, da jeg har tænkt mig vedligholde det her.&lt;/p&gt;&lt;/li&gt;
@@ -260,7 +260,7 @@ Use the automatic header generation once a static id can be assigned in hugo
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/dk.stou.frv&#34;&gt;Sejladsudsigt på Facebook&lt;/a&gt; Det er jo så populært, så selfølgelig har jeg også lavet lille facebook side.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;download:12f4cac200711667f78a7e803a7d4498&#34;&gt;Download&lt;/h2&gt;
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
 
 &lt;p&gt;Her kan du hente &lt;a href=&#34;https://play.google.com/store/apps/details?id=dk.stou.frv&#34;&gt;Sejladsudsigt app&amp;rsquo;en&lt;/a&gt; i google play.&lt;/p&gt;
 </description>
@@ -285,10 +285,10 @@ Use the automatic header generation once a static id can be assigned in hugo
       <description>
 &lt;figure class=&#34;right&#34;&gt;
 
-    &lt;a href=&#34;/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &lt;a href=&#34;http://stou.dk/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
     &gt;
 
-        &lt;img src=&#34;/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
+        &lt;img src=&#34;http://stou.dk/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
