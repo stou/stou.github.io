@@ -3,7 +3,7 @@
   <channel>
       <title>Stou.dk</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://stou.dk/tags/hugo/</link>
+    <link>http://www.stou.dk/tags/hugo/</link>
     <language>en-us</language>
     <author>Rasmus Stougaard</author>
     <copyright>Copyright (c) 2003 - 2014, Rasmus Stougaard; all rights reserved.</copyright>
@@ -11,19 +11,19 @@
     
     <item>
       <title>Hugo Site Deployment</title>
-      <link>http://stou.dk/2014/11/hugo-site-deployment/</link>
+      <link>http://www.stou.dk/2014/11/hugo-site-deployment/</link>
       <pubDate>Sun, 30 Nov 2014 20:49:43 &#43;0700</pubDate>
       <author>Rasmus Stougaard</author>
-      <guid>http://stou.dk/2014/11/hugo-site-deployment/</guid>
+      <guid>http://www.stou.dk/2014/11/hugo-site-deployment/</guid>
       <description>
 
 
 &lt;figure &gt;
 
-    &lt;a href=&#34;http://stou.dk/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &lt;a href=&#34;http://www.stou.dk/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  data-lightbox=&#34;slideshow-set&#34;
     &gt;
 
-        &lt;img src=&#34;http://stou.dk/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34; alt=&#34;Texteditor, terminal and browser&#34; /&gt;
+        &lt;img src=&#34;http://www.stou.dk/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34; alt=&#34;Texteditor, terminal and browser&#34; /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -99,19 +99,19 @@ dist-clean:
     
     <item>
       <title>Travel Blogging Setup</title>
-      <link>http://stou.dk/2014/11/travel-blogging-setup/</link>
+      <link>http://www.stou.dk/2014/11/travel-blogging-setup/</link>
       <pubDate>Sun, 23 Nov 2014 20:42:55 &#43;0800</pubDate>
       <author>Rasmus Stougaard</author>
-      <guid>http://stou.dk/2014/11/travel-blogging-setup/</guid>
+      <guid>http://www.stou.dk/2014/11/travel-blogging-setup/</guid>
       <description>
 
 
 &lt;figure &gt;
 
-    &lt;a href=&#34;http://stou.dk/media/2014/travel-blogging-setup/blogging-theme-cover-01.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &lt;a href=&#34;http://www.stou.dk/media/2014/travel-blogging-setup/blogging-theme-cover-01.png&#34;  data-lightbox=&#34;slideshow-set&#34;
     &gt;
 
-        &lt;img src=&#34;http://stou.dk/media/2014/travel-blogging-setup/blogging-theme-cover-01.png&#34; alt=&#34;Rasmus Stougaard writing a blogpost on the beach, Kapas Island, Malaysia&#34; /&gt;
+        &lt;img src=&#34;http://www.stou.dk/media/2014/travel-blogging-setup/blogging-theme-cover-01.png&#34; alt=&#34;Rasmus Stougaard writing a blogpost on the beach, Kapas Island, Malaysia&#34; /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -173,10 +173,10 @@ The sass sources (scss folder) was not moved into the &lt;code&gt;static&lt;/cod
 &lt;p&gt;
 &lt;figure &gt;
 
-    &lt;a href=&#34;http://stou.dk/media/2014/motack-n-malls/IMG_7206.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Enjoying the freedom of open source&#34;
+    &lt;a href=&#34;http://www.stou.dk/media/2014/motack-n-malls/IMG_7206.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Enjoying the freedom of open source&#34;
     &gt;
 
-        &lt;img src=&#34;http://stou.dk/media/2014/motack-n-malls/IMG_7206.jpg&#34; alt=&#34;Rasmus Stougaard enjoying life in a hammock at KBC, Kapas Island, Malaysia&#34; /&gt;
+        &lt;img src=&#34;http://www.stou.dk/media/2014/motack-n-malls/IMG_7206.jpg&#34; alt=&#34;Rasmus Stougaard enjoying life in a hammock at KBC, Kapas Island, Malaysia&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;

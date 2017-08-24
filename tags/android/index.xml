@@ -3,7 +3,7 @@
   <channel>
       <title>Stou.dk</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://stou.dk/tags/android/</link>
+    <link>http://www.stou.dk/tags/android/</link>
     <language>en-us</language>
     <author>Rasmus Stougaard</author>
     <copyright>Copyright (c) 2003 - 2014, Rasmus Stougaard; all rights reserved.</copyright>
@@ -11,20 +11,20 @@
     
     <item>
       <title>Sejladsudsigt app til Android</title>
-      <link>http://stou.dk/project/forecast-app/</link>
+      <link>http://www.stou.dk/project/forecast-app/</link>
       <pubDate>Tue, 18 Mar 2014 21:40:42 &#43;0000</pubDate>
       
-      <guid>http://stou.dk/project/forecast-app/</guid>
+      <guid>http://www.stou.dk/project/forecast-app/</guid>
       <description>
 
 &lt;div class=&#34;small-12 medium-6 columns right&#34;&gt;
 
 &lt;figure &gt;
 
-    &lt;a href=&#34;http://stou.dk/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &lt;a href=&#34;http://www.stou.dk/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
     &gt;
 
-        &lt;img src=&#34;http://stou.dk/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
+        &lt;img src=&#34;http://www.stou.dk/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -88,27 +88,27 @@ Use the automatic header generation once a static id can be assigned in hugo
     
     <item>
       <title>FRV app New name</title>
-      <link>http://stou.dk/2013/05/frv-app-new-name/</link>
+      <link>http://www.stou.dk/2013/05/frv-app-new-name/</link>
       <pubDate>Wed, 29 May 2013 10:34:42 &#43;0000</pubDate>
       <author>Rasmus Stougaard</author>
-      <guid>http://stou.dk/2013/05/frv-app-new-name/</guid>
+      <guid>http://www.stou.dk/2013/05/frv-app-new-name/</guid>
       <description>&lt;p&gt;Jeg har lavet en ny version, der gerne skulle afhjælpe problemer ifm. Opdatering af servere hos fcoo.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>FRV app til Android</title>
-      <link>http://stou.dk/2011/02/frv-app-til-android/</link>
+      <link>http://www.stou.dk/2011/02/frv-app-til-android/</link>
       <pubDate>Tue, 22 Feb 2011 21:08:50 &#43;0000</pubDate>
       <author>Rasmus Stougaard</author>
-      <guid>http://stou.dk/2011/02/frv-app-til-android/</guid>
+      <guid>http://www.stou.dk/2011/02/frv-app-til-android/</guid>
       <description>
 &lt;figure class=&#34;right&#34;&gt;
 
-    &lt;a href=&#34;http://stou.dk/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
+    &lt;a href=&#34;http://www.stou.dk/media/2011/frv-app-1_0.png&#34;  data-lightbox=&#34;slideshow-set&#34;
     &gt;
 
-        &lt;img src=&#34;http://stou.dk/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
+        &lt;img src=&#34;http://www.stou.dk/media/2011/frv-app-1_0.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;

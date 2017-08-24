@@ -3,7 +3,7 @@
   <channel>
       <title>Stou.dk</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://stou.dk/topics/</link>
+    <link>http://www.stou.dk/topics/</link>
     <language>en-us</language>
     <author>Rasmus Stougaard</author>
     <copyright>Copyright (c) 2003 - 2014, Rasmus Stougaard; all rights reserved.</copyright>
@@ -11,46 +11,46 @@
     
     <item>
       <title>Programming</title>
-      <link>http://stou.dk/topics/programming/</link>
+      <link>http://www.stou.dk/topics/programming/</link>
       <pubDate>Sun, 30 Nov 2014 20:49:43 &#43;0700</pubDate>
       
-      <guid>http://stou.dk/topics/programming/</guid>
+      <guid>http://www.stou.dk/topics/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>http://stou.dk/topics/software/</link>
+      <link>http://www.stou.dk/topics/software/</link>
       <pubDate>Sun, 30 Nov 2014 20:49:43 &#43;0700</pubDate>
       
-      <guid>http://stou.dk/topics/software/</guid>
+      <guid>http://www.stou.dk/topics/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software Development</title>
-      <link>http://stou.dk/topics/software-development/</link>
+      <link>http://www.stou.dk/topics/software-development/</link>
       <pubDate>Sun, 30 Nov 2014 20:49:43 &#43;0700</pubDate>
       
-      <guid>http://stou.dk/topics/software-development/</guid>
+      <guid>http://www.stou.dk/topics/software-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Surf</title>
-      <link>http://stou.dk/topics/surf/</link>
+      <link>http://www.stou.dk/topics/surf/</link>
       <pubDate>Thu, 27 Nov 2014 17:01:16 &#43;0700</pubDate>
       
-      <guid>http://stou.dk/topics/surf/</guid>
+      <guid>http://www.stou.dk/topics/surf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Travel</title>
-      <link>http://stou.dk/topics/travel/</link>
+      <link>http://www.stou.dk/topics/travel/</link>
       <pubDate>Tue, 24 Mar 2015 06:53:23 &#43;0530</pubDate>
       
-      <guid>http://stou.dk/topics/travel/</guid>
+      <guid>http://www.stou.dk/topics/travel/</guid>
       <description></description>
     </item>
     
