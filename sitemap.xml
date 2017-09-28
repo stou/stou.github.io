@@ -269,13 +269,13 @@
   </url>
   
   <url>
-    <loc>http://www.stou.dk/tags/programming/</loc>
+    <loc>http://www.stou.dk/topics/programming/</loc>
     <lastmod>2014-11-30T20:49:43+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.stou.dk/topics/programming/</loc>
+    <loc>http://www.stou.dk/tags/programming/</loc>
     <lastmod>2014-11-30T20:49:43+07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -311,14 +311,14 @@
   </url>
   
   <url>
-    <loc>http://www.stou.dk/tags/software-development/</loc>
-    <lastmod>2014-03-18T21:40:42+00:00</lastmod>
+    <loc>http://www.stou.dk/topics/software-development/</loc>
+    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.stou.dk/topics/software-development/</loc>
-    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
+    <loc>http://www.stou.dk/tags/software-development/</loc>
+    <lastmod>2014-03-18T21:40:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -341,13 +341,13 @@
   </url>
   
   <url>
-    <loc>http://www.stou.dk/tags/surf/</loc>
+    <loc>http://www.stou.dk/topics/surf/</loc>
     <lastmod>2014-11-27T17:01:16+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.stou.dk/topics/surf/</loc>
+    <loc>http://www.stou.dk/tags/surf/</loc>
     <lastmod>2014-11-27T17:01:16+07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -371,13 +371,13 @@
   </url>
   
   <url>
-    <loc>http://www.stou.dk/tags/travel/</loc>
+    <loc>http://www.stou.dk/topics/travel/</loc>
     <lastmod>2015-03-24T06:53:23+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.stou.dk/topics/travel/</loc>
+    <loc>http://www.stou.dk/tags/travel/</loc>
     <lastmod>2015-03-24T06:53:23+05:30</lastmod>
     <priority>0</priority>
   </url>
