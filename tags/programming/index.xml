@@ -229,9 +229,11 @@ Use the automatic header generation once a static id can be assigned in hugo
 
 &lt;h2 id=&#34;toc_0&#34;&gt;Støt udviklingen&lt;/h2&gt;
 
-&lt;p&gt;Hvis du synes app&amp;rsquo;en er nyttig, så giv en lille donation og vær med til at støtte udviklingen så jeg kan holde den funktionel i fremtiden.&lt;/p&gt;
-
+&lt;p&gt;Hvis du synes app&amp;rsquo;en er nyttig, så giv en lille donation og vær med til at støtte udviklingen så jeg kan holde den funktionel i fremtiden.
 &lt;div class=&#34;panel text-center&#34;&gt;
+MobilePay: &lt;strong&gt;61&amp;nbsp;67&amp;nbsp;78&amp;nbsp;68&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;eller Paypal&lt;/p&gt;
 
 &lt;form action=&#34;https://www.paypal.com/cgi-bin/webscr&#34; method=&#34;post&#34; target=&#34;_top&#34;&gt;
 &lt;input type=&#34;hidden&#34; name=&#34;cmd&#34; value=&#34;_s-xclick&#34;&gt;
@@ -241,12 +243,12 @@ Use the automatic header generation once a static id can be assigned in hugo
 &lt;img alt=&#34;&#34; border=&#34;0&#34; src=&#34;https://www.paypalobjects.com/da_DK/i/scr/pixel.gif&#34; width=&#34;1&#34; height=&#34;1&#34;&gt;
 &lt;/form&gt;
 
-&lt;script&gt;
-    $(&#39;#frv-paypal-donate-button&#39;).on(&#39;click&#39;, function() {
-      ga(&#39;send&#39;, &#39;event&#39;, &#39;button&#39;, &#39;click&#39;, &#39;frv-paypal-donate-button&#39;);
+&lt;p&gt;&lt;script&gt;
+    $(&amp;lsquo;#frv-paypal-donate-button&amp;rsquo;).on(&amp;lsquo;click&amp;rsquo;, function() {
+      ga(&amp;lsquo;send&amp;rsquo;, &amp;lsquo;event&amp;rsquo;, &amp;lsquo;button&amp;rsquo;, &amp;lsquo;click&amp;rsquo;, &amp;lsquo;frv-paypal-donate-button&amp;rsquo;);
     });
 &lt;/script&gt;
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;brugerne-siger&#34;&gt;Brugerne Siger&lt;/h2&gt;
 
