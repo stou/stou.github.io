@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.stou.dk/project/forecast-app/</loc>
+    <lastmod>2017-11-27T22:12:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/2017/10/</loc>
+    <lastmod>2017-10-25T19:47:23+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.stou.dk/2015/03/mod-nye-eventyr/</loc>
     <lastmod>2015-03-24T06:53:23+05:30</lastmod>
   </url>
@@ -188,11 +198,6 @@
   </url>
   
   <url>
-    <loc>http://www.stou.dk/project/forecast-app/</loc>
-    <lastmod>2014-03-18T21:40:42+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.stou.dk/2013/05/frv-app-new-name/</loc>
     <lastmod>2013-05-29T10:34:42+00:00</lastmod>
   </url>
@@ -204,7 +209,7 @@
   
   <url>
     <loc>http://www.stou.dk/tags/android/</loc>
-    <lastmod>2014-03-18T21:40:42+00:00</lastmod>
+    <lastmod>2017-11-27T22:12:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -252,13 +257,13 @@
   
   <url>
     <loc>http://www.stou.dk/tags/mobile-app/</loc>
-    <lastmod>2014-03-18T21:40:42+00:00</lastmod>
+    <lastmod>2017-11-27T22:12:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.stou.dk/post/</loc>
-    <lastmod>2015-03-24T06:53:23+05:30</lastmod>
+    <lastmod>2017-10-25T19:47:23+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -270,19 +275,19 @@
   
   <url>
     <loc>http://www.stou.dk/tags/programming/</loc>
-    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
+    <lastmod>2017-11-27T22:12:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.stou.dk/topics/programming/</loc>
-    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
+    <lastmod>2017-11-27T22:12:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.stou.dk/project/</loc>
-    <lastmod>2014-03-18T21:40:42+00:00</lastmod>
+    <lastmod>2017-11-27T22:12:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -294,7 +299,7 @@
   
   <url>
     <loc>http://www.stou.dk/tags/sejladsudsigt/</loc>
-    <lastmod>2014-03-18T21:40:42+00:00</lastmod>
+    <lastmod>2017-11-27T22:12:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -312,13 +317,13 @@
   
   <url>
     <loc>http://www.stou.dk/tags/software-development/</loc>
-    <lastmod>2014-03-18T21:40:42+00:00</lastmod>
+    <lastmod>2017-11-27T22:12:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.stou.dk/topics/software-development/</loc>
-    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
+    <lastmod>2017-11-27T22:12:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -330,7 +335,7 @@
   
   <url>
     <loc>http://www.stou.dk/</loc>
-    <lastmod>2015-03-24T06:53:23+05:30</lastmod>
+    <lastmod>2017-11-27T22:12:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -354,7 +359,7 @@
   
   <url>
     <loc>http://www.stou.dk/tags/</loc>
-    <lastmod>2014-03-18T21:40:42+00:00</lastmod>
+    <lastmod>2017-11-27T22:12:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -366,7 +371,7 @@
   
   <url>
     <loc>http://www.stou.dk/topics/</loc>
-    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
+    <lastmod>2017-11-27T22:12:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   

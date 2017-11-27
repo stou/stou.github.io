@@ -7,7 +7,171 @@
     <language>en-us</language>
     <author>Rasmus Stougaard</author>
     <copyright>Copyright (c) 2003 - 2014, Rasmus Stougaard; all rights reserved.</copyright>
-    <updated>Tue, 24 Mar 2015 06:53:23 &#43;0530</updated>
+    <updated>Mon, 27 Nov 2017 22:12:42 &#43;0000</updated>
+    
+    <item>
+      <title>Sejladsudsigt app til Android</title>
+      <link>http://www.stou.dk/project/forecast-app/</link>
+      <pubDate>Mon, 27 Nov 2017 22:12:42 &#43;0000</pubDate>
+      
+      <guid>http://www.stou.dk/project/forecast-app/</guid>
+      <description>
+
+&lt;div class=&#34;small-12 medium-6 columns right&#34;&gt;
+&lt;img src=&#34;http://www.stou.dk/media/project/forecast-app/device-2017-10-12-150758.png&#34; alt=&#34;Sejladsudsigt&#34; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Den første version af &lt;a href=&#34;https://play.google.com/store/apps/details?id=dk.stou.frv&#34;&gt;Sejladsudsigt app&amp;rsquo;en&lt;/a&gt; blev søsat i 2011.
+Dengang havde jeg nok ikke regnet med at den stadig ville være i brug idag.
+Jeg er positivt overrasket over hvor mange der har hentet app’en og bruger den.
+Det kunne være sjovt at vide lidt mere om hvem I er.
+Godt nok er der mange kitesurfere i DK, men helt så mange som har hentet app’en, tror jeg ikke der er.
+Jeg mener at der var en dykker der skrev en anmeldelse på google play, så det bliver åbenbart også brugt i de kredse.&lt;/p&gt;
+
+&lt;p&gt;Siden første version er Farvandsvæsenet blevet nedlagt, og overtaget af forsvarets center for operativ oceanografi.
+Prognoseformatet er blevet ændret væsentligt siden den første version af app’en, så med den seneste opdatering håber jeg at kunne holde den i live et godt stykke tid endnu.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=dk.stou.frv&#34;&gt;Sejladsudsigt&lt;/a&gt; er stadig et en-mands projekt, lavet i min fritid, så jeg håber at få tid til lidt forbedringer hen ad vejen.&lt;/p&gt;
+
+&lt;p&gt;Endnu engang tak for de mange positive tilbagemeldinger.
+Dejligt at høre at det kan bruges.&lt;/p&gt;
+
+&lt;!--
+Use the automatic header generation once a static id can be assigned in hugo
+## Støt udviklingen
+--&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Støt udviklingen&lt;/h2&gt;
+
+&lt;p&gt;Hvis du synes app&amp;rsquo;en er nyttig, så giv en lille donation og vær med til at støtte udviklingen så jeg kan holde den funktionel i fremtiden.&lt;/p&gt;
+
+&lt;div class=&#34;panel text-center&#34;&gt;
+
+&lt;p&gt;MobilePay: &lt;strong&gt;61&amp;nbsp;67&amp;nbsp;78&amp;nbsp;68&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;eller Paypal&lt;/p&gt;
+
+&lt;form action=&#34;https://www.paypal.com/cgi-bin/webscr&#34; method=&#34;post&#34; target=&#34;_top&#34;&gt;
+&lt;input type=&#34;hidden&#34; name=&#34;cmd&#34; value=&#34;_s-xclick&#34;&gt;
+&lt;input type=&#34;hidden&#34; name=&#34;encrypted&#34; value=&#34;-----BEGIN PKCS7-----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-----END PKCS7-----
+&#34;&gt;
+&lt;input id=&#34;frv-paypal-donate-button&#34; type=&#34;image&#34; src=&#34;https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif&#34; border=&#34;0&#34; name=&#34;submit&#34; alt=&#34;PayPal - The safer, easier way to pay online!&#34;&gt;
+&lt;img alt=&#34;&#34; border=&#34;0&#34; src=&#34;https://www.paypalobjects.com/da_DK/i/scr/pixel.gif&#34; width=&#34;1&#34; height=&#34;1&#34;&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+    $(&#39;#frv-paypal-donate-button&#39;).on(&#39;click&#39;, function() {
+      ga(&#39;send&#39;, &#39;event&#39;, &#39;button&#39;, &#39;click&#39;, &#39;frv-paypal-donate-button&#39;);
+    });
+&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;to-the-non-danish-speaking-users&#34;&gt;To the non-danish speaking users&lt;/h2&gt;
+
+&lt;p&gt;I guess there are quite a few of you out there.
+Sorry for all the danish.
+Here is a brief summary.
+Sejladsudsigt is a one-man project done in my spare time.&lt;/p&gt;
+
+&lt;p&gt;If you like the app please consider making a donation and help keep it functional in the future.&lt;/p&gt;
+
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
+
+&lt;p&gt;Her kan du hente &lt;a href=&#34;https://play.google.com/store/apps/details?id=dk.stou.frv&#34;&gt;Sejladsudsigt app&amp;rsquo;en&lt;/a&gt; i google play.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;a href=&#34;https://play.google.com/store/apps/details?id=dk.stou.frv&#34;&gt;
+&lt;img style=&#34;max-width: 300px&#34; src=&#34;http://www.stou.dk/media/project/forecast-app/google-play-badge.png&#34; alt=&#34;Get Sejladsudsigt on Google Play&#34; /&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;brugerne-siger&#34;&gt;Brugerne Siger&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Første præsentation af appen i mit &lt;a href=&#34;http://www.kitefyn.dk/forum/viewtopic.php?f=1&amp;amp;t=2508&#34;&gt;indlæg på det fynske kite forum&lt;/a&gt; med lidt feedback fra de første brugere.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lidt tilbagemeldinger fra brugere på &lt;a href=&#34;http://kitesurferen.dk/forum/2-sporgsmal-og-svar/78314-vejr-app-android&#34;&gt;kitesurferen&lt;/a&gt;. Jeg kan desværre ikke finde min oprindelige post, hvor der var en masse kommentarer fra de første brugere, måske den er blevet slettet. Jeg fandt dog en tråd der omhandler nedetid ifm. overgang fra &lt;a href=&#34;http://kitesurferen.dk/forum/3-gearsnak-og-forhandlernyt/78440-app-og-vind-crash&#34;&gt;FRV til FCOO&lt;/a&gt;, og &lt;a href=&#34;http://kitesurferen.dk/forum/2-sporgsmal-og-svar/78423-android-frv-app&#34;&gt;nyt navn og ekstra features&lt;/a&gt; der er med i opdateringen der skulle til for at håndtere flytningen. Når så en bruger som jeg ikke kender personligt uopfordret vælger at omtale mit arbejde som &amp;raquo;&lt;a href=&#34;http://kitesurferen.dk/forum/2-sporgsmal-og-svar/53910-android-app-til-og-af-surfere-i-stobeskeen#53992&#34;&gt;totalt favorit app&lt;/a&gt;&amp;laquo; fortjener det også et link her.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/dk.stou.frv&#34;&gt;Sejladsudsigt på Facebook&lt;/a&gt; Det er jo så populært, så selvfølgelig har jeg også lavet en lille facebook side.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+
+- Den [første webside jeg lavede om Sejladsudsigt](https://stou.wordpress.com) app&#39;en, fra dengang den stadig hed FRV og Farvandsvæsnet ikke var blevet nedlagt. Der er nogle gode kommentarer fra brugere, altid dejligt. Indhold kommer der nok ikke mere af, da jeg har tænkt mig vedligholde det her.
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.stou.dk/2017/10/</link>
+      <pubDate>Wed, 25 Oct 2017 19:47:23 &#43;0100</pubDate>
+      <author>Rasmus Stougaard</author>
+      <guid>http://www.stou.dk/2017/10/</guid>
+      <description>
+
+&lt;h1 id=&#34;re-design-af-sejladsudsigt-app&#34;&gt;Re-design af Sejladsudsigt App&lt;/h1&gt;
+
+&lt;p&gt;Jeg er skiftet tilbage til Android efter et par år med iPhone.&lt;/p&gt;
+
+&lt;p&gt;I anledning af at FCOO har ændret prognoseformatet har jeg lavet en ny version af &lt;a href=&#34;http://www.stou.dk/project/forecast-app&#34;&gt;Sejladsudsigt app&amp;rsquo;en&lt;/a&gt;, der bruger dette nye format.&lt;/p&gt;
+
+&lt;p&gt;Funktionelt er den ændret lidt i forhold til den tidligere version.
+Prognose området vælges ved at zoome, og valg af prognoselag er simplificeret.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.stou.dk/project/forecast-app&#34;&gt;Sejladsudsigt&lt;/a&gt; er stadig et en-mands projekt, lavet i min fritid, så jeg håber at få tid til lidt forbedringer hen ad vejen.&lt;/p&gt;
+
+&lt;p&gt;Jeg har selv testet den i et stykke tid og brugt den til planlægning af surf og kitesurfing.&lt;/p&gt;
+
+&lt;p&gt;Jeg håber I bliver glade for den nye version.&lt;/p&gt;
+
+&lt;h2 id=&#34;hent-sejladsudsigt-i-google-play&#34;&gt;Hent Sejladsudsigt i Google Play&lt;/h2&gt;
+
+&lt;figure&gt;
+    &lt;a href=&#34;https://play.google.com/store/apps/details?id=dk.stou.frv&#34;&gt;
+        &lt;img style=&#34;max-width: 300px&#34; src=&#34;http://www.stou.dk/media/project/forecast-app/google-play-badge.png&#34; alt=&#34;Get Sejladsudsigt on Google Play&#34; /&gt;
+    &lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h2&gt;
+
+
+&lt;figure &gt;
+
+    &lt;a href=&#34;http://www.stou.dk/media/2017/sejladsudsigt-update/device-2017-10-23-215716.png&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;&#34;
+    &gt;
+
+        &lt;img src=&#34;http://www.stou.dk/media/2017/sejladsudsigt-update/device-2017-10-23-215716.png&#34; alt=&#34;Screenshot vind over nordeuropa&#34; /&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;figure &gt;
+
+    &lt;a href=&#34;http://www.stou.dk/media/2017/sejladsudsigt-update/device-2017-10-12-150828.png&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;&#34;
+    &gt;
+
+        &lt;img src=&#34;http://www.stou.dk/media/2017/sejladsudsigt-update/device-2017-10-12-150828.png&#34; alt=&#34;Screenshot Sliding menu&#34; /&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;figure &gt;
+
+    &lt;a href=&#34;http://www.stou.dk/media/2017/sejladsudsigt-update/device-2017-10-23-215905.png&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;&#34;
+    &gt;
+
+        &lt;img src=&#34;http://www.stou.dk/media/2017/sejladsudsigt-update/device-2017-10-23-215905.png&#34; alt=&#34;Screenshot Nedbør&#34; /&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Mod nye eventyr</title>
@@ -6288,345 +6452,6 @@ Vi sad på gulvet, og fik serveret skåle med flere retter vi kunne spise med ri
     
     &lt;figcaption&gt;
         &lt;h4&gt;Alfred i gang med opsendelse af totrinsraket efter aftensmaden på Kunda - en lækker vegetarrestaurant. Far slår mave og er drengenes rocket science opslagsværk&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Hugo Site Deployment</title>
-      <link>http://www.stou.dk/2014/11/hugo-site-deployment/</link>
-      <pubDate>Sun, 30 Nov 2014 20:49:43 &#43;0700</pubDate>
-      <author>Rasmus Stougaard</author>
-      <guid>http://www.stou.dk/2014/11/hugo-site-deployment/</guid>
-      <description>
-
-
-&lt;figure &gt;
-
-    &lt;a href=&#34;http://www.stou.dk/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  data-lightbox=&#34;slideshow-set&#34;
-    &gt;
-
-        &lt;img src=&#34;http://www.stou.dk/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34; alt=&#34;Texteditor, terminal and browser&#34; /&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;!-- inspired by: https://github.com/spf13/hugo/issues/379 --&gt;
-
-&lt;p&gt;When I started publishing the blog I was using the git subtree approach, as &lt;a href=&#34;http://gohugo.io/tutorials/github_pages_blog/&#34;&gt;suggested in the hugo documentation&lt;/a&gt;.
-However, I tend to mess up my setup when I amend or rebase when working with the local site.&lt;/p&gt;
-
-&lt;p&gt;Since I like to keep things simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages.&lt;/p&gt;
-
-&lt;p&gt;The benefit of this is that I get to review the changes manually before deploying to the live site.&lt;/p&gt;
-
-&lt;h2 id=&#34;workflow&#34;&gt;Workflow&lt;/h2&gt;
-
-&lt;p&gt;Here is the basic outline of my workflow.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;create&lt;/strong&gt; and edit some &lt;strong&gt;content&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;review changes&lt;/strong&gt; by serving up the site &lt;strong&gt;locally&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;make&lt;/strong&gt; as many &lt;strong&gt;commits&lt;/strong&gt; as desired in the site hugo sources&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;build&lt;/strong&gt; the site for deployment&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;review changes&lt;/strong&gt; to the deployment git repo.
-I deliberately want to keep this step manual, since I am using the latest sources for hugo, and sometimes bugs causes weird things to happen to the ouput.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;push&lt;/strong&gt; deployment repo &lt;strong&gt;to github&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;makefile&#34;&gt;Makefile&lt;/h2&gt;
-
-&lt;p&gt;The workflow may seem a little complicated, so I am using a Makefile I have created to avoid having to remember all the commands to type (or mistype, and screw up my site).&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;DEPLOYMENT_REPO=stou.github.io
-
-all: server
-
-build: dist
-
-help:
-    @echo &amp;quot;\033[0;4mAvailable targets:\033[0m&amp;quot;
-    @echo &amp;quot; server - serves up site locally (default target)&amp;quot;
-    @echo &amp;quot; build - build the content for deployment in ${DEPLOYMENT_REPO}&amp;quot;
-
-view:
-    # open front page in browser
-    open http://localhost:1313
-
-server: clean
-    # Server the site up locally
-    hugo server -w  --buildDrafts=true
-
-clean:
-    # clean out the local server build artifacts
-    -rm -r public/*
-
-dist: dist-clean
-    # Build the project for publishing
-    hugo -s . -d ${DEPLOYMENT_REPO}
-
-dist-clean:
-    # clean publishing output dir
-    # NB: Avoid removing the .git folder
-    -rm -r ${DEPLOYMENT_REPO}/*
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This allows me to serve up the site locally simply by running &lt;code&gt;make&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;To build the site for deployment I run &lt;code&gt;make build&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;For the git operations, use whatever tool you are most familiar with. I personally like a combination of the command line and &lt;a href=&#34;http://rowanj.github.io/gitx/&#34;&gt;gitx&lt;/a&gt;, since I am using the Mac.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Koh Lanta SUP Review</title>
-      <link>http://www.stou.dk/2014/11/koh-lanta-sup-review/</link>
-      <pubDate>Thu, 27 Nov 2014 17:01:16 &#43;0700</pubDate>
-      <author>Rasmus Stougaard</author>
-      <guid>http://www.stou.dk/2014/11/koh-lanta-sup-review/</guid>
-      <description>
-
-
-&lt;figure &gt;
-
-    &lt;a href=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8250.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Bølgerne var vel omkring til midt på låret&#34;
-    &gt;
-
-        &lt;img src=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8250.jpg&#34; alt=&#34;Rasmus Stougard på SUP Koh Lanta, Thailand&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Bølgerne var vel omkring til midt på låret&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Jeg fandt en lille bølge på nordvestkysten af Koh Lanta i Thailand.
-Vi var afsted hele familien på scooter, så jeg havde ikke mit eget surfboard med.
-Heldigvis kunne man leje SUPs på stranden, så dagen var redet.&lt;/p&gt;
-
-&lt;p&gt;Her følger en lille beretning min session.&lt;/p&gt;
-
-&lt;h2 id=&#34;kort-om-spottet&#34;&gt;Kort om spottet&lt;/h2&gt;
-
-&lt;p&gt;Bølgerne var lange, relativt små og lukkede hurtigt, så ikke et verdensklasse spot efter min mening.
-Vandet er dog dejligt varmt, ungerne kan bade imens, og der er masser af restauranter langs stranden, så det trækker jo lidt op.&lt;/p&gt;
-
-&lt;p&gt;Da vi ankom lidt før middag var der helt vindstille, og i løbet af eftermiddagen kom der en svag brise, så det var ikke helt glassy.&lt;/p&gt;
-
-&lt;p&gt;Jeg har kun været på Klong Dao Beach denne ene gang, så hvorvidt det var gode eller dårlige forhold ved jeg ikke. Tilgængæld var det over en måned siden jeg sidst havde surfet bølger, så jeg var rigtig &amp;ldquo;sulten&amp;rdquo;.&lt;/p&gt;
-
-&lt;h2 id=&#34;valg-af-board&#34;&gt;Valg af board&lt;/h2&gt;
-
-&lt;p&gt;Udlejeren havde et par modeller at vælge mellem. Jeg valgte den gule: &amp;ldquo;Lifetime model Hooligan&amp;rdquo;. Mest fordi gul er Oskars yndlingsfarve, men også fordi havde en slags finne bagi.&lt;/p&gt;
-
-
-&lt;figure &gt;
-
-    &lt;a href=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8274.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Der var tre flotte farver at vælge mellem&#34;
-    &gt;
-
-        &lt;img src=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8274.jpg&#34; alt=&#34;Rasmus med de tre SUP boards og den fleksible paddel&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Der var tre flotte farver at vælge mellem&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Jeg prøvede også en kort tur på det grønne, men det var alt for stort, og da der ingen finner var på, drejede det næsten en kvart omgang om sig selv efter et enkelt tag.&lt;/p&gt;
-
-&lt;p&gt;Når man ville padle ned af en bølge, kom man derfor nemt til at sejle skråt baglæns, hvis det lykkes at fange den.
-Det kan selvfølgelig være meget sjovt, men nok lidt over mit niveau.&lt;/p&gt;
-
-&lt;p&gt;En positiv detalje ved den grønne model, var at der var et større område med padding på dækket, så det var nemmere at stå fast.&lt;/p&gt;
-
-&lt;p&gt;Den enorme fish tail fik jeg aldrig glæde af inden jeg skiftede tilbage til den gule model.&lt;/p&gt;
-
-&lt;h2 id=&#34;valg-af-paddel&#34;&gt;Valg af paddel&lt;/h2&gt;
-
-&lt;p&gt;Der var to forskellige padler at vælge mellem, begge sorte og samme model. Jeg tog den længste, da den anden vist var designet til det asiatiske marked.&lt;/p&gt;
-
-&lt;p&gt;Håndtaget sad solidt fast, og den kunne justeres i længden. Den jeg ikke valgte kunne dog kun blive kortere.&lt;/p&gt;
-
-&lt;p&gt;Bladet havde et rigtig dejligt blødt flex.
-På vandet føltes det lidt som at røre frikkadeller med en blød silikone dejskraber.&lt;/p&gt;
-
-&lt;p&gt;Det gjorde det ikke nemmere at padle igang,
-men jeg fik da plasket lidt i vandet ved siden af brættet,
-og enkelte gange fik jeg også fart nok i brættet til at komme med ned af bølgen.&lt;/p&gt;
-
-
-&lt;figure &gt;
-
-    &lt;a href=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8252.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Her kan man se det lækre bløde flex i bladet&#34;
-    &gt;
-
-        &lt;img src=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8252.jpg&#34; alt=&#34;Rasmus på den gule SUP. Bladet på padlen bøjer helt bagover når man bruger den.&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Her kan man se det lækre bløde flex i bladet&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Kort efter valgte jeg at droppe padlen, og i stedet padle med armene, med væsentlig større successrate.&lt;/p&gt;
-
-
-&lt;figure &gt;
-
-    &lt;a href=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8267.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;SUP uden paddel&#34;
-    &gt;
-
-        &lt;img src=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8267.jpg&#34; alt=&#34;Rasmus på SUP uden paddel&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;SUP uden paddel&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;h2 id=&#34;flere-lækre-detaljer&#34;&gt;Flere lækre detaljer&lt;/h2&gt;
-
-&lt;p&gt;Efter lidt tid på vandet opdagede jeg flere lækre detaljer ved brættet.&lt;/p&gt;
-
-
-&lt;figure &gt;
-
-    &lt;a href=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8254.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Det lykkes heldigvis at få et par enkelte rides&#34;
-    &gt;
-
-        &lt;img src=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8254.jpg&#34; alt=&#34;Rasmus på SUP på en bølge og med paddel&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Det lykkes heldigvis at få et par enkelte rides&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Finnen kunne slås op, som klap-sværdet på de ældre windsurfboard.
-Super smart, så den ikke knækker, hvis man surfer op på stranden.
-Endvidere klappede den også op når boardet fik en smule fart på ned af en bølge. Dette gjorde det rigtig svært at dreje &amp;ndash; igen, dejligt med udfordringer.&lt;/p&gt;
-
-
-&lt;figure &gt;
-
-    &lt;a href=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8265.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;En lækker detalje der gør at finnen klapper op hvis man surfer op på stranden, eller får lidt fart på&#34;
-    &gt;
-
-        &lt;img src=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8265.jpg&#34; alt=&#34;Rasmus demonstrerer klapfinnen&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;En lækker detalje der gør at finnen klapper op hvis man surfer op på stranden, eller får lidt fart på&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;En anden feature der bidrager til spændingen var den dybe dobbeltkonkav med indlagte huller i kanalerne.
-Disse skaber en masse turbulens under brættet når man får lidt fart på, hvilket også gør det rigtig svært at kontrollere, når det lykkes at fange en bølge.&lt;/p&gt;
-
-
-&lt;figure &gt;
-
-    &lt;a href=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8280.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Bemærk hullerne i den dybe dobbelt konkav&#34;
-    &gt;
-
-        &lt;img src=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8280.jpg&#34; alt=&#34;Rasmus viser de dybe huller i bunden af brættet&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Bemærk hullerne i den dybe dobbelt konkav&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Brættet er ret tungt, på trods af at det er hult, og der er ikke noget bærehåndtag i midten. Der er et i snuden i stedet, og da finnen selv klapper op, og det er støbt i ABS-plast, kan man blot slæbe det hen ad stranden uden at det tager skade.&lt;/p&gt;
-
-&lt;p&gt;Så vidt jeg kunne se, fungerede det øje man kunne binde en leash i (Den manglede desværre) også som en bundprop, så man kunne dræne eventuelt indtrængt vand. Det var dog ikke noget jeg forsøgte på vandet, så måske tager jeg fejl.&lt;/p&gt;
-
-
-&lt;figure &gt;
-
-    &lt;a href=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8268.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Det store board er ret nemt at padle op, men til gengæld meget svært at få til at dreje&#34;
-    &gt;
-
-        &lt;img src=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8268.jpg&#34; alt=&#34;Rasmus surfer på SUP uden paddel&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Det store board er ret nemt at padle op, men til gengæld meget svært at få til at dreje&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Måske for at spare vægt var der kun lagt padding på dækket midt på, så når man surfede bølgen stod man med fødderne direkte på den glatte og våde ABS plastoverflade.&lt;/p&gt;
-
-&lt;p&gt;Det resultede i en del vandture, og da der heller ikke var nogen leash gjalt det om at se sig godt for, så man ikke kom til at ramme de andre badegæster med brættet.&lt;/p&gt;
-
-
-&lt;figure &gt;
-
-    &lt;a href=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8255.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Forsøger man at dreje mister man nemt fodfæstet pga. den glatte plast overflade uden padding&#34;
-    &gt;
-
-        &lt;img src=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8255.jpg&#34; alt=&#34;Rasmus mister fodfæstet i et sving og ryger i vandet&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Forsøger man at dreje mister man nemt fodfæstet pga. den glatte plast overflade uden padding&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;h2 id=&#34;bedømmelse&#34;&gt;Bedømmelse&lt;/h2&gt;
-
-&lt;p&gt;Solidt bræt der sikkert overlever at blive tabt på motorvejen.
-Sejlegenskaberne minder om en sit-on-top kajak, bare langsommere.&lt;/p&gt;
-
-&lt;p&gt;Padlen klarer også at blive brugt som skovl af ungerne, og blive skrabt over rev og sten på bunden uden at bladet tager skade.&lt;/p&gt;
-
-&lt;p&gt;Alt i alt en super session i Thailand på noget udfordrende grej, og som bonus er jeg ikke blevet mindre glad for min SUP og paddel, der stadig står hjemme i Danmark.&lt;/p&gt;
-
-
-&lt;figure &gt;
-
-    &lt;a href=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8256.jpg&#34;  data-lightbox=&#34;slideshow-set&#34; data-title=&#34;Man kan bare lukke øjnene og forestille sig at det går vildt hurtigt&#34;
-    &gt;
-
-        &lt;img src=&#34;http://www.stou.dk/media/2014/koh-lanta-sup-review/IMG_8256.jpg&#34; alt=&#34;Rasmus på SUP uden paddel&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Man kan bare lukke øjnene og forestille sig at det går vildt hurtigt&lt;/h4&gt;
         
     &lt;/figcaption&gt;
     
