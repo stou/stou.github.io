@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.stou.dk/legal/privacy-policy/</loc>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.stou.dk/2018/05/zip-lines-og-reggae/</loc>
     <lastmod>2018-05-14T20:59:27-06:00</lastmod>
   </url>
@@ -281,6 +286,12 @@
   </url>
   
   <url>
+    <loc>http://www.stou.dk/legal/</loc>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.stou.dk/tags/malaysia/</loc>
     <lastmod>2014-11-06T10:49:33+07:00</lastmod>
     <priority>0</priority>
@@ -288,7 +299,7 @@
   
   <url>
     <loc>http://www.stou.dk/tags/mobile-app/</loc>
-    <lastmod>2018-05-06T15:29:42+08:00</lastmod>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -306,13 +317,13 @@
   
   <url>
     <loc>http://www.stou.dk/tags/programming/</loc>
-    <lastmod>2018-05-06T15:29:42+08:00</lastmod>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.stou.dk/topics/programming/</loc>
-    <lastmod>2018-05-06T15:29:42+08:00</lastmod>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -330,7 +341,7 @@
   
   <url>
     <loc>http://www.stou.dk/tags/sejladsudsigt/</loc>
-    <lastmod>2018-05-06T15:29:42+08:00</lastmod>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -348,13 +359,13 @@
   
   <url>
     <loc>http://www.stou.dk/tags/software-development/</loc>
-    <lastmod>2018-05-06T15:29:42+08:00</lastmod>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.stou.dk/topics/software-development/</loc>
-    <lastmod>2018-05-06T15:29:42+08:00</lastmod>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -366,7 +377,7 @@
   
   <url>
     <loc>http://www.stou.dk/</loc>
-    <lastmod>2018-05-14T20:59:27-06:00</lastmod>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -402,7 +413,7 @@
   
   <url>
     <loc>http://www.stou.dk/topics/</loc>
-    <lastmod>2018-05-06T15:29:42+08:00</lastmod>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
     <priority>0</priority>
   </url>
   
