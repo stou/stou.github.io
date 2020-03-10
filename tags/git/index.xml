@@ -1,100 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Stou.dk</title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>git on Stou.dk</title>
     <link>http://www.stou.dk/tags/git/</link>
+    <description>Recent content in git on Stou.dk</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Rasmus Stougaard</author>
     <copyright>Copyright (c) 2003 - 2014, Rasmus Stougaard; all rights reserved.</copyright>
-    <updated>Sun, 30 Nov 2014 20:49:43 &#43;0700</updated>
+    <lastBuildDate>Sun, 30 Nov 2014 20:49:43 +0700</lastBuildDate>
+    
+	<atom:link href="http://www.stou.dk/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Hugo Site Deployment</title>
       <link>http://www.stou.dk/2014/11/hugo-site-deployment/</link>
-      <pubDate>Sun, 30 Nov 2014 20:49:43 &#43;0700</pubDate>
-      <author>Rasmus Stougaard</author>
+      <pubDate>Sun, 30 Nov 2014 20:49:43 +0700</pubDate>
+      
       <guid>http://www.stou.dk/2014/11/hugo-site-deployment/</guid>
-      <description>
-
-
-&lt;figure &gt;
-
-    &lt;a href=&#34;http://www.stou.dk/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34;  data-lightbox=&#34;slideshow-set&#34;
-    &gt;
-
-        &lt;img src=&#34;http://www.stou.dk/media/2014/hugo-site-deployment/publish-workflow-alt.png&#34; alt=&#34;Texteditor, terminal and browser&#34; /&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;!-- inspired by: https://github.com/spf13/hugo/issues/379 --&gt;
-
-&lt;p&gt;When I started publishing the blog I was using the git subtree approach, as &lt;a href=&#34;http://gohugo.io/tutorials/github_pages_blog/&#34;&gt;suggested in the hugo documentation&lt;/a&gt;.
-However, I tend to mess up my setup when I amend or rebase when working with the local site.&lt;/p&gt;
-
-&lt;p&gt;Since I like to keep things simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages.&lt;/p&gt;
-
-&lt;p&gt;The benefit of this is that I get to review the changes manually before deploying to the live site.&lt;/p&gt;
-
-&lt;h2 id=&#34;workflow&#34;&gt;Workflow&lt;/h2&gt;
-
-&lt;p&gt;Here is the basic outline of my workflow.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;create&lt;/strong&gt; and edit some &lt;strong&gt;content&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;review changes&lt;/strong&gt; by serving up the site &lt;strong&gt;locally&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;make&lt;/strong&gt; as many &lt;strong&gt;commits&lt;/strong&gt; as desired in the site hugo sources&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;build&lt;/strong&gt; the site for deployment&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;review changes&lt;/strong&gt; to the deployment git repo.
-I deliberately want to keep this step manual, since I am using the latest sources for hugo, and sometimes bugs causes weird things to happen to the ouput.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;push&lt;/strong&gt; deployment repo &lt;strong&gt;to github&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;makefile&#34;&gt;Makefile&lt;/h2&gt;
-
-&lt;p&gt;The workflow may seem a little complicated, so I am using a Makefile I have created to avoid having to remember all the commands to type (or mistype, and screw up my site).&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;DEPLOYMENT_REPO=stou.github.io
-
-all: server
-
-build: dist
-
-help:
-    @echo &amp;quot;\033[0;4mAvailable targets:\033[0m&amp;quot;
-    @echo &amp;quot; server - serves up site locally (default target)&amp;quot;
-    @echo &amp;quot; build - build the content for deployment in ${DEPLOYMENT_REPO}&amp;quot;
-
-view:
-    # open front page in browser
-    open http://localhost:1313
-
-server: clean
-    # Server the site up locally
-    hugo server -w  --buildDrafts=true
-
-clean:
-    # clean out the local server build artifacts
-    -rm -r public/*
-
-dist: dist-clean
-    # Build the project for publishing
-    hugo -s . -d ${DEPLOYMENT_REPO}
-
-dist-clean:
-    # clean publishing output dir
-    # NB: Avoid removing the .git folder
-    -rm -r ${DEPLOYMENT_REPO}/*
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This allows me to serve up the site locally simply by running &lt;code&gt;make&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;To build the site for deployment I run &lt;code&gt;make build&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;For the git operations, use whatever tool you are most familiar with. I personally like a combination of the command line and &lt;a href=&#34;http://rowanj.github.io/gitx/&#34;&gt;gitx&lt;/a&gt;, since I am using the Mac.&lt;/p&gt;
-</description>
+      <description>When I started publishing the blog I was using the git subtree approach, as suggested in the hugo documentation. However, I tend to mess up my setup when I amend or rebase when working with the local site.
+Since I like to keep things simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages.
+The benefit of this is that I get to review the changes manually before deploying to the live site.</description>
     </item>
     
   </channel>

@@ -1,38 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Stou.dk</title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Tags on Stou.dk</title>
     <link>http://www.stou.dk/tags/</link>
+    <description>Recent content in Tags on Stou.dk</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Rasmus Stougaard</author>
     <copyright>Copyright (c) 2003 - 2014, Rasmus Stougaard; all rights reserved.</copyright>
-    <updated>Sun, 06 May 2018 15:29:42 &#43;0800</updated>
+    <lastBuildDate>Sat, 13 Oct 2018 09:48:42 +0800</lastBuildDate>
+    
+	<atom:link href="http://www.stou.dk/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Android</title>
-      <link>http://www.stou.dk/tags/android/</link>
-      <pubDate>Sun, 06 May 2018 15:29:42 &#43;0800</pubDate>
+      <title>mobile app</title>
+      <link>http://www.stou.dk/tags/mobile-app/</link>
+      <pubDate>Sat, 13 Oct 2018 09:48:42 +0800</pubDate>
       
-      <guid>http://www.stou.dk/tags/android/</guid>
+      <guid>http://www.stou.dk/tags/mobile-app/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bali</title>
-      <link>http://www.stou.dk/tags/bali/</link>
-      <pubDate>Tue, 23 Sep 2014 23:54:42 &#43;0000</pubDate>
+      <title>programming</title>
+      <link>http://www.stou.dk/tags/programming/</link>
+      <pubDate>Sat, 13 Oct 2018 09:48:42 +0800</pubDate>
       
-      <guid>http://www.stou.dk/tags/bali/</guid>
+      <guid>http://www.stou.dk/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>http://www.stou.dk/tags/blog/</link>
-      <pubDate>Sun, 30 Nov 2014 20:49:43 &#43;0700</pubDate>
+      <title>sejladsudsigt</title>
+      <link>http://www.stou.dk/tags/sejladsudsigt/</link>
+      <pubDate>Sat, 13 Oct 2018 09:48:42 +0800</pubDate>
       
-      <guid>http://www.stou.dk/tags/blog/</guid>
+      <guid>http://www.stou.dk/tags/sejladsudsigt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software development</title>
+      <link>http://www.stou.dk/tags/software-development/</link>
+      <pubDate>Sat, 13 Oct 2018 09:48:42 +0800</pubDate>
+      
+      <guid>http://www.stou.dk/tags/software-development/</guid>
       <description></description>
     </item>
     
@@ -46,101 +58,164 @@
     </item>
     
     <item>
-      <title>Denmark</title>
-      <link>http://www.stou.dk/tags/denmark/</link>
-      <pubDate>Wed, 30 Apr 2014 19:47:42 &#43;0000</pubDate>
+      <title>travel</title>
+      <link>http://www.stou.dk/tags/travel/</link>
+      <pubDate>Mon, 14 May 2018 20:59:27 -0600</pubDate>
       
-      <guid>http://www.stou.dk/tags/denmark/</guid>
+      <guid>http://www.stou.dk/tags/travel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Git</title>
+      <title>android</title>
+      <link>http://www.stou.dk/tags/android/</link>
+      <pubDate>Sun, 06 May 2018 15:29:42 +0800</pubDate>
+      
+      <guid>http://www.stou.dk/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>surf</title>
+      <link>http://www.stou.dk/tags/surf/</link>
+      <pubDate>Sat, 21 Apr 2018 15:02:10 -0600</pubDate>
+      
+      <guid>http://www.stou.dk/tags/surf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sri Lanka</title>
+      <link>http://www.stou.dk/tags/sri-lanka/</link>
+      <pubDate>Tue, 24 Mar 2015 06:53:23 +0530</pubDate>
+      
+      <guid>http://www.stou.dk/tags/sri-lanka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thailand</title>
+      <link>http://www.stou.dk/tags/thailand/</link>
+      <pubDate>Wed, 07 Jan 2015 16:31:06 +0700</pubDate>
+      
+      <guid>http://www.stou.dk/tags/thailand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>http://www.stou.dk/tags/blog/</link>
+      <pubDate>Sun, 30 Nov 2014 20:49:43 +0700</pubDate>
+      
+      <guid>http://www.stou.dk/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
       <link>http://www.stou.dk/tags/git/</link>
-      <pubDate>Sun, 30 Nov 2014 20:49:43 &#43;0700</pubDate>
+      <pubDate>Sun, 30 Nov 2014 20:49:43 +0700</pubDate>
       
       <guid>http://www.stou.dk/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hugo</title>
+      <title>hugo</title>
       <link>http://www.stou.dk/tags/hugo/</link>
-      <pubDate>Sun, 30 Nov 2014 20:49:43 &#43;0700</pubDate>
+      <pubDate>Sun, 30 Nov 2014 20:49:43 +0700</pubDate>
       
       <guid>http://www.stou.dk/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Indonesia</title>
-      <link>http://www.stou.dk/tags/indonesia/</link>
-      <pubDate>Tue, 23 Sep 2014 23:54:42 &#43;0000</pubDate>
+      <title>webauthoring</title>
+      <link>http://www.stou.dk/tags/webauthoring/</link>
+      <pubDate>Sun, 30 Nov 2014 20:49:43 +0700</pubDate>
       
-      <guid>http://www.stou.dk/tags/indonesia/</guid>
+      <guid>http://www.stou.dk/tags/webauthoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SUP</title>
+      <link>http://www.stou.dk/tags/sup/</link>
+      <pubDate>Thu, 27 Nov 2014 17:01:16 +0700</pubDate>
+      
+      <guid>http://www.stou.dk/tags/sup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Malaysia</title>
       <link>http://www.stou.dk/tags/malaysia/</link>
-      <pubDate>Thu, 06 Nov 2014 10:49:33 &#43;0700</pubDate>
+      <pubDate>Thu, 06 Nov 2014 10:49:33 +0700</pubDate>
       
       <guid>http://www.stou.dk/tags/malaysia/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mobile App</title>
-      <link>http://www.stou.dk/tags/mobile-app/</link>
-      <pubDate>Sat, 13 Oct 2018 09:48:42 &#43;0800</pubDate>
+      <title>Singapore</title>
+      <link>http://www.stou.dk/tags/singapore/</link>
+      <pubDate>Sun, 05 Oct 2014 10:15:42 +0000</pubDate>
       
-      <guid>http://www.stou.dk/tags/mobile-app/</guid>
+      <guid>http://www.stou.dk/tags/singapore/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Preparation</title>
-      <link>http://www.stou.dk/tags/preparation/</link>
-      <pubDate>Wed, 30 Apr 2014 19:47:42 &#43;0000</pubDate>
+      <title>Bali</title>
+      <link>http://www.stou.dk/tags/bali/</link>
+      <pubDate>Tue, 23 Sep 2014 23:54:42 +0000</pubDate>
       
-      <guid>http://www.stou.dk/tags/preparation/</guid>
+      <guid>http://www.stou.dk/tags/bali/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Programming</title>
-      <link>http://www.stou.dk/tags/programming/</link>
-      <pubDate>Sat, 13 Oct 2018 09:48:42 &#43;0800</pubDate>
+      <title>Indonesia</title>
+      <link>http://www.stou.dk/tags/indonesia/</link>
+      <pubDate>Tue, 23 Sep 2014 23:54:42 +0000</pubDate>
       
-      <guid>http://www.stou.dk/tags/programming/</guid>
+      <guid>http://www.stou.dk/tags/indonesia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vietnam</title>
+      <link>http://www.stou.dk/tags/vietnam/</link>
+      <pubDate>Tue, 29 Jul 2014 09:45:42 +0000</pubDate>
+      
+      <guid>http://www.stou.dk/tags/vietnam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Qatar</title>
       <link>http://www.stou.dk/tags/qatar/</link>
-      <pubDate>Wed, 07 May 2014 17:17:42 &#43;0000</pubDate>
+      <pubDate>Wed, 07 May 2014 17:17:42 +0000</pubDate>
       
       <guid>http://www.stou.dk/tags/qatar/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sejladsudsigt</title>
-      <link>http://www.stou.dk/tags/sejladsudsigt/</link>
-      <pubDate>Sat, 13 Oct 2018 09:48:42 &#43;0800</pubDate>
+      <title>denmark</title>
+      <link>http://www.stou.dk/tags/denmark/</link>
+      <pubDate>Wed, 30 Apr 2014 19:47:42 +0000</pubDate>
       
-      <guid>http://www.stou.dk/tags/sejladsudsigt/</guid>
+      <guid>http://www.stou.dk/tags/denmark/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Singapore</title>
-      <link>http://www.stou.dk/tags/singapore/</link>
-      <pubDate>Sun, 05 Oct 2014 10:15:42 &#43;0000</pubDate>
+      <title>preparation</title>
+      <link>http://www.stou.dk/tags/preparation/</link>
+      <pubDate>Wed, 30 Apr 2014 19:47:42 +0000</pubDate>
       
-      <guid>http://www.stou.dk/tags/singapore/</guid>
+      <guid>http://www.stou.dk/tags/preparation/</guid>
       <description></description>
     </item>
     

@@ -1,6 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.stou.dk/legal/</loc>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/mobile-app/</loc>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
+  </url>
   
   <url>
     <loc>http://www.stou.dk/legal/privacy-policy/</loc>
@@ -8,8 +18,83 @@
   </url>
   
   <url>
+    <loc>http://www.stou.dk/topics/programming/</loc>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/programming/</loc>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/sejladsudsigt/</loc>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/topics/software/</loc>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/topics/software-development/</loc>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/software-development/</loc>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/</loc>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/</loc>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/topics/</loc>
+    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/costa-rica/</loc>
+    <lastmod>2018-05-14T20:59:27-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/post/</loc>
+    <lastmod>2018-05-14T20:59:27-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/topics/travel/</loc>
+    <lastmod>2018-05-14T20:59:27-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/travel/</loc>
+    <lastmod>2018-05-14T20:59:27-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.stou.dk/2018/05/zip-lines-og-reggae/</loc>
     <lastmod>2018-05-14T20:59:27-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/android/</loc>
+    <lastmod>2018-05-06T15:29:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/project/</loc>
+    <lastmod>2018-05-06T15:29:42+08:00</lastmod>
   </url>
   
   <url>
@@ -25,6 +110,11 @@
   <url>
     <loc>http://www.stou.dk/2018/04/surf-eat-sleep-repeat/</loc>
     <lastmod>2018-04-21T20:10:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/surf/</loc>
+    <lastmod>2018-04-21T15:02:10-06:00</lastmod>
   </url>
   
   <url>
@@ -44,6 +134,11 @@
   
   <url>
     <loc>http://www.stou.dk/2015/03/mod-nye-eventyr/</loc>
+    <lastmod>2015-03-24T06:53:23+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/sri-lanka/</loc>
     <lastmod>2015-03-24T06:53:23+05:30</lastmod>
   </url>
   
@@ -78,6 +173,11 @@
   </url>
   
   <url>
+    <loc>http://www.stou.dk/tags/thailand/</loc>
+    <lastmod>2015-01-07T16:31:06+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.stou.dk/2014/12/jul-paa-skinner/</loc>
     <lastmod>2014-12-30T16:30:26+07:00</lastmod>
   </url>
@@ -108,12 +208,42 @@
   </url>
   
   <url>
+    <loc>http://www.stou.dk/tags/blog/</loc>
+    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/git/</loc>
+    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/hugo/</loc>
+    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.stou.dk/2014/11/hugo-site-deployment/</loc>
     <lastmod>2014-11-30T20:49:43+07:00</lastmod>
   </url>
   
   <url>
+    <loc>http://www.stou.dk/tags/webauthoring/</loc>
+    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.stou.dk/2014/11/koh-lanta-sup-review/</loc>
+    <lastmod>2014-11-27T17:01:16+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/sup/</loc>
+    <lastmod>2014-11-27T17:01:16+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/topics/surf/</loc>
     <lastmod>2014-11-27T17:01:16+07:00</lastmod>
   </url>
   
@@ -130,6 +260,11 @@
   <url>
     <loc>http://www.stou.dk/2014/11/not-same-same/</loc>
     <lastmod>2014-11-16T22:42:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/malaysia/</loc>
+    <lastmod>2014-11-06T10:49:33+07:00</lastmod>
   </url>
   
   <url>
@@ -158,8 +293,23 @@
   </url>
   
   <url>
+    <loc>http://www.stou.dk/tags/singapore/</loc>
+    <lastmod>2014-10-05T10:15:42+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.stou.dk/2014/10/tioman-off-season/</loc>
     <lastmod>2014-10-05T10:15:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/bali/</loc>
+    <lastmod>2014-09-23T23:54:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/indonesia/</loc>
+    <lastmod>2014-09-23T23:54:42+00:00</lastmod>
   </url>
   
   <url>
@@ -179,6 +329,11 @@
   
   <url>
     <loc>http://www.stou.dk/2014/07/paradise-hotel/</loc>
+    <lastmod>2014-07-29T09:45:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/vietnam/</loc>
     <lastmod>2014-07-29T09:45:42+00:00</lastmod>
   </url>
   
@@ -218,6 +373,21 @@
   </url>
   
   <url>
+    <loc>http://www.stou.dk/tags/qatar/</loc>
+    <lastmod>2014-05-07T17:17:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/denmark/</loc>
+    <lastmod>2014-04-30T19:47:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.stou.dk/tags/preparation/</loc>
+    <lastmod>2014-04-30T19:47:42+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.stou.dk/2014/04/udflytning-og-arbejdsstop/</loc>
     <lastmod>2014-04-30T19:47:42+00:00</lastmod>
   </url>
@@ -235,210 +405,6 @@
   <url>
     <loc>http://www.stou.dk/2011/02/frv-app-til-android/</loc>
     <lastmod>2011-02-22T21:08:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/android/</loc>
-    <lastmod>2018-05-06T15:29:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/bali/</loc>
-    <lastmod>2014-09-23T23:54:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/blog/</loc>
-    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/costa-rica/</loc>
-    <lastmod>2018-05-14T20:59:27-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/denmark/</loc>
-    <lastmod>2014-04-30T19:47:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/git/</loc>
-    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/hugo/</loc>
-    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/indonesia/</loc>
-    <lastmod>2014-09-23T23:54:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/legal/</loc>
-    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/malaysia/</loc>
-    <lastmod>2014-11-06T10:49:33+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/mobile-app/</loc>
-    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/post/</loc>
-    <lastmod>2018-05-14T20:59:27-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/preparation/</loc>
-    <lastmod>2014-04-30T19:47:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/programming/</loc>
-    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/topics/programming/</loc>
-    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/project/</loc>
-    <lastmod>2018-05-06T15:29:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/qatar/</loc>
-    <lastmod>2014-05-07T17:17:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/sejladsudsigt/</loc>
-    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/singapore/</loc>
-    <lastmod>2014-10-05T10:15:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/topics/software/</loc>
-    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/software-development/</loc>
-    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/topics/software-development/</loc>
-    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/sri-lanka/</loc>
-    <lastmod>2015-03-24T06:53:23+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/</loc>
-    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/sup/</loc>
-    <lastmod>2014-11-27T17:01:16+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/surf/</loc>
-    <lastmod>2018-04-21T15:02:10-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/topics/surf/</loc>
-    <lastmod>2014-11-27T17:01:16+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/</loc>
-    <lastmod>2018-05-06T15:29:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/thailand/</loc>
-    <lastmod>2015-01-07T16:31:06+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/topics/</loc>
-    <lastmod>2018-10-13T09:48:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/travel/</loc>
-    <lastmod>2018-05-14T20:59:27-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/topics/travel/</loc>
-    <lastmod>2018-05-14T20:59:27-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/vietnam/</loc>
-    <lastmod>2014-07-29T09:45:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.stou.dk/tags/webauthoring/</loc>
-    <lastmod>2014-11-30T20:49:43+07:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

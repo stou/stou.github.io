@@ -1,18 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <base href="http://www.stou.dk/">
-  <title>Hugo Site Deployment - Stou.dk </title>
-  <link rel="stylesheet" href="/css/app.css" />
-  <link href="/css/lightbox.css" rel="stylesheet" />
-  <script src="/bower_components/modernizr/modernizr.js"></script>
-  <link rel="alternate" type="application/atom+xml" 
-  title="RSS Feed for stou.dk" 
-  href="http://www.stou.dk/rss.xml" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    
+    <title>Hugo Site Deployment - Stou.dk</title>
+    
+    <link rel="stylesheet" href="/sass/main.min.9e5e80bb1113b3619680b2909b087d084f512fad2c95fb108afda733278200a9.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,91 +57,179 @@
 <meta name="twitter:domain" content="stou.dk">
 
 
-  
-  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <style>
+      body {
+        margin: 0px;
+      }
+    </style>
+    
 
-</head>
-<body>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49034143-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <nav class="top-bar" data-topbar role="navigation">
-    <ul class="title-area">
-      <li class="name">
-        <h1><a href="/">Stou.dk</a></h1>
-      </li>
-      
-      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-    </ul>
+  gtag('config', 'UA-49034143-1');
+</script>
 
-    <section class="top-bar-section">
-      
-      <ul class="right">
-        <li><a href="/tags/travel">Travel</a></li>
+
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <header class="page-header">
+        <nav id="myTopNav" class="top-bar" data-topbar role="navigation">
+    <div class="nav-wrapper">
+        <div class="nav-logo">
+            <h1><a href="/">Stou.dk</a></h1>
+        </div>
+            
+        <div class="nav-toggle">
+            <a href="javascript:void(0);" class="icon" onclick="toggleNavigation()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>    
+    </div>
+   
+  <section class="nav-items">
+    
+    <ul class="tabs">
+      <li><a href="/tags/travel">Travel</a></li>
 
 <li><a href="/project/forecast-app">Sejladsudsigt</a></li>
 <li><a href="/topics/programming">Programming</a></li>
-<li><a href="/post">All Blog Posts</a></li>
+<li><a href="/post">All Posts</a></li>
 
-      </ul>
+    </ul>
+  </section>
+</nav>
+
+<script>
+  function toggleNavigation() {
+    var x = document.getElementById("myTopNav");
+    if (x.className === "top-bar") {
+      x.className += " responsive";
+    } else {
+      x.className = "top-bar";
+    }
+  }
+</script>
+
+      </header>
+
+      <main class="page-main-content">
+          
+
+
+<article class="post">
+  <header>
+
+    <h1 class="post-title">Hugo Site Deployment</h1>
+    <details>
+
+      <summary>
+
+        
+
+        
+        <span class="post-meta">
+          Sun, Nov 30, 2014 - 2 Minute read
+        </span>
+
+        
+        
+          
+          <span class="label">
+            <a href="/tags/programming">#Programming</a>
+          </span>
+          
+          <span class="label">
+            <a href="/tags/blog">#Blog</a>
+          </span>
+          
+          <span class="label">
+            <a href="/tags/webauthoring">#Webauthoring</a>
+          </span>
+          
+          <span class="label">
+            <a href="/tags/hugo">#Hugo</a>
+          </span>
+          
+          <span class="label">
+            <a href="/tags/git">#Git</a>
+          </span>
+          
+        
+      </summary>
+
+ 
+      
+      
+        
+
+
+
+
+
+<div class="child-borders">
+  <div class="toc border" aria-labelledby="toc-heading">
+    <h2 id="toc-heading">Table of contents</h2>
+    <ol>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#workflow">
+            Workflow
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#makefile">
+            Makefile
+          </a>
+        </li>
+      
+    </ol>
+  </div>
+</div>
 
       
-      <ul class="left">
-        
-      </ul>
-    </section>
-  </nav>
-  
+    </details>
 
-  <div class="row">
-    <div class="large-10 large-offset-1 medium-12 columns">
+  </header>
+
+  <main>
+    
 
 
 
-<section>
-	<h1 class="title">Hugo Site Deployment</h1>
-	<div class="post-meta">
-	
-	Sun, Nov 30, 2014 - 2 Minute read
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/programming">#programming</a> </span>
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/blog">#blog</a> </span>
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/webauthoring">#webauthoring</a> </span>
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/hugo">#hugo</a> </span>
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/git">#git</a> </span>
-		
-    </div>
-	
-	<article>
-		
+
+
+
 
 
 <figure >
-
-    <a href="/media/2014/hugo-site-deployment/publish-workflow-alt.png"  data-lightbox="slideshow-set"
-    >
-
+    
         <img src="/media/2014/hugo-site-deployment/publish-workflow-alt.png" alt="Texteditor, terminal and browser" />
-    </a>
+    
     
 </figure>
 
-
 <!-- inspired by: https://github.com/spf13/hugo/issues/379 -->
-
-<p>When I started publishing the blog I was using the git subtree approach, as <a href="http://gohugo.io/tutorials/github_pages_blog/">suggested in the hugo documentation</a>.
+<p>When I started publishing the blog I was using the git subtree approach, as <a href="http://gohugo.io/tutorials/github_pages_blog/">suggested in the hugo documentation</a>. 
 However, I tend to mess up my setup when I amend or rebase when working with the local site.</p>
-
 <p>Since I like to keep things simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages.</p>
-
 <p>The benefit of this is that I get to review the changes manually before deploying to the live site.</p>
-
 <h2 id="workflow">Workflow</h2>
-
 <p>Here is the basic outline of my workflow.</p>
-
 <ol>
 <li><strong>create</strong> and edit some <strong>content</strong></li>
 <li><strong>review changes</strong> by serving up the site <strong>locally</strong></li>
@@ -147,268 +239,725 @@ However, I tend to mess up my setup when I amend or rebase when working with the
 I deliberately want to keep this step manual, since I am using the latest sources for hugo, and sometimes bugs causes weird things to happen to the ouput.</li>
 <li><strong>push</strong> deployment repo <strong>to github</strong></li>
 </ol>
-
 <h2 id="makefile">Makefile</h2>
-
 <p>The workflow may seem a little complicated, so I am using a Makefile I have created to avoid having to remember all the commands to type (or mistype, and screw up my site).</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile">DEPLOYMENT_REPO<span style="color:#f92672">=</span>stou.github.io
 
-<pre><code>DEPLOYMENT_REPO=stou.github.io
+<span style="color:#a6e22e">all</span><span style="color:#f92672">:</span> server
 
-all: server
+<span style="color:#a6e22e">build</span><span style="color:#f92672">:</span> dist
 
-build: dist
+<span style="color:#a6e22e">help</span><span style="color:#f92672">:</span>
+	@echo <span style="color:#e6db74">&#34;\033[0;4mAvailable targets:\033[0m&#34;</span>
+	@echo <span style="color:#e6db74">&#34; server - serves up site locally (default target)&#34;</span>
+	@echo <span style="color:#e6db74">&#34; build - build the content for deployment in </span><span style="color:#e6db74">${</span>DEPLOYMENT_REPO<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
 
-help:
-    @echo &quot;\033[0;4mAvailable targets:\033[0m&quot;
-    @echo &quot; server - serves up site locally (default target)&quot;
-    @echo &quot; build - build the content for deployment in ${DEPLOYMENT_REPO}&quot;
+<span style="color:#a6e22e">view</span><span style="color:#f92672">:</span>
+	<span style="color:#75715e"># open front page in browser</span>
+	open http://localhost:1313
 
-view:
-    # open front page in browser
-    open http://localhost:1313
+<span style="color:#a6e22e">server</span><span style="color:#f92672">:</span> clean
+	<span style="color:#75715e"># Server the site up locally</span>
+	hugo server -w  --buildDrafts<span style="color:#f92672">=</span>true
 
-server: clean
-    # Server the site up locally
-    hugo server -w  --buildDrafts=true
+<span style="color:#a6e22e">clean</span><span style="color:#f92672">:</span>
+	<span style="color:#75715e"># clean out the local server build artifacts</span>
+	-rm -r public/*
 
-clean:
-    # clean out the local server build artifacts
-    -rm -r public/*
+<span style="color:#a6e22e">dist</span><span style="color:#f92672">:</span> dist-clean
+	<span style="color:#75715e"># Build the project for publishing</span>
+	hugo -s . -d <span style="color:#e6db74">${</span>DEPLOYMENT_REPO<span style="color:#e6db74">}</span>
 
-dist: dist-clean
-    # Build the project for publishing
-    hugo -s . -d ${DEPLOYMENT_REPO}
-
-dist-clean:
-    # clean publishing output dir
-    # NB: Avoid removing the .git folder
-    -rm -r ${DEPLOYMENT_REPO}/*
-</code></pre>
-
+<span style="color:#a6e22e">dist-clean</span><span style="color:#f92672">:</span>
+	<span style="color:#75715e"># clean publishing output dir</span>
+	<span style="color:#75715e"># NB: Avoid removing the .git folder</span>
+	-rm -r <span style="color:#e6db74">${</span>DEPLOYMENT_REPO<span style="color:#e6db74">}</span>/*
+</code></pre></div>
 <p>This allows me to serve up the site locally simply by running <code>make</code>.</p>
-
 <p>To build the site for deployment I run <code>make build</code>.</p>
-
 <p>For the git operations, use whatever tool you are most familiar with. I personally like a combination of the command line and <a href="http://rowanj.github.io/gitx/">gitx</a>, since I am using the Mac.</p>
 
-	</article>
-</section>
+  </main>
 
+</article>
 
+<section class="post-nav">
+    
 
-<div class="panel clearfix">
+    <article class="prev">
 
-<div>
+        
+    
+
+    
+    <a href='/2014/11/koh-lanta-sup-review/'>
+    <picture>
+        <img
+          src="/media/2014/koh-lanta-sup-review/IMG_8265.jpg"
+          alt="Flowers"
+        />
+      </picture>
+    </a>
+    
+
+    <h2><a href='/2014/11/koh-lanta-sup-review/'>Koh Lanta SUP Review</a></h2>
+
+      <p class="subheader">Rejseberetning fra Thailand. SUP på Klong Dao Beach, Koh Lanta</p>
+      <p class="post-meta">
+        
+        
+        Thu, Nov 27, 2014 - 2&nbsp;Minute&nbsp;read
+      </p>
+  
+      
+</article>
 
   
-  <article class="post medium-6 small-12 columns">
+
+ 
   
-
+  <article class="next">
     
-      <a href='http://www.stou.dk/2014/12/tour-de-lanta/'><img src="/media/2014/tour-de-lanta/IMG_3765.jpg" /></a>
-    
+    <a href='/2014/12/tour-de-lanta/'>
+        <picture>
+            <img
+              src="/media/2014/tour-de-lanta/IMG_3765.jpg"
+              alt="Cover image for post: Tour de Lanta"
+            />
+          </picture>
+        </a>
+        
 
-    <h3>
-      <a href='http://www.stou.dk/2014/12/tour-de-lanta/'>Tour de Lanta</a>
-    </h3>
-
-    <h6 class="subheader">Rejseberetning fra Ko Lanta i Thailand. Swimmingpool, elefanter, regnvejr og beach volley.</h6>
-
-    <p class="post-meta">
-    
-    Mon, Dec 8, 2014 - 5&nbsp;Minute&nbsp;read</p>
-    
-  </article>
-
-
-
-
-  
-  <article class="post medium-6 small-12 columns">
-  
-
-    
-      <a href='http://www.stou.dk/2014/11/koh-lanta-sup-review/'><img src="/media/2014/koh-lanta-sup-review/IMG_8265.jpg" /></a>
-    
-
-    <h3>
-    <a href='http://www.stou.dk/2014/11/koh-lanta-sup-review/'>Koh Lanta SUP Review</a>
-    </h3>
-
-    <h6 class="subheader">Rejseberetning fra Thailand. SUP på Klong Dao Beach, Koh Lanta</h6>
-
+    <h2><a href='/2014/12/tour-de-lanta/'>Tour de Lanta</a></h2>
+    <p class="subheader">Rejseberetning fra Ko Lanta i Thailand. Swimmingpool, elefanter, regnvejr og beach volley.</p>
     <p class="post-meta">
       
-      Thu, Nov 27, 2014 - 5&nbsp;Minute&nbsp;read</p>
+      
+      Mon, Dec 8, 2014 - 2&nbsp;Minute&nbsp;read
+    </p>
 
     
-  </article>
-
-
-</div>
-</div>
-
-
-<aside id=comments>
-    <div><h2>Comments</h2></div>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-
-
-    (function() {
-        
-        
-        if (window.location.hostname == "localhost") {
-            return;
-        }
-
-        var disqus_shortname = 'stoudk';
-        var disqus_identifier = 'http:\/\/www.stou.dk\/2014\/11\/hugo-site-deployment\/';
-        var disqus_title = 'Hugo Site Deployment';
-        var disqus_url = 'http:\/\/www.stou.dk\/2014\/11\/hugo-site-deployment\/';
-
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</aside>
-
-
-<div class="clearfix"></div>
-<div>
-<h2>Latest posts</h2>
-  
-  <article class="post clearfix">
-	
-	<div class="medium-7 small-12 columns">
-		<a class="list-cover-image" href='http://www.stou.dk/2018/05/zip-lines-og-reggae/'><img src="/2018/05/zip-lines-og-reggae/img/20180423_102827.jpg" /></a>
-	</div>
-	
-	<header>
-		<h2>
-		<a href='http://www.stou.dk/2018/05/zip-lines-og-reggae/'> Zip Lines og Reggae</a>
-		</h2>
-		<h6 class="subheader">Rejseberetning fra Costa Rica</h6>
-		<div class="post-meta">
-		
-		Mon, May 14, 2018 - 
-		
-		6&nbsp;Minute&nbsp;read
-		
-		</div>
-			
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/travel">#travel</a> </span>
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/costa-rica">#costa rica</a> </span>
-	
-
-	</header>
-
-	<div class="show-for-medium-up">
-		
-		<p>Hjemmefra havde vi blandt andet solgt turen til Costa Rica til drengene ved, at fortælle, at der skulle være nogle ret seje svævebaner man kunne prøve. Det er i Monteverde, at det virkeligt spiller - det der med svævebaner. Derfor var det næste stop på turen.</p>
-		
-	</div>
-	<footer>
-		<a href='http://www.stou.dk/2018/05/zip-lines-og-reggae/'><nobr>Read more →</nobr></a>
-	</footer>
+      
 </article>
-
-  
-  <article class="post clearfix">
-	
-	<div class="medium-7 small-12 columns">
-		<a class="list-cover-image" href='http://www.stou.dk/2018/04/broeleaber/'><img src="/2018/04/broeleaber/img/IMG_2447.jpg" /></a>
-	</div>
-	
-	<header>
-		<h2>
-		<a href='http://www.stou.dk/2018/04/broeleaber/'> Brøleaber</a>
-		</h2>
-		<h6 class="subheader">Rejseberetning fra Costa Rica</h6>
-		<div class="post-meta">
-		
-		Fri, Apr 27, 2018 - 
-		
-		6&nbsp;Minute&nbsp;read
-		
-		</div>
-			
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/travel">#travel</a> </span>
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/costa-rica">#costa rica</a> </span>
-	
-
-	</header>
-
-	<div class="show-for-medium-up">
-		
-		<p>Efter en del dage i surfparadis var selv vi, klar til at komme ud og se lidt mere af Costa Rica. I første omgang var vi blevet enige om, at køre videre til Nosara. Det ligger ca. 100 km op af kysten fra Santa Teresa.
-Det ville være muligt, at køre derop ad kystvejen men det kræver, at man krydser et par floder. Da det ikke på forhånd var til at sige, om det var tørt nok til, at krydse floderne, besluttede vi - dvs. Helene bestemte det - at køre den sikre tur på små 200 km udenom.</p>
-		
-	</div>
-	<footer>
-		<a href='http://www.stou.dk/2018/04/broeleaber/'><nobr>Read more →</nobr></a>
-	</footer>
-</article>
-
-  
-</div>
-
-</div>
-</div>
-
-
-<footer class="panel">
-  <div class="row">
-    <div class="large-8 medium-12 columns">
-      <section id="author">
-
 
 </section>
-<p class="copyright">© 2003‐2018 stou.dk. All rights reserved.
-<a href="/legal/privacy-policy">Privatlivspolitik</a></p>
 
+
+<div class="well">
+    <div class="tag-cloud">
+    <h1><a href="/post" title="All posts">More Blog Posts</a></h1>
+
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <div class="tags">
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/android'
+                        style="font-size:1.5586010916991393em"
+                        title='4 posts tagged Android'
+                        >
+                            #Android
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/bali'
+                        style="font-size:1.9879016375487089em"
+                        title='8 posts tagged Bali'
+                        >
+                            #Bali
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/blog'
+                        style="font-size:1.1293005458495697em"
+                        title='2 posts tagged Blog'
+                        >
+                            #Blog
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/costa-rica'
+                        style="font-size:1.696804998558596em"
+                        title='5 posts tagged Costa Rica'
+                        >
+                            #Costa Rica
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/denmark'
+                        style="font-size:1.1293005458495697em"
+                        title='2 posts tagged Denmark'
+                        >
+                            #Denmark
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/git'
+                        style="font-size:0.7em"
+                        title='1 posts tagged Git'
+                        >
+                            #Git
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/hugo'
+                        style="font-size:1.1293005458495697em"
+                        title='2 posts tagged Hugo'
+                        >
+                            #Hugo
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/indonesia'
+                        style="font-size:1.9879016375487089em"
+                        title='8 posts tagged Indonesia'
+                        >
+                            #Indonesia
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/malaysia'
+                        style="font-size:1.809725812560261em"
+                        title='6 posts tagged Malaysia'
+                        >
+                            #Malaysia
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/mobile-app'
+                        style="font-size:1.696804998558596em"
+                        title='5 posts tagged Mobile App'
+                        >
+                            #Mobile App
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/preparation'
+                        style="font-size:1.1293005458495697em"
+                        title='2 posts tagged Preparation'
+                        >
+                            #Preparation
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/programming'
+                        style="font-size:1.9051990004328057em"
+                        title='7 posts tagged Programming'
+                        >
+                            #Programming
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/qatar'
+                        style="font-size:0.7em"
+                        title='1 posts tagged Qatar'
+                        >
+                            #Qatar
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/sejladsudsigt'
+                        style="font-size:1.696804998558596em"
+                        title='5 posts tagged Sejladsudsigt'
+                        >
+                            #Sejladsudsigt
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/singapore'
+                        style="font-size:0.7em"
+                        title='1 posts tagged Singapore'
+                        >
+                            #Singapore
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/software-development'
+                        style="font-size:1.696804998558596em"
+                        title='5 posts tagged Software Development'
+                        >
+                            #Software Development
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/sri-lanka'
+                        style="font-size:1.809725812560261em"
+                        title='6 posts tagged Sri Lanka'
+                        >
+                            #Sri Lanka
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/sup'
+                        style="font-size:0.7em"
+                        title='1 posts tagged Sup'
+                        >
+                            #Sup
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/surf'
+                        style="font-size:1.1293005458495697em"
+                        title='2 posts tagged Surf'
+                        >
+                            #Surf
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/thailand'
+                        style="font-size:2.126105544408166em"
+                        title='10 posts tagged Thailand'
+                        >
+                            #Thailand
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/travel'
+                        style="font-size:2.9847066361073056em"
+                        title='40 posts tagged Travel'
+                        >
+                            #Travel
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/vietnam'
+                        style="font-size:1.1293005458495697em"
+                        title='2 posts tagged Vietnam'
+                        >
+                            #Vietnam
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/webauthoring'
+                        style="font-size:1.1293005458495697em"
+                        title='2 posts tagged Webauthoring'
+                        >
+                            #Webauthoring
+                            
+                    </a>
+            
+        </div>
+    
+    
     </div>
-  </div>
-</footer>
+</div>
+
+<h1>Latest posts</h1>
 
 
-<script src="/bower_components/foundation/js/foundation.min.js"></script>
-<script src="/js/app.js"></script>
-<script src="/js/lightbox.js"></script>
 
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<main class="post-list">
+  <section class="post-list-wrapper">
+     
+        
 
-	
-	var hasConsole = (typeof console !== 'undefined');
-	if(/localhost/.test(window.location.hostname)) {
 
-		var disableStr = 'ga-disable-' + 'UA-49034143-1';
+  
 
-		if(hasConsole){
-			console.log("Running non-production google analytics replacement now"); 
-			ga = function(arg) { 
-				console.log("ga:", arguments);
-			};
-		} else {
-			window[disableStr] = true;
-		}
-	}
-	
 
-	ga('create', 'UA-49034143-1', 'stou.dk');
-	ga('send', 'pageview');
-</script>
 
-</body>
+
+<article class="post-list-item  has-cover-image">
+  
+  <section class="cover-image">
+    <a class="list-cover-image" href="/2018/05/zip-lines-og-reggae/">
+      <img src="/2018/05/zip-lines-og-reggae/img/20180423_102827.jpg" />
+    </a>
+  </section>
+  
+
+  <section class="post-details">
+    <header>
+      <h1>
+        <a href="/2018/05/zip-lines-og-reggae/">Zip Lines og Reggae</a>
+      </h1>
+      
+      <p class="post-description">Rejseberetning fra Costa Rica</p>
+      
+      <div class="post-meta">
+        
+        Mon, May 14, 2018 -
+        
+        6&nbsp;Minute&nbsp;read
+        
+      </div>
+       
+      <span class="label">
+        <a href='/tags/travel'>#Travel</a>
+      </span>
+      
+      <span class="label">
+        <a href='/tags/costa-rica'>#Costa Rica</a>
+      </span>
+      
+    </header>
+
+    
+    <p class="post-summary">
+      
+      
+      Hjemmefra havde vi blandt andet solgt turen til Costa Rica til drengene ved, at fortælle, at der skulle være nogle ret seje svævebaner man kunne prøve. Det er i Monteverde, at det virkeligt spiller - det der med svævebaner. Derfor var det næste stop på turen.
+      
+    </p>
+    
+
+    <footer>
+      <a href="/2018/05/zip-lines-og-reggae/"><nobr>Read more →</nobr></a>
+    </footer>
+  </section>
+</article>
+
+     
+        
+
+
+  
+
+
+
+
+<article class="post-list-item  has-cover-image">
+  
+  <section class="cover-image">
+    <a class="list-cover-image" href="/2018/04/broeleaber/">
+      <img src="/2018/04/broeleaber/img/IMG_2447.jpg" />
+    </a>
+  </section>
+  
+
+  <section class="post-details">
+    <header>
+      <h1>
+        <a href="/2018/04/broeleaber/">Brøleaber</a>
+      </h1>
+      
+      <p class="post-description">Rejseberetning fra Costa Rica</p>
+      
+      <div class="post-meta">
+        
+        Fri, Apr 27, 2018 -
+        
+        6&nbsp;Minute&nbsp;read
+        
+      </div>
+       
+      <span class="label">
+        <a href='/tags/travel'>#Travel</a>
+      </span>
+      
+      <span class="label">
+        <a href='/tags/costa-rica'>#Costa Rica</a>
+      </span>
+      
+    </header>
+
+    
+    <p class="post-summary">
+      
+      
+      Efter en del dage i surfparadis var selv vi, klar til at komme ud og se lidt mere af Costa Rica. I første omgang var vi blevet enige om, at køre videre til Nosara. Det ligger ca. 100 km op af kysten fra Santa Teresa.
+Det ville være muligt, at køre derop ad kystvejen men det kræver, at man krydser et par floder. Da det ikke på forhånd var til at sige, om det var tørt nok til, at krydse floderne, besluttede vi - dvs. Helene bestemte det - at køre den sikre tur på små 200 km udenom.
+      
+    </p>
+    
+
+    <footer>
+      <a href="/2018/04/broeleaber/"><nobr>Read more →</nobr></a>
+    </footer>
+  </section>
+</article>
+
+     
+        
+
+
+  
+
+
+
+
+<article class="post-list-item  has-cover-image">
+  
+  <section class="cover-image">
+    <a class="list-cover-image" href="/2018/04/surf-eat-sleep-repeat/">
+      <img src="/2018/04/surf-eat-sleep-repeat/img/IMG_2297.jpg" />
+    </a>
+  </section>
+  
+
+  <section class="post-details">
+    <header>
+      <h1>
+        <a href="/2018/04/surf-eat-sleep-repeat/">Surf Eat Sleep Repeat</a>
+      </h1>
+      
+      <p class="post-description">Rejseberetning fra Costa Rica</p>
+      
+      <div class="post-meta">
+        
+        Sat, Apr 21, 2018 -
+        
+        7&nbsp;Minute&nbsp;read
+        
+      </div>
+       
+      <span class="label">
+        <a href='/tags/travel'>#Travel</a>
+      </span>
+      
+      <span class="label">
+        <a href='/tags/costa-rica'>#Costa Rica</a>
+      </span>
+      
+    </header>
+
+    
+    <p class="post-summary">
+      
+      
+      Nu er vi kommet til Nosara, hvor vi praktisk talt har en ranch lidt oppe af en bjergskråning for os selv. Det vil sige, at vi har lejet et af værelserne, men da det er lavsæson nu, er vi de eneste gæster. Her er både swimming pool, havudsigt og en irsk pub.
+De sidste par uger, inden vi kom hertil, er gået med surf leg på Playa Hermosa.
+      
+    </p>
+    
+
+    <footer>
+      <a href="/2018/04/surf-eat-sleep-repeat/"><nobr>Read more →</nobr></a>
+    </footer>
+  </section>
+</article>
+
+     
+        
+
+
+  
+
+
+
+
+<article class="post-list-item  has-cover-image">
+  
+  <section class="cover-image">
+    <a class="list-cover-image" href="/2018/04/surfsponsorl%C3%B8b/">
+      <img src="/2018/04/surfsponsorl%c3%b8b/img/20180418_104803.jpg" />
+    </a>
+  </section>
+  
+
+  <section class="post-details">
+    <header>
+      <h1>
+        <a href="/2018/04/surfsponsorl%C3%B8b/">Surfsponsorløb</a>
+      </h1>
+      
+      <p class="post-description">Rejseberetning fra Costa Rica</p>
+      
+      <div class="post-meta">
+        
+        Sat, Apr 21, 2018 -
+        
+        2&nbsp;Minute&nbsp;read
+        
+      </div>
+       
+      <span class="label">
+        <a href='/tags/travel'>#Travel</a>
+      </span>
+      
+      <span class="label">
+        <a href='/tags/costa-rica'>#Costa Rica</a>
+      </span>
+      
+      <span class="label">
+        <a href='/tags/surf'>#Surf</a>
+      </span>
+      
+    </header>
+
+    
+    <p class="post-summary">
+      
+      
+      Det at vi ikke var i Danmark eller havde cykler til rådighed skulle ikke forhindre drengene i at give deres bidrag til indsamlingen af penge til en ny legeplads på skolen.
+Som en alternativ løsning fandt vi på et andet koncept til indsamling af penge fra sponsorer.
+      
+    </p>
+    
+
+    <footer>
+      <a href="/2018/04/surfsponsorl%C3%B8b/"><nobr>Read more →</nobr></a>
+    </footer>
+  </section>
+</article>
+
+    
+  </section>
+</main>
+
+
+
+
+
+      </main>
+
+      <footer class="page-footer">
+        <div class="footer-content">
+          
+
+<p class="copyright"><a href="/">Stou.dk</a> © 2003‐2020. All rights reserved.
+</p>
+<p><a href="/legal/privacy-policy">Privatlivspolitik</a></p>
+
+        </div>
+      </footer>
+    </div>
+    
+  </body>
 </html>

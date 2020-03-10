@@ -1,18 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <base href="http://www.stou.dk/">
-  <title>Sejladsudsigt app til Android - Stou.dk </title>
-  <link rel="stylesheet" href="/css/app.css" />
-  <link href="/css/lightbox.css" rel="stylesheet" />
-  <script src="/bower_components/modernizr/modernizr.js"></script>
-  <link rel="alternate" type="application/atom+xml" 
-  title="RSS Feed for stou.dk" 
-  href="http://www.stou.dk/rss.xml" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    
+    <title>Sejladsudsigt app til Android - Stou.dk</title>
+    
+    <link rel="stylesheet" href="/sass/main.min.9e5e80bb1113b3619680b2909b087d084f512fad2c95fb108afda733278200a9.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,104 +57,97 @@
 <meta name="twitter:domain" content="stou.dk">
 
 
-  
-  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <style>
+      body {
+        margin: 0px;
+      }
+    </style>
+    
 
-</head>
-<body>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49034143-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <nav class="top-bar" data-topbar role="navigation">
-    <ul class="title-area">
-      <li class="name">
-        <h1><a href="/">Stou.dk</a></h1>
-      </li>
-      
-      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-    </ul>
+  gtag('config', 'UA-49034143-1');
+</script>
 
-    <section class="top-bar-section">
-      
-      <ul class="right">
-        <li><a href="/tags/travel">Travel</a></li>
+
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <header class="page-header">
+        <nav id="myTopNav" class="top-bar" data-topbar role="navigation">
+    <div class="nav-wrapper">
+        <div class="nav-logo">
+            <h1><a href="/">Stou.dk</a></h1>
+        </div>
+            
+        <div class="nav-toggle">
+            <a href="javascript:void(0);" class="icon" onclick="toggleNavigation()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>    
+    </div>
+   
+  <section class="nav-items">
+    
+    <ul class="tabs">
+      <li><a href="/tags/travel">Travel</a></li>
 
 <li><a href="/project/forecast-app">Sejladsudsigt</a></li>
 <li><a href="/topics/programming">Programming</a></li>
-<li><a href="/post">All Blog Posts</a></li>
+<li><a href="/post">All Posts</a></li>
 
-      </ul>
+    </ul>
+  </section>
+</nav>
 
-      
-      <ul class="left">
-        
-      </ul>
-    </section>
-  </nav>
-  
+<script>
+  function toggleNavigation() {
+    var x = document.getElementById("myTopNav");
+    if (x.className === "top-bar") {
+      x.className += " responsive";
+    } else {
+      x.className = "top-bar";
+    }
+  }
+</script>
 
-  <div class="row">
-    <div class="large-10 large-offset-1 medium-12 columns">
+      </header>
 
+      <main class="page-main-content">
+          
+<article class="post">
+  <header>
+    <h1 class="post-title">Sejladsudsigt app til Android</h1>
+  </header>
 
-
-<section>
-	<h1 class="title">Sejladsudsigt app til Android</h1>
-	<div class="post-meta">
-	
-	Sun, May 6, 2018 - 2 Minute read
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/programming">#programming</a> </span>
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/android">#android</a> </span>
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/mobile-app">#mobile app</a> </span>
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/software-development">#software development</a> </span>
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/sejladsudsigt">#sejladsudsigt</a> </span>
-		
-    </div>
-	
-	<article>
-		
-
-
-
-
-
-<div class="small-12 medium-6 columns right">
+  <main>
+    <div class="right">
 <img src="/media/project/forecast-app/device-2017-10-12-150758.png" alt="Sejladsudsigt" />
 </div>
-
-<p>Den første version af <a href="https://play.google.com/store/apps/details?id=dk.stou.frv">Sejladsudsigt app&rsquo;en</a> blev søsat i 2011.
-Dengang havde jeg nok ikke regnet med at den stadig ville være i brug idag.
-Jeg er positivt overrasket over hvor mange der har hentet app’en og bruger den.
-Det kunne være sjovt at vide lidt mere om hvem I er.
-Godt nok er der mange kitesurfere i DK, men helt så mange som har hentet app’en, tror jeg ikke der er.
+<p>Den første version af <a href="https://play.google.com/store/apps/details?id=dk.stou.frv">Sejladsudsigt app&rsquo;en</a> blev søsat i 2011. 
+Dengang havde jeg nok ikke regnet med at den stadig ville være i brug idag. 
+Jeg er positivt overrasket over hvor mange der har hentet app’en og bruger den. 
+Det kunne være sjovt at vide lidt mere om hvem I er. 
+Godt nok er der mange kitesurfere i DK, men helt så mange som har hentet app’en, tror jeg ikke der er. 
 Jeg mener at der var en dykker der skrev en anmeldelse på google play, så det bliver åbenbart også brugt i de kredse.</p>
-
 <p>Siden første version er Farvandsvæsenet blevet nedlagt, og overtaget af forsvarets center for operativ oceanografi.
 Prognoseformatet er blevet ændret væsentligt siden den første version af app’en, så med den seneste opdatering håber jeg at kunne holde den i live et godt stykke tid endnu.</p>
-
 <p><a href="https://play.google.com/store/apps/details?id=dk.stou.frv">Sejladsudsigt</a> er stadig et en-mands projekt, lavet i min fritid, så jeg håber at få tid til lidt forbedringer hen ad vejen.</p>
-
 <p>Endnu engang tak for de mange positive tilbagemeldinger.
 Dejligt at høre at det kan bruges.</p>
 
-<!--
-Use the automatic header generation once a static id can be assigned in hugo
-## Støt udviklingen
--->
+
 
 <h2 id="toc_0">Støt udviklingen</h2>
-
 <p>Hvis du synes app&rsquo;en er nyttig, så giv en lille donation og vær med til at støtte udviklingen så jeg kan holde den funktionel i fremtiden.</p>
-
-<div class="panel text-center">
-
+<div class="box center">
 <p>MobilePay: <strong>61&nbsp;67&nbsp;78&nbsp;68</strong></p>
-
 <p>eller Paypal</p>
-
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
@@ -159,265 +156,409 @@ Use the automatic header generation once a static id can be assigned in hugo
 <img alt="" border="0" src="https://www.paypalobjects.com/da_DK/i/scr/pixel.gif" width="1" height="1">
 </form>
 
+
+
 <script>
-    $('#frv-paypal-donate-button').on('click', function() {
-      ga('send', 'event', 'button', 'click', 'frv-paypal-donate-button');
-    });
+	document.getElementById('frv-paypal-donate-button').addEventListener('click', function(event) {
+	  gtag('event','frv-paypal-donate-button');
+	});
 </script>
 </div>
-
 <h2 id="to-the-non-danish-speaking-users">To the non-danish speaking users</h2>
-
 <p>I guess there are quite a few of you out there.
-Sorry for all the danish.
+Sorry for all the danish. 
 Here is a brief summary.
 Sejladsudsigt is a one-man project done in my spare time.</p>
-
 <p>If you like the app please consider making a donation and help keep it functional in the future.</p>
-
 <h2 id="download">Download</h2>
-
 <p>Her kan du hente <a href="https://play.google.com/store/apps/details?id=dk.stou.frv">Sejladsudsigt app&rsquo;en</a> i google play.</p>
-
 <figure>
-<a href="https://play.google.com/store/apps/details?id=dk.stou.frv">
+<a id="google-play-download-button" href="https://play.google.com/store/apps/details?id=dk.stou.frv">
 <img style="max-width: 300px" src="/media/project/forecast-app/google-play-badge.png" alt="Get Sejladsudsigt on Google Play" />
 </a>
 </figure>
-
+<script>
+	document.getElementById('google-play-download-button').addEventListener('click', function(event) {
+	  gtag('event','google-play-download-button');
+	});
+</script>
 <h2 id="brugerne-siger">Brugerne Siger</h2>
-
 <ul>
-<li><p>Første præsentation af appen i mit <a href="http://www.kitefyn.dk/forum/viewtopic.php?f=1&amp;t=2508">indlæg på det fynske kite forum</a> med lidt feedback fra de første brugere.</p></li>
-
-<li><p>Lidt tilbagemeldinger fra brugere på <a href="http://kitesurferen.dk/forum/2-sporgsmal-og-svar/78314-vejr-app-android">kitesurferen</a>. Jeg kan desværre ikke finde min oprindelige post, hvor der var en masse kommentarer fra de første brugere, måske den er blevet slettet. Jeg fandt dog en tråd der omhandler nedetid ifm. overgang fra <a href="http://kitesurferen.dk/forum/3-gearsnak-og-forhandlernyt/78440-app-og-vind-crash">FRV til FCOO</a>, og <a href="http://kitesurferen.dk/forum/2-sporgsmal-og-svar/78423-android-frv-app">nyt navn og ekstra features</a> der er med i opdateringen der skulle til for at håndtere flytningen. Når så en bruger som jeg ikke kender personligt uopfordret vælger at omtale mit arbejde som &raquo;<a href="http://kitesurferen.dk/forum/2-sporgsmal-og-svar/53910-android-app-til-og-af-surfere-i-stobeskeen#53992">totalt favorit app</a>&laquo; fortjener det også et link her.</p></li>
-
-<li><p><a href="https://www.facebook.com/dk.stou.frv">Sejladsudsigt på Facebook</a> Det er jo så populært, så selvfølgelig har jeg også lavet en lille facebook side.</p></li>
+<li>
+<p>Første præsentation af appen i mit <a href="http://www.kitefyn.dk/forum/viewtopic.php?f=1&amp;t=2508">indlæg på det fynske kite forum</a> med lidt feedback fra de første brugere.</p>
+</li>
+<li>
+<p>Lidt tilbagemeldinger fra brugere på <a href="http://kitesurferen.dk/forum/2-sporgsmal-og-svar/78314-vejr-app-android">kitesurferen</a>. Jeg kan desværre ikke finde min oprindelige post, hvor der var en masse kommentarer fra de første brugere, måske den er blevet slettet. Jeg fandt dog en tråd der omhandler nedetid ifm. overgang fra <a href="http://kitesurferen.dk/forum/3-gearsnak-og-forhandlernyt/78440-app-og-vind-crash">FRV til FCOO</a>, og <a href="http://kitesurferen.dk/forum/2-sporgsmal-og-svar/78423-android-frv-app">nyt navn og ekstra features</a> der er med i opdateringen der skulle til for at håndtere flytningen. Når så en bruger som jeg ikke kender personligt uopfordret vælger at omtale mit arbejde som »<a href="http://kitesurferen.dk/forum/2-sporgsmal-og-svar/53910-android-app-til-og-af-surfere-i-stobeskeen#53992">totalt favorit app</a>« fortjener det også et link her.</p>
+</li>
+<li>
+<p><a href="https://www.facebook.com/dk.stou.frv">Sejladsudsigt på Facebook</a> Det er jo så populært, så selvfølgelig har jeg også lavet en facebook side.</p>
+</li>
 </ul>
 
-<!--
-
-- Den [første webside jeg lavede om Sejladsudsigt](https://stou.wordpress.com) app'en, fra dengang den stadig hed FRV og Farvandsvæsnet ikke var blevet nedlagt. Der er nogle gode kommentarer fra brugere, altid dejligt. Indhold kommer der nok ikke mere af, da jeg har tænkt mig vedligholde det her.
--->
-
-	</article>
-</section>
 
 
 
-<div class="panel clearfix">
-
-<div>
-
-  
-  <article class="post medium-6 small-12 columns">
-  
+  </main>
+</article>
+<div class="well">
+    <div class="tag-cloud">
+    <h1><a href="/post" title="All posts">More Blog Posts</a></h1>
 
     
-      <a href='http://www.stou.dk/2018/05/zip-lines-og-reggae/'><img src="/2018/05/zip-lines-og-reggae/img/20180423_102827.jpg" /></a>
     
-
-    <h3>
-      <a href='http://www.stou.dk/2018/05/zip-lines-og-reggae/'>Zip Lines og Reggae</a>
-    </h3>
-
-    <h6 class="subheader">Rejseberetning fra Costa Rica</h6>
-
-    <p class="post-meta">
-    
-    Mon, May 14, 2018 - 6&nbsp;Minute&nbsp;read</p>
-    
-  </article>
-
-
-
-
-  
-  <article class="post medium-6 small-12 columns">
-  
-
-    
-      <a href='http://www.stou.dk/2018/04/broeleaber/'><img src="/2018/04/broeleaber/img/IMG_2447.jpg" /></a>
-    
-
-    <h3>
-    <a href='http://www.stou.dk/2018/04/broeleaber/'>Brøleaber</a>
-    </h3>
-
-    <h6 class="subheader">Rejseberetning fra Costa Rica</h6>
-
-    <p class="post-meta">
-      
-      Fri, Apr 27, 2018 - 6&nbsp;Minute&nbsp;read</p>
-
-    
-  </article>
-
-
-</div>
-</div>
-
-
-<aside id=comments>
-    <div><h2>Comments</h2></div>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-
-
-    (function() {
         
         
-        if (window.location.hostname == "localhost") {
-            return;
-        }
+        
+        
+        
+        
+        
+        
 
-        var disqus_shortname = 'stoudk';
-        var disqus_identifier = 'http:\/\/www.stou.dk\/project\/forecast-app\/';
-        var disqus_title = 'Sejladsudsigt app til Android';
-        var disqus_url = 'http:\/\/www.stou.dk\/project\/forecast-app\/';
-
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</aside>
-
-
-<div class="clearfix"></div>
-<div>
-<h2>Latest posts</h2>
-  
-  <article class="post clearfix">
-	
-	<div class="medium-7 small-12 columns">
-		<a class="list-cover-image" href='http://www.stou.dk/2018/05/zip-lines-og-reggae/'><img src="/2018/05/zip-lines-og-reggae/img/20180423_102827.jpg" /></a>
-	</div>
-	
-	<header>
-		<h2>
-		<a href='http://www.stou.dk/2018/05/zip-lines-og-reggae/'> Zip Lines og Reggae</a>
-		</h2>
-		<h6 class="subheader">Rejseberetning fra Costa Rica</h6>
-		<div class="post-meta">
-		
-		Mon, May 14, 2018 - 
-		
-		6&nbsp;Minute&nbsp;read
-		
-		</div>
-			
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/travel">#travel</a> </span>
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/costa-rica">#costa rica</a> </span>
-	
-
-	</header>
-
-	<div class="show-for-medium-up">
-		
-		<p>Hjemmefra havde vi blandt andet solgt turen til Costa Rica til drengene ved, at fortælle, at der skulle være nogle ret seje svævebaner man kunne prøve. Det er i Monteverde, at det virkeligt spiller - det der med svævebaner. Derfor var det næste stop på turen.</p>
-		
-	</div>
-	<footer>
-		<a href='http://www.stou.dk/2018/05/zip-lines-og-reggae/'><nobr>Read more →</nobr></a>
-	</footer>
-</article>
-
-  
-  <article class="post clearfix">
-	
-	<div class="medium-7 small-12 columns">
-		<a class="list-cover-image" href='http://www.stou.dk/2018/04/broeleaber/'><img src="/2018/04/broeleaber/img/IMG_2447.jpg" /></a>
-	</div>
-	
-	<header>
-		<h2>
-		<a href='http://www.stou.dk/2018/04/broeleaber/'> Brøleaber</a>
-		</h2>
-		<h6 class="subheader">Rejseberetning fra Costa Rica</h6>
-		<div class="post-meta">
-		
-		Fri, Apr 27, 2018 - 
-		
-		6&nbsp;Minute&nbsp;read
-		
-		</div>
-			
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/travel">#travel</a> </span>
-	
-		<span class="secondary radius label"> <a href="http://www.stou.dk/tags/costa-rica">#costa rica</a> </span>
-	
-
-	</header>
-
-	<div class="show-for-medium-up">
-		
-		<p>Efter en del dage i surfparadis var selv vi, klar til at komme ud og se lidt mere af Costa Rica. I første omgang var vi blevet enige om, at køre videre til Nosara. Det ligger ca. 100 km op af kysten fra Santa Teresa.
-Det ville være muligt, at køre derop ad kystvejen men det kræver, at man krydser et par floder. Da det ikke på forhånd var til at sige, om det var tørt nok til, at krydse floderne, besluttede vi - dvs. Helene bestemte det - at køre den sikre tur på små 200 km udenom.</p>
-		
-	</div>
-	<footer>
-		<a href='http://www.stou.dk/2018/04/broeleaber/'><nobr>Read more →</nobr></a>
-	</footer>
-</article>
-
-  
-</div>
-
-</div>
-</div>
-
-
-<footer class="panel">
-  <div class="row">
-    <div class="large-8 medium-12 columns">
-      <section id="author">
-
-
-</section>
-<p class="copyright">© 2003‐2018 stou.dk. All rights reserved.
-<a href="/legal/privacy-policy">Privatlivspolitik</a></p>
-
+        <div class="tags">
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/android'
+                        style="font-size:1.5586010916991393em"
+                        title='4 posts tagged Android'
+                        >
+                            #Android
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/bali'
+                        style="font-size:1.9879016375487089em"
+                        title='8 posts tagged Bali'
+                        >
+                            #Bali
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/blog'
+                        style="font-size:1.1293005458495697em"
+                        title='2 posts tagged Blog'
+                        >
+                            #Blog
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/costa-rica'
+                        style="font-size:1.696804998558596em"
+                        title='5 posts tagged Costa Rica'
+                        >
+                            #Costa Rica
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/denmark'
+                        style="font-size:1.1293005458495697em"
+                        title='2 posts tagged Denmark'
+                        >
+                            #Denmark
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/git'
+                        style="font-size:0.7em"
+                        title='1 posts tagged Git'
+                        >
+                            #Git
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/hugo'
+                        style="font-size:1.1293005458495697em"
+                        title='2 posts tagged Hugo'
+                        >
+                            #Hugo
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/indonesia'
+                        style="font-size:1.9879016375487089em"
+                        title='8 posts tagged Indonesia'
+                        >
+                            #Indonesia
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/malaysia'
+                        style="font-size:1.809725812560261em"
+                        title='6 posts tagged Malaysia'
+                        >
+                            #Malaysia
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/mobile-app'
+                        style="font-size:1.696804998558596em"
+                        title='5 posts tagged Mobile App'
+                        >
+                            #Mobile App
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/preparation'
+                        style="font-size:1.1293005458495697em"
+                        title='2 posts tagged Preparation'
+                        >
+                            #Preparation
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/programming'
+                        style="font-size:1.9051990004328057em"
+                        title='7 posts tagged Programming'
+                        >
+                            #Programming
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/qatar'
+                        style="font-size:0.7em"
+                        title='1 posts tagged Qatar'
+                        >
+                            #Qatar
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/sejladsudsigt'
+                        style="font-size:1.696804998558596em"
+                        title='5 posts tagged Sejladsudsigt'
+                        >
+                            #Sejladsudsigt
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/singapore'
+                        style="font-size:0.7em"
+                        title='1 posts tagged Singapore'
+                        >
+                            #Singapore
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/software-development'
+                        style="font-size:1.696804998558596em"
+                        title='5 posts tagged Software Development'
+                        >
+                            #Software Development
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/sri-lanka'
+                        style="font-size:1.809725812560261em"
+                        title='6 posts tagged Sri Lanka'
+                        >
+                            #Sri Lanka
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/sup'
+                        style="font-size:0.7em"
+                        title='1 posts tagged Sup'
+                        >
+                            #Sup
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/surf'
+                        style="font-size:1.1293005458495697em"
+                        title='2 posts tagged Surf'
+                        >
+                            #Surf
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/thailand'
+                        style="font-size:2.126105544408166em"
+                        title='10 posts tagged Thailand'
+                        >
+                            #Thailand
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/travel'
+                        style="font-size:2.9847066361073056em"
+                        title='40 posts tagged Travel'
+                        >
+                            #Travel
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/vietnam'
+                        style="font-size:1.1293005458495697em"
+                        title='2 posts tagged Vietnam'
+                        >
+                            #Vietnam
+                            
+                    </a>
+            
+                
+                
+                
+                
+                
+                    <a class="tag"
+                        href='/tags/webauthoring'
+                        style="font-size:1.1293005458495697em"
+                        title='2 posts tagged Webauthoring'
+                        >
+                            #Webauthoring
+                            
+                    </a>
+            
+        </div>
+    
+    
     </div>
-  </div>
-</footer>
+</div>
 
 
-<script src="/bower_components/foundation/js/foundation.min.js"></script>
-<script src="/js/app.js"></script>
-<script src="/js/lightbox.js"></script>
+      </main>
 
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      <footer class="page-footer">
+        <div class="footer-content">
+          
 
-	
-	var hasConsole = (typeof console !== 'undefined');
-	if(/localhost/.test(window.location.hostname)) {
+<p class="copyright"><a href="/">Stou.dk</a> © 2003‐2020. All rights reserved.
+</p>
+<p><a href="/legal/privacy-policy">Privatlivspolitik</a></p>
 
-		var disableStr = 'ga-disable-' + 'UA-49034143-1';
-
-		if(hasConsole){
-			console.log("Running non-production google analytics replacement now"); 
-			ga = function(arg) { 
-				console.log("ga:", arguments);
-			};
-		} else {
-			window[disableStr] = true;
-		}
-	}
-	
-
-	ga('create', 'UA-49034143-1', 'stou.dk');
-	ga('send', 'pageview');
-</script>
-
-</body>
+        </div>
+      </footer>
+    </div>
+    
+  </body>
 </html>
