@@ -1,68 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>software development on Stou.dk</title>
-    <link>//www.stou.dk/tags/software-development/</link>
-    <description>Recent content in software development on Stou.dk</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright (c) 2003 - 2014, Rasmus Stougaard; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 13 Oct 2018 09:48:42 +0800</lastBuildDate>
-    
-	<atom:link href="//www.stou.dk/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>//www.stou.dk/legal/privacy-policy/</link>
-      <pubDate>Sat, 13 Oct 2018 09:48:42 +0800</pubDate>
-      
-      <guid>//www.stou.dk/legal/privacy-policy/</guid>
-      <description>Effective date: October 13, 2018
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>software development on Stou.dk</title><link>//www.stou.dk/tags/software-development/</link><description>Recent content in software development on Stou.dk</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Copyright (c) 2003 - 2014, Rasmus Stougaard; all rights reserved.</copyright><lastBuildDate>Sat, 13 Oct 2018 09:48:42 +0800</lastBuildDate><atom:link href="//www.stou.dk/tags/software-development/index.xml" rel="self" type="application/rss+xml"/><item><title>Privacy Policy</title><link>//www.stou.dk/legal/privacy-policy/</link><pubDate>Sat, 13 Oct 2018 09:48:42 +0800</pubDate><guid>//www.stou.dk/legal/privacy-policy/</guid><description>Effective date: October 13, 2018
 This Privacy Policy governs the manner in which Stou (&amp;ldquo;us&amp;rdquo;, &amp;ldquo;we&amp;rdquo;, or &amp;ldquo;our&amp;rdquo;) collects, uses, maintains and discloses information collected from users (each, a “User”) of the Services offered by Stou. This privacy policy applies to all mobile games, Facebook app, other products, websites and services offered by Stou (the &amp;ldquo;Service&amp;rdquo;).
-This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.</description>
-    </item>
-    
-    <item>
-      <title>Sejladsudsigt app til Android</title>
-      <link>//www.stou.dk/project/forecast-app/</link>
-      <pubDate>Sun, 06 May 2018 15:29:42 +0800</pubDate>
-      
-      <guid>//www.stou.dk/project/forecast-app/</guid>
-      <description>Den første version af Sejladsudsigt app&amp;rsquo;en blev søsat i 2011. Dengang havde jeg nok ikke regnet med at den stadig ville være i brug idag. Jeg er positivt overrasket over hvor mange der har hentet app’en og bruger den. Det kunne være sjovt at vide lidt mere om hvem I er. Godt nok er der mange kitesurfere i DK, men helt så mange som har hentet app’en, tror jeg ikke der er.</description>
-    </item>
-    
-    <item>
-      <title>Sejladsudsigt App Re-design</title>
-      <link>//www.stou.dk/2017/10/sejladsudsigt-app-re-design/</link>
-      <pubDate>Wed, 25 Oct 2017 19:47:23 +0100</pubDate>
-      
-      <guid>//www.stou.dk/2017/10/sejladsudsigt-app-re-design/</guid>
-      <description>Re-design af Sejladsudsigt App Jeg er skiftet tilbage til Android efter et par år med iPhone.
+This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.</description></item><item><title>Sejladsudsigt app til Android</title><link>//www.stou.dk/project/forecast-app/</link><pubDate>Sun, 06 May 2018 15:29:42 +0800</pubDate><guid>//www.stou.dk/project/forecast-app/</guid><description>Den første version af Sejladsudsigt app&amp;rsquo;en blev søsat i 2011. Dengang havde jeg nok ikke regnet med at den stadig ville være i brug idag. Jeg er positivt overrasket over hvor mange der har hentet app’en og bruger den. Det kunne være sjovt at vide lidt mere om hvem I er. Godt nok er der mange kitesurfere i DK, men helt så mange som har hentet app’en, tror jeg ikke der er.</description></item><item><title>Sejladsudsigt App Re-design</title><link>//www.stou.dk/2017/10/sejladsudsigt-app-re-design/</link><pubDate>Wed, 25 Oct 2017 19:47:23 +0100</pubDate><guid>//www.stou.dk/2017/10/sejladsudsigt-app-re-design/</guid><description>Re-design af Sejladsudsigt App Jeg er skiftet tilbage til Android efter et par år med iPhone.
 I anledning af at FCOO har ændret prognoseformatet har jeg lavet en ny version af Sejladsudsigt app&amp;rsquo;en, der bruger dette nye format.
 Funktionelt er den ændret lidt i forhold til den tidligere version. Prognose området vælges ved at zoome, og valg af prognoselag er simplificeret.
-Sejladsudsigt er stadig et en-mands projekt, lavet i min fritid, så jeg håber at få tid til lidt forbedringer hen ad vejen.</description>
-    </item>
-    
-    <item>
-      <title>FRV app New name</title>
-      <link>//www.stou.dk/2013/05/frv-app-new-name/</link>
-      <pubDate>Wed, 29 May 2013 10:34:42 +0000</pubDate>
-      
-      <guid>//www.stou.dk/2013/05/frv-app-new-name/</guid>
-      <description>Jeg har lavet en ny version, der gerne skulle afhjælpe problemer ifm. Opdatering af servere hos fcoo.</description>
-    </item>
-    
-    <item>
-      <title>FRV app til Android</title>
-      <link>//www.stou.dk/2011/02/frv-app-til-android/</link>
-      <pubDate>Tue, 22 Feb 2011 21:08:50 +0000</pubDate>
-      
-      <guid>//www.stou.dk/2011/02/frv-app-til-android/</guid>
-      <description>Jeg har brugt en del mørke vinteraftener på at snitte en lille app til android som giver adgang til vindprognosen fra FRV. I kan finde den her: Sejladsudsigt
+Sejladsudsigt er stadig et en-mands projekt, lavet i min fritid, så jeg håber at få tid til lidt forbedringer hen ad vejen.</description></item><item><title>FRV app New name</title><link>//www.stou.dk/2013/05/frv-app-new-name/</link><pubDate>Wed, 29 May 2013 10:34:42 +0000</pubDate><guid>//www.stou.dk/2013/05/frv-app-new-name/</guid><description>Jeg har lavet en ny version, der gerne skulle afhjælpe problemer ifm. Opdatering af servere hos fcoo.</description></item><item><title>FRV app til Android</title><link>//www.stou.dk/2011/02/frv-app-til-android/</link><pubDate>Tue, 22 Feb 2011 21:08:50 +0000</pubDate><guid>//www.stou.dk/2011/02/frv-app-til-android/</guid><description>Jeg har brugt en del mørke vinteraftener på at snitte en lille app til android som giver adgang til vindprognosen fra FRV. I kan finde den her: Sejladsudsigt
 eller søg efter &amp;ldquo;frv&amp;rdquo; på android market.
-Funktionaliteten er begrænset til vindprognoser, men jeg har planer om at udvide med bølge prognoser også. Der er dog tale om mit eget lille fritidsprojekt, så forvent ikke opdateringer hver anden dag, da jeg også har et par børn der skal passes.</description>
-    </item>
-    
-  </channel>
-</rss>
+Funktionaliteten er begrænset til vindprognoser, men jeg har planer om at udvide med bølge prognoser også. Der er dog tale om mit eget lille fritidsprojekt, så forvent ikke opdateringer hver anden dag, da jeg også har et par børn der skal passes.</description></item></channel></rss>

@@ -1,1553 +1,1096 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    
-    
-    <title>Posts - Stou.dk</title>
-    
-    <link rel="stylesheet" href="/sass/main.min.7404c3be42156b1879e9f5f7a1e6f91e1f9fbfbc4eb2122d01da035792f91bb2.css" />
-    
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-<meta name="description" content="Rasmus Stougaaard&#39;s personal blog">
-
-<meta name="keywords" content="">
-
- 
-<meta property="og:type" content="article"/>
-
-<meta property="og:description" content="Rasmus Stougaaard&#39;s personal blog">
-
-<meta property="og:title" content="Posts : Stou.dk"/>
-<meta property="og:site_name" content="Stou.dk"/>
-
-<meta property="og:url" content="//www.stou.dk/post/" />
-<meta property="article:published_time" content="2018-05-14"/>
-<meta property="article:modified_time" content="2018-05-14"/>
-
-
-
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@rstou" />
-<meta name="twitter:title" content="Posts : Stou.dk" />
-
-<meta name="twitter:description" content="Rasmus Stougaaard&#39;s personal blog">
-
-
-<meta name="twitter:creator" content="@rstou" />
-
-<meta name="twitter:domain" content="stou.dk">
-
-
-    <style>
-      body {
-        margin: 0px;
-      }
-    </style>
-    
-
+<!doctype html><html class=no-js lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<title>Posts - Stou.dk</title>
+<link rel=stylesheet href=/sass/main.min.7404c3be42156b1879e9f5f7a1e6f91e1f9fbfbc4eb2122d01da035792f91bb2.css>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
+<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
+<meta name=HandheldFriendly content="True">
+<meta name=MobileOptimized content="320">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Rasmus Stougaaard's personal blog">
+<meta name=keywords content>
+<meta property="og:type" content="article">
+<meta property="og:description" content="Rasmus Stougaaard's personal blog">
+<meta property="og:title" content="Posts : Stou.dk">
+<meta property="og:site_name" content="Stou.dk">
+<meta property="og:url" content="//www.stou.dk/post/">
+<meta property="article:published_time" content="2018-05-14">
+<meta property="article:modified_time" content="2018-05-14">
+<meta name=twitter:card content="summary">
+<meta name=twitter:site content="@rstou">
+<meta name=twitter:title content="Posts : Stou.dk">
+<meta name=twitter:description content="Rasmus Stougaaard's personal blog">
+<meta name=twitter:creator content="@rstou">
+<meta name=twitter:domain content="stou.dk">
+<style>body{margin:0}</style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49034143-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-49034143-1');
-</script>
-
-
-  </head>
-  <body>
-    <div class="wrapper">
-
-      <header class="page-header">
-        <nav id="myTopNav" class="top-bar" data-topbar role="navigation">
-    <div class="nav-wrapper">
-        <div class="nav-logo">
-            <h1><a href="/">Stou.dk</a></h1>
-        </div>
-            
-        <div class="nav-toggle">
-            <a href="javascript:void(0);" class="icon" onclick="toggleNavigation()">
-            <i class="fa fa-bars"></i>
-            </a>
-        </div>    
-    </div>
-   
-  <section class="nav-items">
-    
-    <ul class="tabs">
-      <li><a href="/tags/travel">Travel</a></li>
-
-<li><a href="/project/forecast-app">Sejladsudsigt</a></li>
-<li><a href="/topics/programming">Programming</a></li>
-<li><a href="/post">All Posts</a></li>
-
-    </ul>
-  </section>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-49034143-1')</script>
+</head>
+<body>
+<div class=wrapper>
+<header class=page-header>
+<nav id=myTopNav class=top-bar data-topbar role=navigation>
+<div class=nav-wrapper>
+<div class=nav-logo>
+<h1><a href=/>Stou.dk</a></h1>
+</div>
+<div class=nav-toggle>
+<a href=javascript:void(0); class=icon onclick=toggleNavigation()>
+<i class="fa fa-bars"></i>
+</a>
+</div>
+</div>
+<section class=nav-items>
+<ul class=tabs>
+<li><a href=/tags/travel>Travel</a></li>
+<li><a href=/project/forecast-app>Sejladsudsigt</a></li>
+<li><a href=/topics/programming>Programming</a></li>
+<li><a href=/post>All Posts</a></li>
+</ul>
+</section>
 </nav>
-
-<script>
-  function toggleNavigation() {
-    var x = document.getElementById("myTopNav");
-    if (x.className === "top-bar") {
-      x.className += " responsive";
-    } else {
-      x.className = "top-bar";
-    }
-  }
-</script>
-
-      </header>
-
-      <main class="page-main-content">
-          
-
+<script>function toggleNavigation(){var a=document.getElementById("myTopNav");a.className==="top-bar"?a.className+=" responsive":a.className="top-bar"}</script>
+</header>
+<main class=page-main-content>
 <h1>Posts</h1>
-
-
-<main class="post-list-simple">
-  <ul>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Mon, May 14, 2018
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2018/05/zip-lines-og-reggae/">Zip Lines og Reggae</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/costa-rica'>#costa rica</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Costa Rica
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Fri, Apr 27, 2018
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2018/04/broeleaber/">Brøleaber</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/costa-rica'>#costa rica</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Costa Rica
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sat, Apr 21, 2018
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2018/04/surf-eat-sleep-repeat/">Surf Eat Sleep Repeat</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/costa-rica'>#costa rica</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Costa Rica
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sat, Apr 21, 2018
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2018/04/surfsponsorl%C3%B8b/">Surf-sponsor-løb</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/costa-rica'>#costa rica</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/surf'>#surf</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Costa Rica
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Tue, Apr 10, 2018
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2018/04/santa-teresa/">Santa Teresa</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/costa-rica'>#costa rica</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Costa Rica. Ankomst, første indtryk, surfing i Santa Teresa
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Wed, Oct 25, 2017
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2017/10/sejladsudsigt-app-re-design/">Sejladsudsigt App Re-design</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/programming'>#programming</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/android'>#android</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/mobile-app'>#mobile app</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/software-development'>#software development</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/sejladsudsigt'>#sejladsudsigt</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Re-design af Sejladsudsigt app til android
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Tue, Mar 24, 2015
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2015/03/mod-nye-eventyr/">Mod nye eventyr</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/sri-lanka'>#sri lanka</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Sri Lanka. Farvel til Sri Lanka, stemningsbilleder fra den sidste tid.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Wed, Mar 18, 2015
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2015/03/kokosnoedder-paa-117-maader/">Kokosnødder på 117 måder</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/sri-lanka'>#sri lanka</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Sri Lanka. Kokosnødder, rebslagning, mudder i bugten, travetur og hvidløgstyggegummi.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Wed, Mar 4, 2015
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2015/03/det-ender-med-et-optog/">Det ender med et optog</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/sri-lanka'>#sri lanka</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Sri Lanka. Navam Perahera optog, strømafbrydelser, masser af dyreliv, høje gab og aber i køkkenet.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Tue, Feb 24, 2015
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2015/02/shopping-for-viderekomne/">Shopping for viderekomne</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/sri-lanka'>#sri lanka</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Sri Lanka. Tuktuknedbrud, tempelkoncert, og fødseldsdagssurf.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sat, Feb 7, 2015
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2015/02/stougaard-klanen-i-sri-lanka/">Stougaard klanen i Sri Lanka</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/sri-lanka'>#sri lanka</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Sri Lanka. Familiebesøg, blåhvaler, elefanter, surf og masser af trapper.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Mon, Jan 26, 2015
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2015/01/ja-ok-nej/">Ja! Ok! Nej!</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/sri-lanka'>#sri lanka</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Sri Lanka. Ankomst, første indtryk, surfing og boligjagt på sydkysten
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Wed, Jan 7, 2015
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2015/01/slanger-i-paradis/">Slanger i Paradis</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/thailand'>#thailand</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Thailand. Rolls-Royce&#39;er, slangefarm og nytårsfest i Bangkok.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Tue, Dec 30, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/12/jul-paa-skinner/">Jul på skinner</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/thailand'>#thailand</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Thailand. På tur ad dødens jernbane, juleaften og hektisk storbyliv i Bangkok.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sat, Dec 27, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/12/i-kongens-fodspor/">I kongens fodspor</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/thailand'>#thailand</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Hua Hin i Thailand. Kitesurfing, vandretur til Tham Phraya Nakhon cave og Rama IV&#39;s sommerpalads.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sat, Dec 20, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/12/koh-phangan/">Koh Phangan ved kvart-måne</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/thailand'>#thailand</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Koh Phangan i Thailand. Høj søgang, elefanter, dræberpalmer og endnu en havareret bus.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Tue, Dec 16, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/12/kravlenisser-paa-slap-line/">Kravlenisser på slap line</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/thailand'>#thailand</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Thailand. Klatring ved Tonsai/Railay, hygge i Ao Nang, og Snorkletur til Koh Phi Phi.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sat, Dec 13, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/12/phuket/">Lakrids, rugbrød og risengrød</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/thailand'>#thailand</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Phuket i Thailand. Vandland, scootertur, big buddha og besøg hjemmefra.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Mon, Dec 8, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/12/tour-de-lanta/">Tour de Lanta</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/thailand'>#thailand</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Ko Lanta i Thailand. Swimmingpool, elefanter, regnvejr og beach volley.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sun, Nov 30, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/11/hugo-site-deployment/">Hugo Site Deployment</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/programming'>#programming</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/blog'>#blog</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/webauthoring'>#webauthoring</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/hugo'>#hugo</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/git'>#git</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Description of the setup I use for deployment and hosting my blog on github.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Thu, Nov 27, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/11/koh-lanta-sup-review/">Koh Lanta SUP Review</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/thailand'>#thailand</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/surf'>#surf</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/sup'>#sup</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Thailand. SUP på Klong Dao Beach, Koh Lanta
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Wed, Nov 26, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/11/kaptajn-klos-hule/">Kaptajn Klo&#39;s hule</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/thailand'>#thailand</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Ko Mook i Thailand. Emerald cave, strand, gummitræer og sørøverskjul.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sun, Nov 23, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/11/travel-blogging-setup/">Travel Blogging Setup</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/programming'>#programming</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/blog'>#blog</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/webauthoring'>#webauthoring</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/hugo'>#hugo</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Robust blogging setup for travelling based on Hugo
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sun, Nov 16, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/11/not-same-same/">Not same same but different</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/thailand'>#thailand</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Ko Lipe i Thailand
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Thu, Nov 6, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/11/mangrove-og-krokodiller/">Mangrove og krokodiller</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/malaysia'>#malaysia</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Lankawi, Malaysia. Saltvandskrokodiller, havørne, mudder og mangrove.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Mon, Nov 3, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/11/langt-fra-en-ordentlig-skibakke/">Langt fra en ordentlig skibakke</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/malaysia'>#malaysia</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Malaysia - George Town og Langkawi, skilifter og strandliv
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sat, Oct 25, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/10/motack-n-malls/">Motorcykler og shopping malls</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/malaysia'>#malaysia</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Malaysia - Motack i Terengganu og storbyliv i Kuala Lumpur
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Tue, Oct 14, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/10/offline-on-kapas/">Offline on Kapas</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/malaysia'>#malaysia</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Pulau Kapas i Maylaysia
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sun, Oct 12, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/10/on-the-road-again/">On the Road Again</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/malaysia'>#malaysia</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Malaysia - Bus med motorstop og surfing i Cherating
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sun, Oct 5, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/10/tioman-off-season/">Sommer og udenfor sæsonen</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/malaysia'>#malaysia</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/singapore'>#singapore</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Singapore, Johor Bahru, Legoland og Pulau Tioman i Maylaysia.
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Tue, Sep 23, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/09/sol-strand-og-surf/">Sol, strand og surf</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/bali'>#bali</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/indonesia'>#indonesia</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Luksusliv på Bali med surf og hygge i Villa Cendana, Canggu
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Fri, Aug 29, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/08/life-in-slow-motion/">Life in slow motion</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/bali'>#bali</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/indonesia'>#indonesia</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Bali - Hverdagsliv i troperne, Villa Tepikali, Villa Cendana, Helene Surfer og kids club
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Fri, Aug 15, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/08/rejsefeber/">Rejsefeber</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/bali'>#bali</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/indonesia'>#indonesia</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Villa Tepikali på Bali - Besøg fra Kina, &#34;Man Flu&#34; og kids club
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Tue, Jul 29, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/07/paradise-hotel/">Paradise Hotel</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/vietnam'>#vietnam</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Vietnam - Hoi An, Mui Ne, Saigon, Chu Chi tunneller og Mekong delta
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Tue, Jul 15, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/07/vietnam-101/">Vietnam 101</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/vietnam'>#vietnam</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Vietnam - Hanoi, Halong bay, Dong Hoi, Hue
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sun, Jun 29, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/06/i-landet-hvor-peberet-gror/">I landet hvor peberet gror</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/bali'>#bali</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/indonesia'>#indonesia</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Bali - Ubud, Monkey forest, Kopi Luwak, Elefanter, Mandariner, Vulkaner, Gitgit vandfaldet, delfiner i lovina, dykning i Pemuteran og &#34;hjem&#34; til Canggu
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Mon, Jun 9, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/06/gili-air/">Gili Air</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/bali'>#bali</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/indonesia'>#indonesia</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Gili Air - Dykkerkursus for fædrene og snorkling i børnehøjde
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Tue, May 27, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/05/rokketand/">Rokketand</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/bali'>#bali</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/indonesia'>#indonesia</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Bali - Surfing i Canggu, Aber ved Uluwatu, løse fortænder og besøg fra Danmark
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Mon, May 19, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/05/bali-belly/">Bali Belly</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/bali'>#bali</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/indonesia'>#indonesia</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Legian på Bali - Tynd mave, på marked i Denpasar, forlængelse af Visum
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sun, May 11, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/05/go-surf-og-billige-bintang/">Go&#39; surf og billige Bintang</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/bali'>#bali</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/indonesia'>#indonesia</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Rejseberetning fra Legian på Bali - Første indtryk af troperne
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Wed, May 7, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/05/doha-experience/">Doha Experience</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/qatar'>#qatar</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    På besøg hos Anne Marie og Christian i Doha, Qatar - Kameler, fjernstyret bil og Firehulstrækkerræs i ørkenen
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Wed, Apr 30, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/04/udflytning-og-arbejdsstop/">Udflytning og arbejdsstop</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/preparation'>#preparation</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/denmark'>#denmark</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Huset pakkes ned og vi forbereder os på at rejse til Asien
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Sat, Mar 29, 2014
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2014/03/snart-tid-til-afrejse/">Snart tid til afrejse</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/travel'>#travel</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/preparation'>#preparation</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/denmark'>#denmark</a>
-  </span>
-   
-  
-  
-  <p class="description">
-    Første indlæg om vores rejse i Sydøstasien og foreløbig rejseplan
-  </p>
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Wed, May 29, 2013
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2013/05/frv-app-new-name/">FRV app New name</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/programming'>#programming</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/android'>#android</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/mobile-app'>#mobile app</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/software-development'>#software development</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/sejladsudsigt'>#sejladsudsigt</a>
-  </span>
-   
-  
-  
-</div>
-
-    </li>
-    
-    <li>
-      <div class="post-date">
-  <p>
-     Tue, Feb 22, 2011
-  </p>
-</div>
-<div class="post-details">
-  <h2>
-    <a class="post-list-title" href="/2011/02/frv-app-til-android/">FRV app til Android</a>
-  </h2>
-   
-  <span class="label">
-    <a href='/tags/programming'>#programming</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/android'>#android</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/mobile-app'>#mobile app</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/software-development'>#software development</a>
-  </span>
-  
-  <span class="label">
-    <a href='/tags/sejladsudsigt'>#sejladsudsigt</a>
-  </span>
-   
-  
-  
-</div>
-
-    </li>
-    
-  </ul>
-</main>
-
-
-      </main>
-
-      <footer class="page-footer">
-        <div class="footer-content">
-          
-
-<p class="copyright"><a href="/">Stou.dk</a> © 2003‐2020. All rights reserved.
+<main class=post-list-simple>
+<ul>
+<li>
+<div class=post-date>
+<p>
+Mon, May 14, 2018
 </p>
-<p><a href="/legal/privacy-policy">Privatlivspolitik</a></p>
-
-        </div>
-      </footer>
-    </div>
-    
-  </body>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2018/05/zip-lines-og-reggae/>Zip Lines og Reggae</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/costa-rica>#costa rica</a>
+</span>
+<p class=description>
+Rejseberetning fra Costa Rica
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Fri, Apr 27, 2018
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2018/04/broeleaber/>Brøleaber</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/costa-rica>#costa rica</a>
+</span>
+<p class=description>
+Rejseberetning fra Costa Rica
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sat, Apr 21, 2018
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2018/04/surf-eat-sleep-repeat/>Surf Eat Sleep Repeat</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/costa-rica>#costa rica</a>
+</span>
+<p class=description>
+Rejseberetning fra Costa Rica
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sat, Apr 21, 2018
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2018/04/surfsponsorl%C3%B8b/>Surf-sponsor-løb</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/costa-rica>#costa rica</a>
+</span>
+<span class=label>
+<a href=/tags/surf>#surf</a>
+</span>
+<p class=description>
+Rejseberetning fra Costa Rica
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Tue, Apr 10, 2018
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2018/04/santa-teresa/>Santa Teresa</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/costa-rica>#costa rica</a>
+</span>
+<p class=description>
+Rejseberetning fra Costa Rica. Ankomst, første indtryk, surfing i Santa Teresa
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Wed, Oct 25, 2017
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2017/10/sejladsudsigt-app-re-design/>Sejladsudsigt App Re-design</a>
+</h2>
+<span class=label>
+<a href=/tags/programming>#programming</a>
+</span>
+<span class=label>
+<a href=/tags/android>#android</a>
+</span>
+<span class=label>
+<a href=/tags/mobile-app>#mobile app</a>
+</span>
+<span class=label>
+<a href=/tags/software-development>#software development</a>
+</span>
+<span class=label>
+<a href=/tags/sejladsudsigt>#sejladsudsigt</a>
+</span>
+<p class=description>
+Re-design af Sejladsudsigt app til android
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Tue, Mar 24, 2015
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2015/03/mod-nye-eventyr/>Mod nye eventyr</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/sri-lanka>#sri lanka</a>
+</span>
+<p class=description>
+Rejseberetning fra Sri Lanka. Farvel til Sri Lanka, stemningsbilleder fra den sidste tid.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Wed, Mar 18, 2015
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2015/03/kokosnoedder-paa-117-maader/>Kokosnødder på 117 måder</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/sri-lanka>#sri lanka</a>
+</span>
+<p class=description>
+Rejseberetning fra Sri Lanka. Kokosnødder, rebslagning, mudder i bugten, travetur og hvidløgstyggegummi.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Wed, Mar 4, 2015
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2015/03/det-ender-med-et-optog/>Det ender med et optog</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/sri-lanka>#sri lanka</a>
+</span>
+<p class=description>
+Rejseberetning fra Sri Lanka. Navam Perahera optog, strømafbrydelser, masser af dyreliv, høje gab og aber i køkkenet.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Tue, Feb 24, 2015
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2015/02/shopping-for-viderekomne/>Shopping for viderekomne</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/sri-lanka>#sri lanka</a>
+</span>
+<p class=description>
+Rejseberetning fra Sri Lanka. Tuktuknedbrud, tempelkoncert, og fødseldsdagssurf.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sat, Feb 7, 2015
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2015/02/stougaard-klanen-i-sri-lanka/>Stougaard klanen i Sri Lanka</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/sri-lanka>#sri lanka</a>
+</span>
+<p class=description>
+Rejseberetning fra Sri Lanka. Familiebesøg, blåhvaler, elefanter, surf og masser af trapper.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Mon, Jan 26, 2015
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2015/01/ja-ok-nej/>Ja! Ok! Nej!</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/sri-lanka>#sri lanka</a>
+</span>
+<p class=description>
+Rejseberetning fra Sri Lanka. Ankomst, første indtryk, surfing og boligjagt på sydkysten
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Wed, Jan 7, 2015
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2015/01/slanger-i-paradis/>Slanger i Paradis</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/thailand>#thailand</a>
+</span>
+<p class=description>
+Rejseberetning fra Thailand. Rolls-Royce'er, slangefarm og nytårsfest i Bangkok.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Tue, Dec 30, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/12/jul-paa-skinner/>Jul på skinner</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/thailand>#thailand</a>
+</span>
+<p class=description>
+Rejseberetning fra Thailand. På tur ad dødens jernbane, juleaften og hektisk storbyliv i Bangkok.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sat, Dec 27, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/12/i-kongens-fodspor/>I kongens fodspor</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/thailand>#thailand</a>
+</span>
+<p class=description>
+Rejseberetning fra Hua Hin i Thailand. Kitesurfing, vandretur til Tham Phraya Nakhon cave og Rama IV's sommerpalads.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sat, Dec 20, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/12/koh-phangan/>Koh Phangan ved kvart-måne</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/thailand>#thailand</a>
+</span>
+<p class=description>
+Rejseberetning fra Koh Phangan i Thailand. Høj søgang, elefanter, dræberpalmer og endnu en havareret bus.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Tue, Dec 16, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/12/kravlenisser-paa-slap-line/>Kravlenisser på slap line</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/thailand>#thailand</a>
+</span>
+<p class=description>
+Rejseberetning fra Thailand. Klatring ved Tonsai/Railay, hygge i Ao Nang, og Snorkletur til Koh Phi Phi.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sat, Dec 13, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/12/phuket/>Lakrids, rugbrød og risengrød</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/thailand>#thailand</a>
+</span>
+<p class=description>
+Rejseberetning fra Phuket i Thailand. Vandland, scootertur, big buddha og besøg hjemmefra.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Mon, Dec 8, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/12/tour-de-lanta/>Tour de Lanta</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/thailand>#thailand</a>
+</span>
+<p class=description>
+Rejseberetning fra Ko Lanta i Thailand. Swimmingpool, elefanter, regnvejr og beach volley.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sun, Nov 30, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/11/hugo-site-deployment/>Hugo Site Deployment</a>
+</h2>
+<span class=label>
+<a href=/tags/programming>#programming</a>
+</span>
+<span class=label>
+<a href=/tags/blog>#blog</a>
+</span>
+<span class=label>
+<a href=/tags/webauthoring>#webauthoring</a>
+</span>
+<span class=label>
+<a href=/tags/hugo>#hugo</a>
+</span>
+<span class=label>
+<a href=/tags/git>#git</a>
+</span>
+<p class=description>
+Description of the setup I use for deployment and hosting my blog on github.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Thu, Nov 27, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/11/koh-lanta-sup-review/>Koh Lanta SUP Review</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/thailand>#thailand</a>
+</span>
+<span class=label>
+<a href=/tags/surf>#surf</a>
+</span>
+<span class=label>
+<a href=/tags/sup>#sup</a>
+</span>
+<p class=description>
+Rejseberetning fra Thailand. SUP på Klong Dao Beach, Koh Lanta
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Wed, Nov 26, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/11/kaptajn-klos-hule/>Kaptajn Klo's hule</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/thailand>#thailand</a>
+</span>
+<p class=description>
+Rejseberetning fra Ko Mook i Thailand. Emerald cave, strand, gummitræer og sørøverskjul.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sun, Nov 23, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/11/travel-blogging-setup/>Travel Blogging Setup</a>
+</h2>
+<span class=label>
+<a href=/tags/programming>#programming</a>
+</span>
+<span class=label>
+<a href=/tags/blog>#blog</a>
+</span>
+<span class=label>
+<a href=/tags/webauthoring>#webauthoring</a>
+</span>
+<span class=label>
+<a href=/tags/hugo>#hugo</a>
+</span>
+<p class=description>
+Robust blogging setup for travelling based on Hugo
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sun, Nov 16, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/11/not-same-same/>Not same same but different</a>
+</h2>
+<span class=label>
+<a href=/tags/thailand>#thailand</a>
+</span>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<p class=description>
+Rejseberetning fra Ko Lipe i Thailand
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Thu, Nov 6, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/11/mangrove-og-krokodiller/>Mangrove og krokodiller</a>
+</h2>
+<span class=label>
+<a href=/tags/malaysia>#malaysia</a>
+</span>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<p class=description>
+Rejseberetning fra Lankawi, Malaysia. Saltvandskrokodiller, havørne, mudder og mangrove.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Mon, Nov 3, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/11/langt-fra-en-ordentlig-skibakke/>Langt fra en ordentlig skibakke</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/malaysia>#malaysia</a>
+</span>
+<p class=description>
+Rejseberetning fra Malaysia - George Town og Langkawi, skilifter og strandliv
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sat, Oct 25, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/10/motack-n-malls/>Motorcykler og shopping malls</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/malaysia>#malaysia</a>
+</span>
+<p class=description>
+Rejseberetning fra Malaysia - Motack i Terengganu og storbyliv i Kuala Lumpur
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Tue, Oct 14, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/10/offline-on-kapas/>Offline on Kapas</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/malaysia>#malaysia</a>
+</span>
+<p class=description>
+Rejseberetning fra Pulau Kapas i Maylaysia
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sun, Oct 12, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/10/on-the-road-again/>On the Road Again</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/malaysia>#malaysia</a>
+</span>
+<p class=description>
+Rejseberetning fra Malaysia - Bus med motorstop og surfing i Cherating
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sun, Oct 5, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/10/tioman-off-season/>Sommer og udenfor sæsonen</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/malaysia>#malaysia</a>
+</span>
+<span class=label>
+<a href=/tags/singapore>#singapore</a>
+</span>
+<p class=description>
+Rejseberetning fra Singapore, Johor Bahru, Legoland og Pulau Tioman i Maylaysia.
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Tue, Sep 23, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/09/sol-strand-og-surf/>Sol, strand og surf</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/bali>#bali</a>
+</span>
+<span class=label>
+<a href=/tags/indonesia>#indonesia</a>
+</span>
+<p class=description>
+Luksusliv på Bali med surf og hygge i Villa Cendana, Canggu
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Fri, Aug 29, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/08/life-in-slow-motion/>Life in slow motion</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/bali>#bali</a>
+</span>
+<span class=label>
+<a href=/tags/indonesia>#indonesia</a>
+</span>
+<p class=description>
+Rejseberetning fra Bali - Hverdagsliv i troperne, Villa Tepikali, Villa Cendana, Helene Surfer og kids club
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Fri, Aug 15, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/08/rejsefeber/>Rejsefeber</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/bali>#bali</a>
+</span>
+<span class=label>
+<a href=/tags/indonesia>#indonesia</a>
+</span>
+<p class=description>
+Rejseberetning fra Villa Tepikali på Bali - Besøg fra Kina, "Man Flu" og kids club
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Tue, Jul 29, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/07/paradise-hotel/>Paradise Hotel</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/vietnam>#vietnam</a>
+</span>
+<p class=description>
+Rejseberetning fra Vietnam - Hoi An, Mui Ne, Saigon, Chu Chi tunneller og Mekong delta
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Tue, Jul 15, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/07/vietnam-101/>Vietnam 101</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/vietnam>#vietnam</a>
+</span>
+<p class=description>
+Rejseberetning fra Vietnam - Hanoi, Halong bay, Dong Hoi, Hue
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sun, Jun 29, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/06/i-landet-hvor-peberet-gror/>I landet hvor peberet gror</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/bali>#bali</a>
+</span>
+<span class=label>
+<a href=/tags/indonesia>#indonesia</a>
+</span>
+<p class=description>
+Rejseberetning fra Bali - Ubud, Monkey forest, Kopi Luwak, Elefanter, Mandariner, Vulkaner, Gitgit vandfaldet, delfiner i lovina, dykning i Pemuteran og "hjem" til Canggu
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Mon, Jun 9, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/06/gili-air/>Gili Air</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/bali>#bali</a>
+</span>
+<span class=label>
+<a href=/tags/indonesia>#indonesia</a>
+</span>
+<p class=description>
+Rejseberetning fra Gili Air - Dykkerkursus for fædrene og snorkling i børnehøjde
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Tue, May 27, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/05/rokketand/>Rokketand</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/bali>#bali</a>
+</span>
+<span class=label>
+<a href=/tags/indonesia>#indonesia</a>
+</span>
+<p class=description>
+Rejseberetning fra Bali - Surfing i Canggu, Aber ved Uluwatu, løse fortænder og besøg fra Danmark
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Mon, May 19, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/05/bali-belly/>Bali Belly</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/bali>#bali</a>
+</span>
+<span class=label>
+<a href=/tags/indonesia>#indonesia</a>
+</span>
+<p class=description>
+Rejseberetning fra Legian på Bali - Tynd mave, på marked i Denpasar, forlængelse af Visum
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sun, May 11, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/05/go-surf-og-billige-bintang/>Go' surf og billige Bintang</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/bali>#bali</a>
+</span>
+<span class=label>
+<a href=/tags/indonesia>#indonesia</a>
+</span>
+<p class=description>
+Rejseberetning fra Legian på Bali - Første indtryk af troperne
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Wed, May 7, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/05/doha-experience/>Doha Experience</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/qatar>#qatar</a>
+</span>
+<p class=description>
+På besøg hos Anne Marie og Christian i Doha, Qatar - Kameler, fjernstyret bil og Firehulstrækkerræs i ørkenen
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Wed, Apr 30, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/04/udflytning-og-arbejdsstop/>Udflytning og arbejdsstop</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/preparation>#preparation</a>
+</span>
+<span class=label>
+<a href=/tags/denmark>#denmark</a>
+</span>
+<p class=description>
+Huset pakkes ned og vi forbereder os på at rejse til Asien
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Sat, Mar 29, 2014
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2014/03/snart-tid-til-afrejse/>Snart tid til afrejse</a>
+</h2>
+<span class=label>
+<a href=/tags/travel>#travel</a>
+</span>
+<span class=label>
+<a href=/tags/preparation>#preparation</a>
+</span>
+<span class=label>
+<a href=/tags/denmark>#denmark</a>
+</span>
+<p class=description>
+Første indlæg om vores rejse i Sydøstasien og foreløbig rejseplan
+</p>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Wed, May 29, 2013
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2013/05/frv-app-new-name/>FRV app New name</a>
+</h2>
+<span class=label>
+<a href=/tags/programming>#programming</a>
+</span>
+<span class=label>
+<a href=/tags/android>#android</a>
+</span>
+<span class=label>
+<a href=/tags/mobile-app>#mobile app</a>
+</span>
+<span class=label>
+<a href=/tags/software-development>#software development</a>
+</span>
+<span class=label>
+<a href=/tags/sejladsudsigt>#sejladsudsigt</a>
+</span>
+</div>
+</li>
+<li>
+<div class=post-date>
+<p>
+Tue, Feb 22, 2011
+</p>
+</div>
+<div class=post-details>
+<h2>
+<a class=post-list-title href=/2011/02/frv-app-til-android/>FRV app til Android</a>
+</h2>
+<span class=label>
+<a href=/tags/programming>#programming</a>
+</span>
+<span class=label>
+<a href=/tags/android>#android</a>
+</span>
+<span class=label>
+<a href=/tags/mobile-app>#mobile app</a>
+</span>
+<span class=label>
+<a href=/tags/software-development>#software development</a>
+</span>
+<span class=label>
+<a href=/tags/sejladsudsigt>#sejladsudsigt</a>
+</span>
+</div>
+</li>
+</ul>
+</main>
+</main>
+<footer class=page-footer>
+<div class=footer-content>
+<p class=copyright><a href=/>Stou.dk</a> © 2003‐2022. All rights reserved.
+</p>
+<p><a href=/legal/privacy-policy>Privatlivspolitik</a></p>
+</div>
+</footer>
+</div>
+</body>
 </html>
