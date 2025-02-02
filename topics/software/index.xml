@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software on Stou.dk</title><link>//www.stou.dk/topics/software/</link><description>Recent content in Software on Stou.dk</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Copyright (c) 2003 - 2014, Rasmus Stougaard; all rights reserved.</copyright><lastBuildDate>Sun, 30 Nov 2014 20:49:43 +0700</lastBuildDate><atom:link href="//www.stou.dk/topics/software/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Site Deployment</title><link>//www.stou.dk/2014/11/hugo-site-deployment/</link><pubDate>Sun, 30 Nov 2014 20:49:43 +0700</pubDate><guid>//www.stou.dk/2014/11/hugo-site-deployment/</guid><description>When I started publishing the blog I was using the git subtree approach, as suggested in the hugo documentation. However, I tend to mess up my setup when I amend or rebase when working with the local site.
-Since I like to keep things simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages.
-The benefit of this is that I get to review the changes manually before deploying to the live site.</description></item><item><title>Travel Blogging Setup</title><link>//www.stou.dk/2014/11/travel-blogging-setup/</link><pubDate>Sun, 23 Nov 2014 20:42:55 +0800</pubDate><guid>//www.stou.dk/2014/11/travel-blogging-setup/</guid><description>I am currently travelling with my family in South East asia. The trip is planned to last about one year, so before we left home (Denmark) I set up a blog to use as a diary for ourselves and to keep friends and family updated while we are away.
-Since I like to do a little programming in my spare time, I decided to use Hugo as my blogging platform.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software on Stou.dk</title><link>//www.stou.dk/topics/software/</link><description>Recent content in Software on Stou.dk</description><generator>Hugo</generator><language>en-us</language><copyright>Copyright (c) 2003 - 2025, Rasmus Stougaard; all rights reserved.</copyright><lastBuildDate>Sun, 30 Nov 2014 20:49:43 +0700</lastBuildDate><atom:link href="//www.stou.dk/topics/software/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Site Deployment</title><link>//www.stou.dk/2014/11/hugo-site-deployment/</link><pubDate>Sun, 30 Nov 2014 20:49:43 +0700</pubDate><guid>//www.stou.dk/2014/11/hugo-site-deployment/</guid><description>&lt;figure >
+ 
+ &lt;img src="//www.stou.dk/media/2014/hugo-site-deployment/publish-workflow-alt.png" alt="Texteditor, terminal and browser" />
+ 
+ 
+&lt;/figure>
+
+&lt;!-- inspired by: https://github.com/spf13/hugo/issues/379 -->
+&lt;p>When I started publishing the blog I was using the git subtree approach, as &lt;a href="http://gohugo.io/tutorials/github_pages_blog/">suggested in the hugo documentation&lt;/a>.
+However, I tend to mess up my setup when I amend or rebase when working with the local site.&lt;/p>
+&lt;p>Since I like to keep things simple, I have switched to keeping the generated site in a separate git repo, which I deploy by manually pushing to github pages.&lt;/p></description></item><item><title>Travel Blogging Setup</title><link>//www.stou.dk/2014/11/travel-blogging-setup/</link><pubDate>Sun, 23 Nov 2014 20:42:55 +0800</pubDate><guid>//www.stou.dk/2014/11/travel-blogging-setup/</guid><description>&lt;figure >
+ 
+ &lt;img src="//www.stou.dk/media/2014/travel-blogging-setup/blogging-theme-cover-01.png" alt="Rasmus Stougaard writing a blogpost on the beach, Kapas Island, Malaysia" />
+ 
+ 
+&lt;/figure>
+
+&lt;p>I am currently travelling with my family in South East asia.
+The trip is planned to last about one year, so before we left home (Denmark) I set up a blog to
+use as a diary for ourselves and to keep friends and family updated while we are away.&lt;/p>
+&lt;p>Since I like to do a little programming in my spare time, I decided to use &lt;a href="http://gohugo.com">Hugo&lt;/a> as my blogging platform.
+That has been a wise choice so far, and I can only recommend that you give it a try.&lt;/p></description></item></channel></rss>
